@@ -21,7 +21,7 @@ const SiteDrower = props => {
               <Link to="/blog/">Blog</Link>
             </li>
             <li className={siteDrowerStyle.siteLi}>
-              <Link to="/portfolio/">Portofolio</Link>
+              <Link to="/portfolio/">Portfolio</Link>
             </li>
           </ul>
         </div>

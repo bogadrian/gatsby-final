@@ -12,7 +12,7 @@ const Portfolio = () => {
       <div className={portStyle.container}>
         <SEO title="Portfolio" />
         <Link to="/">Back Home</Link>
-        <h1>Portofolio</h1>
+        <h1>Portfolio</h1>
 
         <div className={portStyle.features}>
           <Features />
