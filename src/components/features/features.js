@@ -1,10 +1,9 @@
 import React from "react"
 import featuresStyle from "./features.module.scss"
 import BackgroundImage from "gatsby-background-image"
-import { Link, graphql, useStaticQuery} from 'gatsby'
+import {  graphql, useStaticQuery} from 'gatsby'
 
 import ImageReact from "../ImageComponents/image-react"
-//import ImageCss from "../ImageComponents/image-css"
 import ImageNode from "../ImageComponents/image-node"
 import ImageFirebase from "../ImageComponents/image-firebase"
 import ImageWebpack from "../ImageComponents/image-webpack"
