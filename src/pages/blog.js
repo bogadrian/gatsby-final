@@ -51,14 +51,6 @@ export const query = graphql`
         }
       }
     }
-    image: file(relativePath: { eq: "imggatsby.png" }) {
-      id
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
   }
 `
 export default Blog
