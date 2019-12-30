@@ -1,0 +1,19 @@
+.container {
+  h1 {
+    text-align: center;
+    color: #9c355a;
+  }
+  @media (max-width: 1000px) {
+    margin: 2rem;
+  }
+}
+
+.ulList {
+  list-style: none;
+  color: #9c355a;
+  text-align: center;
+}
+
+.features {
+  margin-bottom: 5rem;
+}

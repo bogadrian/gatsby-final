@@ -1,0 +1,19 @@
+.container {
+  margin: 2rem 15rem;
+  h1 {
+    text-align: center;
+    color: #9c355a;
+  }
+  @media (max-width: 1000px) {
+    margin: 0;
+  }
+}
+
+.me {
+  display: block;
+  margin-top: -30rem;
+  height: 30vh;
+  width: 30vw;
+  border-radius: 50%;
+  align-self: center;
+}

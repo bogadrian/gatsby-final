@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(black, 0.8);
+  height: 10vh;
+  color: white;
+  margin: 2rem 0;
+  text-align: center;
+  //min-height: 100%;
+  //position: absolute;
+  a {
+    text-decoration: none;
+    color: grey;
+  }
+}

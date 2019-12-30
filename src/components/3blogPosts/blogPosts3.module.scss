@@ -1,0 +1,31 @@
+.container {
+  background-color: rgba(#98335b, 0.05);
+  padding: 1rem;
+  margin-top: 3rem;
+
+  &:last-child {
+    margin-bottom: 7rem;
+  }
+  a {
+    text-decoration: none;
+    color: purple;
+
+    &:hover {
+      color: red;
+    }
+  }
+  @media (max-width: 1000px) {
+    padding: 0;
+  }
+}
+
+.title {
+  font-size: 3rem;
+}
+
+p {
+  padding: 0;
+}
+.btn {
+  align-self: bottom;
+}

@@ -1,0 +1,32 @@
+.nav__navigation {
+  height: 100%;
+  font-size: 3rem;
+}
+
+.nav__navigationItems {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 3rem;
+  padding: 3rem;
+}
+
+.nav__navigationItems:active,
+.nav__navigationItems:hover {
+  color: red;
+}
+
+.nav__navigationItems ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__navigationItems li {
+  padding: 0.5rem;
+  font-size: 3rem;
+}
+
+.spacer {
+  flex: 1;
+}

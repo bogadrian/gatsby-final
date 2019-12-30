@@ -1,23 +1,18 @@
 ---
-title: "second"
-date: "2019-12-25"
+title: "When I first started"
+date: "2019-06-25"
+thumbnail: "../images/code.jpg"
 ---
 
-![Code](./code.jpg)
+</br>
 
-This is portofolio page!
+![Code](./coding.jpg)
 
-## New topics
+# document.write('Hello World')
 
-1. first topics
-2. second topic
+</br>
 
-# document.write(
-
-'Hello World'
-)
-from a new web developer!
-My name is Bogdan Adrian and, as many others out there, I am a self-taught developer.
+From a new web developer! My name is Bogdan Adrian and, as many others out there, I am a self-taught developer.
 
 But I am not as many others out there. I am as few of them, maybe nobody in the end!
 
