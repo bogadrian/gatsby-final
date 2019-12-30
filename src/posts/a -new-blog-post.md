@@ -4,6 +4,6 @@ date: "2018-12-31"
 thumbnail: "../images/code.jpg"
 ---
 
-![Astronaut](./landscape4.jpg)
+![Astronaut](./landscape3.jpg)
 
 # To be written soon!
