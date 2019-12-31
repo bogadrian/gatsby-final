@@ -116,7 +116,7 @@ const Features = () => {
           
           
           <div className={featuresStyle.items}>
-          <a href="https://bogdan.digital/app/quiz-game">
+          <a href="https://apps.bogdan.digital/quiz-game">
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code3.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
@@ -128,7 +128,7 @@ const Features = () => {
           </div>
           
           <div className={featuresStyle.items}>
-           <a href="https://bogdan.digital/app/my-weather-app">
+           <a href="https://apps.bogdan.digital/my-weather-app">
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code4.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
@@ -140,7 +140,7 @@ const Features = () => {
           </div>
           
           <div className={featuresStyle.items}>
-          <a href="https://bogdan.digital/app/firebase-todo">
+          <a href="https://apps.bogdan.digital/firebase-todo">
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code5.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
@@ -153,7 +153,7 @@ const Features = () => {
           
           
           <div className={featuresStyle.items}>
-           <a href="https://bogdan.digital/app/exchange">
+           <a href="https://apps.bogdan.digital/exchange">
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code6.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
