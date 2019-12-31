@@ -8,4 +8,4 @@ thumbnail: "../images/code.jpg"
 
 # To be written!
 
-A new blog post here soon! ssssssss
+I will write a new blog post soon!
