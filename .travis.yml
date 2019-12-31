@@ -1,5 +1,5 @@
 language: node_js
 node_js: "-10.0"
-script: - echo "npm build"
+script: - echo "npm run build"
 install: - npm install -g firebase tools
 after_success: - firebase deploy --token $FIREBASE_TOKEN
