@@ -1,0 +1,24 @@
+action "Pushed to develop" {
+uses = "actions/bin/filter@95c1a3b"
+args = "branch develop"
+}
+action "Install Dependencies" {
+uses = "actions/npm@6309cd9"
+needs = ["Pushed to develop"]
+args = "install"
+}
+action "Build Development" {
+uses = "actions/npm@6309cd9"
+needs = ["Install Dependencies"]
+secrets = ["AIzaSyAykxmiZSN6pBl-WZEkeqYEAgWBc5hJWN8"]
+args = "run build"
+}
+action "Deploy to Development" {
+uses = "w9jds/firebase-action@master"
+needs = ["Build Development"]
+args = "deploy --only hosting:dev"
+env = {
+PROJECT_ID = "bogdan-blog"
+}
+secrets = ["1//03q0bg88rbb4ZCgYIARAAGAMSNwF-L9IrihKC-7yv9cLfA7BNiQ0GYy_kZb9EtFlbEJ3syfinAsRyzrc3ha_vFOEAGubi696ycCI"]
+}
