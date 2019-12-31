@@ -4,5 +4,7 @@ node_js:
   - node
 script:
   - gatsby build
-after_success:
-  - firebase deploy --project atsbyfinal --token $FIREBASE_TOKEN
+deploy:
+  provider: firebase
+  token:
+    secure: "$FIREBASE_TOKEN"
