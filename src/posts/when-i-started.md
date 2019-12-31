@@ -6,7 +6,7 @@ thumbnail: "../images/code.jpg"
 
 </br>
 
-![Code](./coding.jpg)
+![Code](../images/coding.jpg)
 
 # document.write('Hello World')
 

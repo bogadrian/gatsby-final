@@ -6,7 +6,7 @@ thumbnail: "../images/code.jpg"
 
 </br>
 
-![Gatsby](./gatsby.png)
+![Gatsby](../images/gatsby.png)
 
 </br>
 
@@ -37,7 +37,7 @@ We don’t need to do anything in order to render images responsive. GatsbyJs do
 
 Well, I polished my React skills first of all.
 
-You can take a look at the site .[##Git](https://github.com/bogadrian/gatsby-final) repository and see how many components I built! Some are querying the data directly withGraphQl, others are being passed the data by props.
+You can take a look at the site [##Git]("https://github.com/bogadrian/gatsby-final") repository and see how many components I built! Some are querying the data directly withGraphQl, others are being passed the data by props.
 
 I segmented the site in small components in order to make them as reusable as possible.
 Then I polished out my CSS skills. Which really need to be improved.
