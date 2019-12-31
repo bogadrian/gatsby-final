@@ -8,4 +8,4 @@ thumbnail: "../images/code.jpg"
 
 # To be written!
 
-I will write a new blog post soon!
+I will write a new blog post soon about Node js!
