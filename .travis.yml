@@ -5,4 +5,4 @@ node_js:
 script:
   - gatsby build
 after_success:
-  - firebase deploy --token $FIREBASE_TOKEN
+  - firebase deploy --project atsbyfinal --token $FIREBASE_TOKEN
