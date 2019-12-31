@@ -1,5 +1,5 @@
 ---
-title: "What I learned form building my blog with Gatsbyjs"
+title: "What I learned from building my blog with Gatsbyjs"
 date: "2019-12-31"
 thumbnail: "../images/code.jpg"
 ---
