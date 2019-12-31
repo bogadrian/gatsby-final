@@ -6,4 +6,4 @@ thumbnail: "../images/code.jpg"
 
 ![Astronaut](./landscape3.jpg)
 
-# To be written VERY soon!
+# To be written VERY very vey soon!
