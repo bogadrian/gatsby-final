@@ -29,7 +29,10 @@ const About = () => {
           <p>I am not a university graduated</p>
           <h1>#Now let me say who I am:</h1>
           <p>I am a self-taught web developer.</p>
-          <p>I know NodeJs, ExpressJs, MongoDb and Mongoose, ReactJs.</p>
+          <p>
+            I know NodeJs, ExpressJs, MongoDb and Mongoose, ReactJs. I can use
+            all of this technologies in production applications
+          </p>
           <p>
             I know JavaScript good enough so far, even though I have not
             mastered it perfectly yet!
