@@ -21,33 +21,35 @@ const About = () => {
             Unconventional CV
           </h1>
           <h1>#Let me say who I am not:</h1>
-          <p>I am not yang. At all. 45 years old.</p>
+          <p>I am not young</p>
           <p>I am not a senior web developer.</p>
-          <p>I have no enterprise hi tech work experience!</p>
+          <p>I have no enterprise high tech work experience!</p>
           <p>I used to work for a long time in another field.</p>
           <p>I am not a perfect developer, probably not very good also! </p>
-          <p>I am not a university graduated</p>
+          <p>I don't have a university degree.</p>
           <h1>#Now let me say who I am:</h1>
           <p>I am a self-taught web developer.</p>
           <p>
-            I know NodeJs, ExpressJs, MongoDb and Mongoose, ReactJs. I can use
-            all of this technologies in production applications
+            I know Javascript, NodeJs, ExpressJs, MongoDb and Mongoose, ReactJs.
+            I can use all of this technologies in production applications to
+            build intresting thinghs.
           </p>
           <p>
             I know JavaScript good enough so far, even though I have not
-            mastered it perfectly yet!
+            mastered it perfectly - yet!
           </p>
           <p>
             I am a humble person willing to learn and take orders from younger
-            people. All I know I’ve learned form younger than me instructors.
+            people. All I know I’ve learned from younger than me instructors.
           </p>
           <p>
-            I do not pretend I will be the best one day, because I am old enough
-            to know well that is not going to happen.
+            I do not pretend I will be the best one day, I don not dream at some
+            job at Google or facebbok. Because I am old enough to know well that
+            is not going to happen.
           </p>
           <p>
             I do not search for the best web developer position because I do not
-            think I am so good to deserve it.
+            think I am so good to deserve it in anyway.
           </p>
           <p>
             If you want to know what I am able to do, take a look at my
