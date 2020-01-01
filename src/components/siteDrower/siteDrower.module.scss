@@ -25,7 +25,7 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  @media (min-width: 100%) {
+  @media (min-width: 800) {
     margin-top: 15rem;
   }
 }
@@ -81,7 +81,7 @@
   left: 10rem;
   margin-bottom: 10rem;
   cursor: pointer;
-  @media (min-width: 100%) {
+  @media (min-width: 800) {
     top: 0;
     right: 2rem;
   }
