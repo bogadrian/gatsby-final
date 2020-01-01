@@ -28,14 +28,14 @@ const IndexPage = () => {
             <p>
               My name is Adrian. I am a full stack web developer. I start
               learning to code at the end of 2017. Before that I only used
-              Wordpress.
+              Wordpress tom build websites.
             </p>
             <p>
-              I know Wordpress from 2007. Since it had to be installed manually.
+              I know Wordpress from 2007, since it had to be installed manually.
               I always believed that Wordpress is enough. It allows everybody to
               build wonderful sites. But one day I had to do more than Wordpress
               allowed me to do. I had to choose between learning PHP and build
-              my own plugin for Wordpress, or learn Javascript.{" "}
+              my own plugin for Wordpress, or learn Javascript.
             </p>
             <p>
               I start learning JavaScript and never stopped ever since. My
@@ -44,12 +44,12 @@ const IndexPage = () => {
             <p>
               My stack is NodeJs, ExpressJs, MondoDb, ReactJs. The MERN stack,
               as it is usually named. I am self-taught developer. I learned
-              mostly from Udemy. In the beginning. Then, when I felt pretty
+              mostly from Udemy. In the beginning. When I felt pretty
               comfortable understanding documentation, I went trough ExpressJs,
               Mongoose, ReactJs documentation.
             </p>
             <p>
-              As I build this site with GatsbyJs, I had to say that my CSS
+              As I built this site with GatsbyJs, I had to say that my CSS
               skills are not at the maximum. I can write CSS, but I am not a
               guru on it. I learned CSS because since I learned React I
               discovered the hard way that the components need to be styled.
@@ -57,19 +57,16 @@ const IndexPage = () => {
               I write my own CSS.
             </p>
             <p>
-              I am now able to build any kind of full stack up. Of course. More
-              complicate this is, the more time I need to figure it out.
+              I am now able to build any kind of full stack web application. Of
+              course, more complicate this is, the more time I need to put it
+              together.
             </p>
             <p>
-              But I can’t believe what a long way I came since 2017. There is a
+              I can’t believe what a long way I came since 2017. And there is a
               lot in front of me yet to come. I’d like to master GraphQl now. I
               am now building a pretty complex app on MERN stack.
             </p>
-            <p>
-              When it will be ready, you may find it in my portfolio! I’m not
-              yang anymore but I love coding! The love has no age! I am of
-              course willing to take any job that may be offered to me.{" "}
-            </p>
+            <p>When it will be ready, you may find it in my portfolio!</p>
             <p>
               You can reach out to me if you want at
               bogdan4adrian4tech@gmail.com
