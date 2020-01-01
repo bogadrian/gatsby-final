@@ -95,7 +95,7 @@ const Features = () => {
           backgroundcolor={"#777"}> 
            <div className={featuresStyle.item}>
           <div className={featuresStyle.title}>Node JS Chat App</div>
-          <ImageReact />
+          <ImageNode />
           </div>
           </BackgroundImage>
           </a>
@@ -103,12 +103,12 @@ const Features = () => {
           
           
           <div className={featuresStyle.items}>
-          <a href="https://bogdan-ecommerce-react-app.herokuapp.com/shop">
+          <a href="https://bogdan-ecommerce-react-app.herokuapp.com">
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code2.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
           <div className={featuresStyle.title}>React E-Commerce  </div>
-          <ImageNode />
+          <ImageReact />
           </div> 
           </BackgroundImage>
           </a>
@@ -145,7 +145,7 @@ const Features = () => {
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
           <div className={featuresStyle.title}>Firebase CRUD App </div>
-          <ImageBabel />
+          <ImageFirebase />
           </div>
           </BackgroundImage>
           </a>
@@ -158,7 +158,7 @@ const Features = () => {
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
           <div className={featuresStyle.title}>Currency Exchenge </div>
-          <ImageFirebase />
+          <ImageBabel />
           </div>
           </BackgroundImage>
           </a> 
