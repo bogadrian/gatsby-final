@@ -20,7 +20,7 @@ const IndexPage = () => {
           <div
             style={{
               color: "#9F3659",
-              padding: 0,
+              padding: "3rem",
               backgroundColor: "#FAF5F7",
               fontWeight: "bold",
             }}
