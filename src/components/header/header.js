@@ -11,7 +11,9 @@ const Header = ({ siteTitle, description }) => {
   let [siteDrowerOpen, setSiteDrowerOpen] = useState(false)
 
   function toggle() {
-    setSiteDrowerOpen(!siteDrowerOpen)
+    setSiteDrowerOpen(prevState => {
+      return !prevState
+    })
   }
 
   const data = useStaticQuery(graphql`

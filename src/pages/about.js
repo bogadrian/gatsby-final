@@ -56,8 +56,6 @@ const About = () => {
             portfolio!
           </p>
         </div>
-
-        <p>Welcome to about</p>
       </div>
     </Layout>
   )
