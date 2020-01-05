@@ -1,4 +1,5 @@
 import Typography from "typography"
-import funstonTheme from "typography-theme-funston"
-const typography = new Typography(funstonTheme)
+import elkGlenTheme from 'typography-theme-elk-glen'
+
+const typography = new Typography(elkGlenTheme)
 export default typography
