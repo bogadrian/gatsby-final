@@ -153,7 +153,7 @@ const Features = () => {
           
           
           <div className={featuresStyle.items}>
-           <a href="https://apps.bogdan.digital/exchange">
+           <a href="http://apps.bogdan.digital/exchange">
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code6.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
