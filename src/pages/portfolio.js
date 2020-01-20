@@ -22,50 +22,52 @@ const Portfolio = () => {
         <div>
           <ul className={portStyle.ulList}>
             <li>
-              <Link to="http://bogdan.digital/app/exchange">Exchange App</Link>
+              <Link to="http://apps.bogdan.digital/exchange">Exchange App</Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/firebase-todo">
+              <Link to="https://apps.bogdan.digital/firebase-todo">
                 Todo with Firebase
               </Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/simpletodo">
+              <Link to="https://apps.bogdan.digital/simpletodo">
                 Simple Todo App
               </Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/addbook">Add Book App</Link>
+              <Link to="https://apps.bogdan.digital/addbook">Add Book App</Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/weather">Weather App</Link>
+              <Link to="https://apps.bogdan.digital/weather">Weather App</Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/github">
+              <Link to="https://apps.bogdan.digital/github">
                 Github user finder
               </Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/my-weather-app">
+              <Link to="https://apps.bogdan.digital/my-weather-app">
                 My Weather App
               </Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/calories-calculator-app">
+              <Link to="https://apps.bogdan.digital/calories-calculator-app">
                 Calories Calculator
               </Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/pig-game">Pig Game</Link>
+              <Link to="https://apps.bogdan.digital/pig-game">Pig Game</Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/quiz-game">Funny Quiz</Link>
+              <Link to="https://apps.bogdan.digital/quiz-game">Funny Quiz</Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/budget-app">Budget App</Link>
+              <Link to="https://apps.bogdan.digital/budget-app">
+                Budget App
+              </Link>
             </li>
             <li>
-              <Link to="https://bogdan.digital/app/food-app">Food App</Link>
+              <Link to="https://apps.bogdan.digital/food-app">Food App</Link>
             </li>
             <li>
               <Link to="https://bogdan-ecommerce-react-app.herokuapp.com/shop">
