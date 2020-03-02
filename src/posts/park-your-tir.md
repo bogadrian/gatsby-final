@@ -1,6 +1,6 @@
 ---
 title: “My first real app"
-date: "2020-02-2"
+date: "2020-02-02"
 thumbnail: "../images/park-your-tir.png"
 ---
 
@@ -10,11 +10,11 @@ thumbnail: "../images/park-your-tir.png"
 
 </br>
 
-##I built and put online my first real app!
+#I built and put online my first real app!
 
-I finished my first app. It feels so good that I was able to build it.
+I finished my first real app. Overcoming the todo's world! 😀 It feels so good that I was able to build it.
 
-The back-end is with NodeJs and the front-end is with ReactJs.
+<center>The back-end is with NodeJs and the front-end is with ReactJs.</center>
 
 The app is suppose to help truck drivers around Europe to find a parking for their lorries.
 I used to drive a lorry in Europe and I know from my own experience that, when the evening comes there is so hard to find a parking for the lorry.
@@ -31,7 +31,7 @@ The places are displayed by Google Maps and there are markers for them.
 
 You can click that marker and a window will open. On that window a button exists. Button which if it is clicked, will take you to a place page.
 
-A place can be created with photos, title, description and rating.
+<center>A place can be created with photos, title, description and rating.</center>
 
 Others users can comment on that place. They can update or delete their comment. So can you, the owner of that place (if you created it), for the place itself or for our own comments.
 
@@ -52,7 +52,7 @@ Also, the app would be used mostly on mobile phones. A lorry driver will access 
 
 But I would like to take it to React Native. Probably I will do that in future as I want to concentrate now on learning well React Native too.
 
-The app is deployed n Heroku. Front-end and back-end.
+<center>The app is deployed n Heroku. Front-end and back-end.</center>
 
 For the demo purposes it works just fine. Less the photo upload feature. Better said: Heroku allows photo uploads, but it wipes them out very soon.
 
@@ -77,4 +77,4 @@ Mine is pure passion! I am pretty old and therefor I am aware it will be hard to
 I am not thinking at that! I just enjoy my ability to build such a thing now! And I am looking forward to some freelancing work.
 
 The app link is here if you want to take look:
-[##Park Your Tir](" https://park-your-tir.herokuapp.com/")
+<a href="https://park-your-tir.herokuapp.com/" target="_blank">Park Your Tir App!</a>
