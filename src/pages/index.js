@@ -28,14 +28,16 @@ const IndexPage = () => {
             <p>
               My name is Adrian. I am a full stack web developer. I start
               learning to code at the end of 2017. Before that I only used
-              Wordpress tom build websites.
+              Wordpress to build websites.
             </p>
             <p>
-              I know Wordpress from 2007, since it had to be installed manually.
-              I always believed that Wordpress is enough. It allows everybody to
-              build wonderful sites. But one day I had to do more than Wordpress
-              allowed me to do. I had to choose between learning PHP and build
-              my own plugin for Wordpress, or learn Javascript.
+              I know tu build static sites with Wordpress since 2007. Since it
+              had to be installed manually. I always believed that Wordpress is
+              enough for my needs. It allows everybody to build wonderful sites.
+              But one day I had to do more than Wordpress allowed me to do. I
+              had to choose between learning PHP and build my own plugin for
+              Wordpress, or learn Javascript in order to build web interactiv
+              apps.
             </p>
             <p>
               I start learning JavaScript and never stopped ever since. My
