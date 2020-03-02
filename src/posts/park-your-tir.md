@@ -33,30 +33,33 @@ You can click that marker and a window will open. On that window, a button exist
 
 <center>A place can be created with photos, title, description and rating.</center>
 
-Other users can comment on that place. They can update or delete their comment. So can you, the owner of that place (if you created it), for the place itself or for our own comments.
+Other users can comment on that place. They can update or delete their comment. So can you, the owner of that place (if you created it), for the place itself or for your own comments.
 
 Every comment requires a rate. An average rating is displayed for each place. It is calculated on the back-end and it sums the number of votes and the ratings given by you, the creator of that place, and commenters.
 
 If you are a registered user, there is a “my profile” page. On that page, you can update your info, profile photo, name, and email.
 
+You can also request a new password and nodemailer will take care to send you a reset password link.
+
 On that page, the places you created are also displayed. If there are too many to fit the page, I implemented pagination for the “my-places” component.
 
-Google Maps API is not free, so as this is a demo app, I don’t expect to exceed Google free margin. But if it happens, I will take it down.
+Google Maps API is not free. So, as this is a demo app, I don’t expect to exceed Google's free margin. But if it happens, I will take it down.
 
-Well, let me say that the UI isn’t astonishing! It is rather ugly MY CSS skills are not at some master level and I did what I could.
+Well, let me say that the UI isn’t astonishing! It is rather ugly. My CSS skills are not at some kind of master level and I did what I could.
 
-I concentered on making the app work and less on the user interface. I am not a designer; I hope you understand me.
+I concentered myself on making the app work and less on the User Interface. I am not a designer; I hope you understand me.
 
-If my app would ever be pushed to production, it needs a designer hand on it, no doubt about that!
-Also, the app would be used mostly on mobile phones. A lorry driver will access the app from its mobile in 95% of the cases. So, the app was built with ReactJs.
+If my app would ever be pushed to production, it needs a designer hand's on it, no doubt about that!
+
+Also, the app would be used mostly on mobile phones. A lorry driver will access the app from its mobile in 95% of the cases. So, the app was built for now with ReactJs and I tried my best to make it reposnive.
 
 But I would like to take it to React Native. Probably I will do that in the future as I want to concentrate now on learning well React Native too.
 
-<center>The app is deployed n Heroku. Front-end and back-end.</center>
+<center>The app is deployed on Heroku. Front-end and back-end.</center>
 
-For the demo purposes, it works just fine. Less the photo upload feature. Better said: Heroku allows photo uploads, but it wipes them out very soon.
+For the demo purposes it works just fine. Less the photo upload feature. Better said: Heroku allowsphoto uploads sometimes (I didn't get when and how yet), but it wipes them out very soon.
 
-Heroku, the free plan has a very slow response rate for such a complex app. I mean, an app that makes so many requests to the back-end.
+Heroku on the free plan has a very slow response rate for such a complex app. I mean, an app that makes so many requests to the back-end.
 
 That being said, if ever the app would go into production, it needs a proper hosting.
 I published it to Google Cloud also. But so far, I wasn’t able to make photo upload work on Google Cloud Storage.
@@ -64,15 +67,18 @@ I published it to Google Cloud also. But so far, I wasn’t able to make photo u
 Maybe I will do it next.
 
 The app contains lots of files. Components, Redux files, Saga files. It is big for me.
-I worked for more than 2 months on it. But I have a regular job so I built it on my spare time.
+I worked for more than 3 months on it.
+
+But I have a regular job so I built it on my spare time.
 I am really satisfied with what I managed to build!
 
 To be honest, one year ago, when I was already thinking if I would ever be able to build such an app, I didn’t believe that I would!
 
 Of course, my code is not a senior developer code. It may be ugly and sometimes too cumbersome.
-That means I still have a lot to learn. Therefore, I am looking forward to the next steps with confidence now just because of the way I managed to come!
 
-Mine is a pure passion! I am pretty old and therefore I am aware it will be hard to find a job as a dev, no matter how good I am or I will become.
+That means I still have a lot to learn. Therefore, I am looking forward to the next steps on my would be developer path, with confidence now just because of the ways I managed to come!
+
+Anyway, mine is a pure passion! I am pretty old and therefore I am aware it will be hard to find a job as a dev, no matter how good I am or I will become.
 
 I am not thinking of that! I just enjoy my ability to build such a thing now! And I am looking forward to some freelancing work.
 
