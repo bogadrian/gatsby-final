@@ -6,7 +6,7 @@ thumbnail: "../images/park-your-tir.png"
 
 </br>
 
-![Gatsby](https://bogdan.digital/images/park-your-tir.png)
+![Gatsby](../images/park-your-tir.png)
 
 </br>
 
