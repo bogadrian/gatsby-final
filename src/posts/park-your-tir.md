@@ -1,7 +1,7 @@
 ---
 title: “My first real app"
 date: "2020-02-2"
-thumbnail: "../images/park-your-tir"
+thumbnail: "../images/park-your-tir.png"
 ---
 
 </br>
