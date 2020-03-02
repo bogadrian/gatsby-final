@@ -10,19 +10,21 @@ thumbnail: "../images/park-your-tir.png"
 
 </br>
 
-#I built and put online my first real app!
+##I built and put online my first real app!
 
-I finished my first app. It feels so good I was able to build it.
+I finished my first app. It feels so good that I was able to build it.
 
-The back-end is in NodeJs and the front-end is with ReactJs.
+The back-end is with NodeJs and the front-end is with ReactJs.
 
-The app is suppose to help truck drivers around in Europe to find a parking for their lorries.
+The app is suppose to help truck drivers around Europe to find a parking for their lorries.
 I used to drive a lorry in Europe and I know from my own experience that, when the evening comes there is so hard to find a parking for the lorry.
 
 Countries like Germany, Belgium or Netherlands are just a big problem for trucks parking.
+
 Well, is not me the one who creates the packings but the lorry drivers themselves.
 
 The app allows to a registered user to create a place (parking) and to show that place to others.
+
 As you may see if you open the app, the places are fetched around your position in 100 km range. But you can insert an address and take a look if around that address a parking exists.
 
 The places are displayed by Google Maps and there are markers for them.
@@ -31,7 +33,7 @@ You can click that marker and a window will open. On that window a button exists
 
 A place can be created with photos, title, description and rating.
 
-Others users can comment on that place. They can update or delete their comment. So can do you, the owner of that place (if you created it), for the place itself or for our own comments.
+Others users can comment on that place. They can update or delete their comment. So can you, the owner of that place (if you created it), for the place itself or for our own comments.
 
 Every comment requires a rate. An average rating is displayed for each place. It is calculated on back-end and it sums the number of votes and the ratings given by you, the creator of that place, and commenters.
 
@@ -41,7 +43,9 @@ On that page the places you created are also displayed. If there are too many to
 
 Google Maps api are not free, so as this is a demo app, I don’t expect to exceed Google free margin. But if it happens, I will take it down.
 
-Well, let me say that the UI isn’t astonishing! It is rather ugly MY CSS skills are not at some master level and I did what I could. I concentered on making the app work and less on the user interface. I am not a designer; I hope you understand me.
+Well, let me say that the UI isn’t astonishing! It is rather ugly MY CSS skills are not at some master level and I did what I could.
+
+I concentered on making the app work and less on the user interface. I am not a designer; I hope you understand me.
 
 If my app would ever be pushed to production, it needs a designer hand on it, no doubt about that!
 Also, the app would be used mostly on mobile phones. A lorry driver will access the app from its mobile in 95% of the cases. So, the app was built with ReactJs.
