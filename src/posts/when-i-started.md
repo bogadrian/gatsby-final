@@ -14,13 +14,13 @@ thumbnail: "../images/code.jpg"
 
 From a new web developer! My name is Bogdan Adrian and, as many others out there, I am a self-taught developer.
 
-But I am not as many others out there. I am as few of them, maybe nobody in the end!
+But I am not as many others out there. I am like a few of them, maybe nobody in the end!
 
 Not because I’m special or because I am so great at writing code, which I am not; rather I am a modest and not very sociable person.
 
 I am like a few developers out there because of my age and my background!
 
-I am 45 years old. And I started to learn to code only at this age! More, I used to be a European track driver! No background in the tech industry!
+I am 45 years old. And I started to learn to code only at this age! More, I used to be a European truck driver! No background in the tech industry!
 
 Well, except for my passion which led me to build websites in WordPress since forever, if I can remember. And a couple of years learning digital marketing.
 
@@ -28,7 +28,7 @@ But no coding skills. Maybe just a little about CSS and Html, just to modify lit
 
 I always felt a very natural attraction towards tech, but never dared to try coding till now at 45 years old.
 
-I started to learn to code, being very motivated and determinate. And I'm still that way. But I couldn’t know if I can do it. It may be too hard for me, not because of my age, but because coding is hard generally speaking.
+I started to code, being very motivated and determinate. And it is still that way. But I couldn’t know if I can do it. It could be too hard for me, not because of my age, but because coding is hard generally speaking.
 
 Well, let me tell you that: I almost done it so far!
 
@@ -36,7 +36,7 @@ I can write code in JavaScript now. I have created a couple of apps on my own, w
 
 By the time I write this, my next move is to get into Node.js and then React.
 
-As I was learning JavaScript, I used to be exposed to Node.js quite a bit. So, I already know something about it. But I need to take myself at the next level and learn it well.
+As I was learning JavaScript, I used to be exposed to Node.js quite a bit. So, I already know something about it. But I need to take myself to the next level and learn it well.
 
 What I mean by “well”, it is not to become a senior developer by self-teaching. I know that won’t be possible without a lot of experience in an environment suitable.
 
@@ -56,7 +56,7 @@ Ok, so I know you are going to ask:
 
 Why? Why are you learning all of this at your age? Does it even make sense? Do you think you still have time to become good at it?
 
-It is not too late for you?
+"It is not too late for you?".
 
 There are online a lot of questions like this. Made by people in my position. People who try to learn to code to change their lives, their careers, at an age not very suitable to do that.
 
@@ -64,11 +64,11 @@ Meanwhile, the answers are almost always positive, I have to recognize that, it 
 
 Well, I can tell you that: I am learning to code for myself. Because I enjoy it because I want to.
 
-I am not thinking of getting a job or changing my life with that. I know very well that can never happen.
+I am not thinking of getting a job or changing my life with that. I know very well that can hardly change.
 
-Very many people are learning to code this day. And the challenge to get a job is tougher and tougher. I may not be able to take and win that challenge, I’m just aware of it.
+Very many people are learning to code this day. And the challenge to get a job is tougher and tougher. I may not be able to win that challenge, I’m just aware of it.
 
-So, then why are you spending all your time learning something which you know may not be useful in your life?
+"So, then why are you spending all your time learning something which you know may not be useful in your life?".
 
 Because my brain needs that!
 
