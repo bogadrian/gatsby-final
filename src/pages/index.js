@@ -26,27 +26,27 @@ const IndexPage = () => {
             }}
           >
             <p>
-              My name is Adrian. I am a full stack web developer. I start
-              learning to code at the end of 2017. Before that I only used
+              My name is Adrian. I am a full stack web developer. I start to
+              learn web development at the end of 2017. Before that I only used
               Wordpress to build websites.
             </p>
             <p>
-              I know tu build static sites with Wordpress since 2007. Since it
-              had to be installed manually. I always believed that Wordpress is
-              enough for my needs. It allows everybody to build wonderful sites.
-              But one day I had to do more than Wordpress allowed me to do. I
-              had to choose between learning PHP and build my own plugin for
-              Wordpress, or learn Javascript in order to build web interactiv
-              apps.
+              I knew tu build static sites with Wordpress since 2007. Since
+              Wordpress had to be installed manually. I always believed that
+              Wordpress is enough for my needs. It allows everybody to build
+              wonderful sites. But one day I had to do more than Wordpress
+              allowed me to do. I had to choose between learning PHP and build
+              my own plugin for Wordpress, or learn Javascript in order to build
+              web interactiv apps.
             </p>
             <p>
-              I start learning JavaScript and never stopped ever since. My
+              I start to learn JavaScript and never stopped ever since. My
               programming language is JavaScript.
             </p>
             <p>
-              My stack is NodeJs, ExpressJs, MondoDb, ReactJs. The MERN stack,
-              as it is usually named. I am self-taught developer. I learned
-              mostly from Udemy. In the beginning. When I felt pretty
+              My stack is NodeJs, ExpressJs, MondoDb, ReactJs, React Native. The
+              MERN stack, as it is usually named. I am self-taught developer. I
+              learned mostly from Udemy. In the beginning. When I felt pretty
               comfortable understanding documentation, I went trough ExpressJs,
               Mongoose, ReactJs documentation.
             </p>
@@ -65,10 +65,9 @@ const IndexPage = () => {
             </p>
             <p>
               I can’t believe what a long way I came since 2017. And there is a
-              lot in front of me yet to come. I’d like to master GraphQl now. I
-              am now building a pretty complex app on MERN stack.
+              lot in front of me yet to come. I’d like to master GraphQl
+              andTypescript now.
             </p>
-            <p>When it will be ready, you may find it in my portfolio!</p>
             <p>
               You can reach out to me if you want at
               bogdan4adrian4tech@gmail.com

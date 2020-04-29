@@ -83,4 +83,4 @@ Anyway, mine is a pure passion! I am not young and restless anymore, and, theref
 I am not thinking of that, I did not learn everything thinking about getting a job in the first place! I just enjoy my ability to build such a thing now! And I am looking forward to some freelancing work.
 
 The app link is here if you want to take look:
-<a href="https://park-your-tir.herokuapp.com/" target="_blank">Park Your Tir App!</a>
+<a href="https://park-your-tir.netlify.app/" target="_blank">Park Your Tir App!</a>
