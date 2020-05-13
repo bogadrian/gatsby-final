@@ -16,7 +16,7 @@ To be honest, I learned the basics. There is still a lot for me to learn.
 
 And I learned to build a mobile app with React Native over the Expo, without ejecting. Which would bring much more complexity to a React Native project.
 
-##Nevertheless, I did it. I built my first React Native app!
+###Nevertheless, I did it. I built my first React Native app!
 
 A demo personal app built with React Native. It uses Redux, Redux Thunk, React Navigation 5, some must have dependency and Kitten UI.
 
@@ -32,7 +32,7 @@ When you open the app there is a home screen. You can navigate to the other unpr
 
 There is also a drawer. On that drawer, I put the login screen. Once you login you will be taken to messages screen where you will see my messages and yours, and where you can write me a message as well.
 
-##I do have a bottom tab navigation also.
+###I do have a bottom tab navigation also.
 
 There is a “Home” button, a “Blog” button and a “Portfolio” button.
 
@@ -52,7 +52,7 @@ I published it just to the Expo server.
 
 I don’t want to publish it to Apple Store or Play store, as it is just a demo app and would make no sense to do that.
 
-##You can see it on Expo. Therefore, you need to download the Expo app.
+###You can see it on Expo. Therefore, you need to download the Expo app.
 
 Go to the link below, scan the QR code (with the photo cam works as well), and the app will open for you. In this way you can take a look and see my work if you want.
 
