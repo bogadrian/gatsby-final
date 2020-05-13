@@ -72,6 +72,7 @@ const IndexPage = () => {
               You can reach out to me if you want at
               bogdan4adrian4tech@gmail.com
             </p>
+            <p></p>
           </div>
 
           <div className={indexStyle.features}>

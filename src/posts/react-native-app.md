@@ -16,7 +16,7 @@ To be honest, I learned the basics. There is still a lot for me to learn.
 
 And I learned to build a mobile app with React Native over the Expo, without ejecting. Which would bring much more complexity to a React Native project.
 
-##Nevertheless, I did it. I built my first React Native app.
+##Nevertheless, I did it. I built my first React Native app!
 
 A demo personal app built with React Native. It uses Redux, Redux Thunk, React Navigation 5, some must have dependency and Kitten UI.
 
