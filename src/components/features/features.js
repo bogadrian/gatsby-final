@@ -9,6 +9,8 @@ import ImageFirebase from "../ImageComponents/image-firebase"
 import ImageWebpack from "../ImageComponents/image-webpack"
 import ImageBabel from "../ImageComponents/image-babel"
 import ImageGit from "../ImageComponents/image-git"
+import ImagePyt from "../ImageComponents/image-pyt"
+import ImageRn from './../ImageComponents/image-rn';
 const Features = () => {
   const data = useStaticQuery(graphql`
   {
@@ -90,6 +92,30 @@ const Features = () => {
     <div className={featuresStyle.container}> 
        
           <div className={featuresStyle.items}>
+          <a href="https://expo.io/@bogdan_dev/bogdan-digital">
+          <BackgroundImage className={featuresStyle.backImage} fluid={data.code5.childImageSharp.fluid} 
+          backgroundcolor={"#777"}> 
+           <div className={featuresStyle.item}>
+          <div className={featuresStyle.title}>React Native app</div>
+          <ImageRn />
+          </div>
+          </BackgroundImage>
+          </a>
+          </div>
+          
+          <div className={featuresStyle.items}>
+          <a href="https://park-your-tir.netlify.app">
+          <BackgroundImage className={featuresStyle.backImage} fluid={data.code4.childImageSharp.fluid} 
+          backgroundcolor={"#777"}> 
+           <div className={featuresStyle.item}>
+          <div className={featuresStyle.title}>Park Your Tir App</div>
+          <ImagePyt />
+          </div>
+          </BackgroundImage>
+          </a>
+          </div>
+          
+          <div className={featuresStyle.items}>
           <a href="https://bogdan-v1-node-chat-app.herokuapp.com/">
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code8.childImageSharp.fluid} 
           backgroundcolor={"#777"}> 
@@ -159,6 +185,18 @@ const Features = () => {
           <div className={featuresStyle.item}>
           <div className={featuresStyle.title}>Currency Exchenge </div>
           <ImageBabel />
+          </div>
+          </BackgroundImage>
+          </a> 
+         </div>
+         
+          <div className={featuresStyle.items}>
+           <a href="https://apps.bogdan.digital/github/">
+          <BackgroundImage className={featuresStyle.backImage} fluid={data.code3.childImageSharp.fluid}
+          backgroundcolor={"#777"}>
+          <div className={featuresStyle.item}>
+          <div className={featuresStyle.title}>Currency Exchenge </div>
+          <ImageGit />
           </div>
           </BackgroundImage>
           </a> 

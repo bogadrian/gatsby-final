@@ -30,7 +30,8 @@ const About = () => {
           <h1>#Now let me say who I am:</h1>
           <p>
             I am a self-taught web developer. If you want to know what I am able
-            to do, take a look at my portfolio!.
+            to do, take a look at my:&nbsp;
+            <Link to="./portfolio">Portfolio!</Link>
           </p>
           <p>
             I know Javascript, NodeJs, ExpressJs, MongoDb and Mongoose, ReactJs,
@@ -42,10 +43,7 @@ const About = () => {
             mastered it perfectly - yet!
           </p>
           <p>I am a humble person willing to learn continuously.</p>
-          <p>
-            If you want to know what I am able to do, take a look at my
-            portfolio!
-          </p>
+
           <p>
             Here you can get my CV: &nbsp;
             <a

@@ -24,6 +24,7 @@ const Portfolio = () => {
             <li>
               <a href="http://apps.bogdan.digital/exchange">Exchange App</a>
             </li>
+
             <li>
               <a href="https://apps.bogdan.digital/firebase-todo">
                 Todo with Firebase
