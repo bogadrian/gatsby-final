@@ -50,6 +50,7 @@ const About = () => {
               href="https://drive.google.com/file/d/1CHSdIBhrxu2HwcUcjXlgXgfcNpusSLCt/view?usp=sharing"
               dowanload="true"
               target="_blank"
+              rel="noreferrer"
             >
               Download CV Bogdan Adrian
             </a>

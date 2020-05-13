@@ -195,7 +195,7 @@ const Features = () => {
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code3.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
-          <div className={featuresStyle.title}>Currency Exchenge </div>
+          <div className={featuresStyle.title}>Find Github user</div>
           <ImageGit />
           </div>
           </BackgroundImage>
