@@ -14,7 +14,7 @@ thumbnail: "../images/redux-updates.png"
 
 One of the most technical problem beginner developers face when working with Redux store in React, is how and when to update the store on actions, like for example item update.
 
-I faced this problem and as it has nothing to do with React or Redux itself, but only with Vanilla JavaScript, I want to say how I learned to solve this kind of problem.
+I faced this problem and as updating the reducer has nothing to do with React or Redux itself, but only with Vanilla JavaScript, I want to say how I learned to solve this kind of problem.
 
 The most obvious example would be, I believe, an e-commerce cart update!
 
@@ -28,13 +28,13 @@ We dispatch our fetch products action to the action function in the component in
 
 The action function then acts on that dispatch and may take advantage of some fetching middleware such as Redux Thunk or Saga.
 
-(In case we do not start the fetch in a useEffect in the component itself, but I suppose not, as this would be an e-commerce app and not an educational todo app).
+(The middlewares in case we do not start the fetch in a useEffect in the component itself, but I suppose not because this would be an e-commerce app and not an educational Todo app).
 
 After the fetch response returns, the action forwards the answer to the reducer.
 
 The reducer must now take notice of that response and it is in charge with modifying the store to acknowledge the change brought by that action fetch.
 
-Well, all this “unidirectional” flow is pretty obvious to who works with React and Redux after an initial tutorial.
+Well, all this “unidirectional” flow is pretty obvious to who works with React and Redux after he/she passes trough an initial tutorial.
 
 And to be honest, it is easy to learn as well! The data goes only one direction!
 
@@ -59,11 +59,16 @@ Beah, I would say not!
 
 It is a bad pattern! Beginners are doing this kind of things always! Just because it works! I did that!
 
-But I kept on wondering if it is ok to do that?! In practice, all you have to do is to fetch every single time there is a change to that array product and just dispatch the action payload with the new array just arrived from back-end to the reducer! Simply that way, is it?
+But I kept on wondering if it is ok to do that?!
+In practice, all you have to do is to fetch every single time there is a change to that array product and just dispatch the action payload with the new array - just arrived from back-end - to the reducer!
+
+Simply that way, is it?
 
 So, let’s see now how we would update the store without fetching again all the products array.
 
-First of all, when we are updating an item in a product array, we are anyway dispatching an update action to the back-end. Consequently, there will be an answer.
+First of all, when we are updating an item in a product array, we are anyway dispatching an update action to the back-end.
+Consequently, there will be an answer.
+
 It can be a success fetch answer or a failure update answer.
 
 In both cases, we want to update the store.
@@ -76,9 +81,12 @@ In this particular case I exemplify here, the mocked-up array is supposed to be 
 
 Up here we have a mocked-up cart, an initial state array which contains 4 products already added.
 
-Now, the user wants to add a new product to the cart. We need to add the item to the state array if there is not a product with that id or increase the quantity, update the price and eventually modify the name if the product is in array already and new product with that id is added!
+Now, the user wants to add a new product to the cart.
+We need to add the item to the state array if there is not a product with that id or increase the quantity, update the price and eventually modify the name if the product is in array already and new product with that id is added!
 
-Here we have 5 action mocked-up. 3 of them are updating an item (product) which happens to have the same id. However, the item's id that the user adds to the cart exists already in the cart array.
+Here we have 5 action mocked-up.
+3 of them are updating an item (product) which happens to have the same id.
+However, the item's id that the user adds to the cart exists already in the cart array.
 
 ![Gatsby](../images/action-redux.png)
 
@@ -86,7 +94,8 @@ Here we have 5 action mocked-up. 3 of them are updating an item (product) which 
 
 ![Gatsby](../images/sim-reducer.png)
 
-The reducer as we can see, makes appeal to an utility function which is in charge to loop trough the cart array, find if there is already the item's id and then update the item price, quantity and name, or just to add the item to the cart array if there is not such an item id!
+The reducer as we can see, makes appeal to an utility function which is in charge to loop trough the cart array, find if there is already the item id and then update the item price, quantity and name.
+Or just to add the item to the cart array if there is not such an item id!
 
 ![Gatsby](../images/util-funct.png)
 
@@ -94,7 +103,7 @@ The reducer as we can see, makes appeal to an utility function which is in charg
 
 ![Gatsby](../images/simulate-actions.png)
 
-If now we simulate 5 actions dispatch calls with those 5 items that must be added to the cart array, from which 3 of them have the same id and that id already exists in the cart array initial state meanwhile 2 of them are a new id added for 2 times (please note the price changes every single time just to simulate some kind of discounts whatsoever, the name changes either in order to simulate a new name for the same product and knowledge a change that has happened as the discount applied etc), we will see something like this:
+If now we simulate 5 actions dispatch calls with those 5 items that must be added to the cart array, from which 3 of them have the same id and that id already exists in the cart array initial state, meanwhile 2 of them are a new id added for 2 times (please note the price changes every single time just to simulate some kind of discounts whatsoever, the name changes either in order to simulate a new name for the same product and knowledge a change that has happened as the discount applied etc), we will see something like this:
 
 ![Gatsby](../images/redux-update.png)
 
