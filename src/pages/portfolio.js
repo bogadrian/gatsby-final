@@ -75,7 +75,7 @@ const Portfolio = () => {
             </li>
             <li>
               <a href="https://bogdan-v1-node-chat-app.herokuapp.com/">
-                Socket.io messager app
+                Socket.io messanger app
               </a>
             </li>
           </ul>

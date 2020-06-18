@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import blog from "./styles/blog.module.scss"
 import ImageBlog from "../components/ImageComponents/image-blog"
 import ButtonText from "../components/button-text/button-text"
-
+import { graphql } from "gatsby"
 const Blog = ({ data }) => {
   return (
     <Layout>

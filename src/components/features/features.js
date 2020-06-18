@@ -90,6 +90,18 @@ const Features = () => {
 `)
   return (
     <div className={featuresStyle.container}> 
+    
+            <div className={featuresStyle.items}>
+            <a href="https://bogdan-weather.netlify.app">
+          <BackgroundImage className={featuresStyle.backImage} fluid={data.code3.childImageSharp.fluid}
+          backgroundcolor={"#777"}>
+          <div className={featuresStyle.item}>
+          <div className={featuresStyle.title}>Weather React.Js</div>
+          <ImageReact />
+          </div>
+          </BackgroundImage>
+          </a> 
+          </div>
        
           <div className={featuresStyle.items}>
           <a href="https://expo.io/@bogdan_dev/bogdan-digital">
@@ -133,7 +145,7 @@ const Features = () => {
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code2.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
-          <div className={featuresStyle.title}>React E-Commerce  </div>
+          <div className={featuresStyle.title}>React E-Commerce</div>
           <ImageReact />
           </div> 
           </BackgroundImage>
@@ -190,17 +202,7 @@ const Features = () => {
           </a> 
          </div>
          
-          <div className={featuresStyle.items}>
-           <a href="https://apps.bogdan.digital/github/">
-          <BackgroundImage className={featuresStyle.backImage} fluid={data.code3.childImageSharp.fluid}
-          backgroundcolor={"#777"}>
-          <div className={featuresStyle.item}>
-          <div className={featuresStyle.title}>Find Github user</div>
-          <ImageGit />
-          </div>
-          </BackgroundImage>
-          </a> 
-         </div>
+       
          
     </div>
     )
