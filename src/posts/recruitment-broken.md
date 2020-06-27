@@ -73,6 +73,8 @@ Pretty complex full-stack apps.
 Well, that code may be improved a lot. By example, I certainly can write some test for it, which I didn’t.
 But I guarantee you it is not simplistic!
 
+At least, I have to admit it: I had feedback in thios case which means a lot!
+
 In know I should be trough hundreds of this kind of recruitment processes in order to find one real offer, sometimes hopefully.
 
 </br>
