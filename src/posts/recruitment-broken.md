@@ -18,7 +18,7 @@ Well, from my point of view the recruitment is broken because there is no way fo
 
 From the point of view of the job giver, is absolutely normal to look for someone who can do the job which he's going to pay for.
 
-He doesn’t want to waste my money in testing people!
+He doesn’t want to waste his money in testing people!
 
 From the other point of view, the developer who is looking for employment is waiting and hoping for a chance!
 
