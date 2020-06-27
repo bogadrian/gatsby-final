@@ -8,15 +8,18 @@ thumbnail: "../love-at-office.png"
 
 #Recruitment in the tech field is broken!
 
-On one side, there are companies and recruiters looking for the perfect developer.
+On one side, there are companies and recruiters looking always for the perfect developer.
 
-On the other side, there are developers who may be far from perfect.
+On the other side, there are developers who may be far from perfect and just doing everything to breakthrough.
 
 ##<center>Why is the recruitment process broken?</center>
 
-Well, from my point of view, the recruitment is broken because there is no way for the demand and the offer to ever meet.
+Well, from my point of view the recruitment is broken because there is no way for the demand and the offer to ever meet each other. And when they do, is just karma.
 
-From the point of view of the job giver, is absolutely normal to look for someone who can do the job which he is going to pay for. He doesn’t want to waste my money in testing people!
+From the point of view of the job giver, is absolutely normal to look for someone who can do the job which he's going to pay for.
+
+He doesn’t want to waste my money in testing people!
+
 From the other point of view, the developer who is looking for employment is waiting and hoping for a chance!
 
 Many, if not all of them, will never pretend to be perfect!
@@ -29,46 +32,54 @@ I would pay much less for that period than it would be the normal wage!
 
 But I would give people a chance, especially if I was the one to contact them!
 
-I know, there are still expenses to trial people.
+I know, there are still expenses to trial people out.
 
 You can give him/her a test project and see if they can do it!
 
 You can learn much more from this than harassing people with nonsense hiring procedures.
+
 Passing them trough a lot of interviews and not giving them any feedback for the most of the times!
 
 I am an old guy.
-There are little to no chance for me to get employment in the field. I know it very well and I do not expect anything.
 
-I am here and I am learning web development because I love it and I am passioned about it!
+There are little to no chance for me to get employment in the field. I know it very well and I do not expect anything from anyone.
 
-I answered to a few recruiters in LinkedIn who contacted me and I was trough the “recruitment process” for couple of times.
+I am here and I am learning web development because I love it and I am passioned about it! i do it for me.
 
-I even been through the technical part of that process and, if it was for me, there were no reasons to not be employed as I answered all the question, they ask me.
+I answered to a few recruiters lately who contacted me on LinkedIn and I was through the “recruitment process” for a couple of times.
 
-But still didn’t happen. In some case I had no feedback whatsoever.
+I even been through the technical part of that process and, if it was for me, there were no reasons to not be employed as I answered all their questions, surprisingly or me too.
 
-Like someone told me, they are asking me to go trough the process because they have this kind of “we accept everyone” policy and they most show they tried out even an old guy like me. A bit like it happens to women.
+But still didn’t happen. In some cases I had no feedback whatsoever.
 
-No, I am not angry with the recruitment process and with recruiters. I am just disappointed.
+Like someone told me: "They are asking me to go through the process because they have this kind of _we accept everyone_ policy and they most show that they tried out even an old guy like me.
+A bit like it happens to women.
+
+No, I am not angry with the recruitment process and with recruiters.
+I am just disappointed.
+
 The last experience I had was with someone who contacted me (I didn’t apply which is a big difference).
 
 I’ve been through the first interview then they replied to me that “my code on GitHub” is too simplistic for what they need!
 
-Well, I would have accepted and believed if they would have told me that my code sucks, because is not clean and is missing a lot of good practice. But not simplistic!
+Well, I would have accepted and believed if they would have told me that my code sucks, because is not clean and is missing a lot of good practice.
 
-There are simple to-dos apps on my GitHub as I was learning and I put everything there, but there are apps build with React, Redux, Redux Saga, Express and MongoDB.
+But not simplistic!
 
-Pretty complex full-stack app.
+There are simple to-dos apps on my GitHub as I was learning and I put everything there, but there are also apps build with React, Redux, Redux Saga, Express and MongoDB.
 
-Well, that code may be improved a lot. By example, I certainly can write some test for it, which I didn’t. But I guarantee you it is not simplistic!
+Pretty complex full-stack apps.
 
-In know I should be trough hundreds of this kind of recruitment processes to maybe find one real offer, sometimes hopefully.
+Well, that code may be improved a lot. By example, I certainly can write some test for it, which I didn’t.
+But I guarantee you it is not simplistic!
+
+In know I should be trough hundreds of this kind of recruitment processes in order to find one real offer, sometimes hopefully.
 
 </br>
 
 ##<center>It is a nerves game.</center>
 
-I have also this big “handicap” of being too old for the tech industry!
+I have also this big “handicap” of being too old for the tech industry! I am not supposed to be here anyway!
 
 But it looks to me like _the recruitment process is broken!_
 
