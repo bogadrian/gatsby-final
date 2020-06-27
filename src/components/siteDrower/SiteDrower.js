@@ -6,9 +6,13 @@ const SiteDrower = props => {
   return (
     <div className={siteDrowerStyle.siteMain}>
       <nav>
-        <div className={siteDrowerStyle.siteX} onClick={props.close}>
+        <button
+          className={siteDrowerStyle.siteX}
+          onClick={props.close}
+          onKeyPress={props.close}
+        >
           X
-        </div>
+        </button>
         <div className={siteDrowerStyle.siteDrowerItems}>
           <ul className={siteDrowerStyle.siteUl}>
             <li className={siteDrowerStyle.siteLi}>

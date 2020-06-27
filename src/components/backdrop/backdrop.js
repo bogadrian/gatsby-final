@@ -1,6 +1,12 @@
 import React from "react"
 import backDropStyle from "./backdrop.module.scss"
-const BackDrop = props => (
-  <div className={backDropStyle.layer} onClick={props.close} />
-)
+const BackDrop = props => {
+  return (
+    <button
+      className={backDropStyle.layer}
+      onClick={props.close}
+      onKeyPress={props.close}
+    />
+  )
+}
 export default BackDrop

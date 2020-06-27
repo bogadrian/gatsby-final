@@ -4,19 +4,15 @@ date: "2020-04-28"
 thumbnail: "../images/react-native.png"
 ---
 
-</br>
-
 ![Gatsby](../images/react-native.png)
 
-</br>
-
-<center>I learned React Native in 1 month.</center>
+#<center>I learned React Native in 1 month.</center>
 
 To be honest, I learned the basics. There is still a lot for me to learn.
 
 And I learned to build a mobile app with React Native over the Expo, without ejecting. Which would bring much more complexity to a React Native project.
 
-<center>Nevertheless, I did it. I built my first React Native app!</center>
+#<center>Nevertheless, I did it. I built my first React Native app!</center>
 
 A demo personal app built with React Native. It uses Redux, Redux Thunk, React Navigation 5, some must have dependency and Kitten UI.
 
@@ -32,7 +28,7 @@ When you open the app there is a home screen. You can navigate to the other unpr
 
 There is also a drawer. On that drawer, I put the login screen. Once you login you will be taken to messages screen where you will see my messages and yours, and where you can write me a message as well.
 
-<center>I do have a bottom tab navigation also.</center>
+#<center>I do have a bottom tab navigation also.</center>
 
 There is a “Home” button, a “Blog” button and a “Portfolio” button.
 
@@ -52,7 +48,7 @@ I published it just to the Expo server.
 
 I don’t want to publish it to Apple Store or Play store, as it is just a demo app and would make no sense to do that.
 
-<center>You can see it on Expo. Therefore, you need to download the Expo app.</center>
+#<center>You can see it on Expo. Therefore, you need to download the Expo app.</center>
 
 Go to the link below, scan the QR code (with the photo cam works as well), and the app will open for you. In this way you can take a look and see my work if you want.
 

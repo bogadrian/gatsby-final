@@ -18,20 +18,21 @@ const IndexPage = () => {
         <div>
           <h1 style={{ marginTop: "5rem" }}>'Hello World' </h1>
           <div
-            style={{
-              color: "#9F3659",
-              padding: "3rem",
-              backgroundColor: "#FAF5F7",
-              fontWeight: "bold",
-            }}
+            style={
+              {
+                //color: "#9F3659",
+                //backgroundColor: "#FAF5F7",
+                //fontWeight: "bold",
+              }
+            }
           >
             <p>
-              My name is Adrian. I am a full stack web developer. I start to
+              My name is Adrian. I am a full-stack web developer. I started to
               learn web development at the end of 2017. Before that I only used
               Wordpress to build websites.
             </p>
             <p>
-              I knew tu build static sites with Wordpress since 2007. Since
+              I knew how to build static sites with Wordpress since 2007. Since
               Wordpress had to be installed manually. I always believed that
               Wordpress is enough for my needs. It allows everybody to build
               wonderful sites. But one day I had to do more than Wordpress
@@ -46,31 +47,22 @@ const IndexPage = () => {
             <p>
               My stack is NodeJs, ExpressJs, MondoDb, ReactJs, React Native. The
               MERN stack, as it is usually named. I am self-taught developer. I
-              learned mostly from Udemy. In the beginning. When I felt pretty
-              comfortable understanding documentation, I went trough ExpressJs,
-              Mongoose, ReactJs documentation.
+              learned mostly from Udemy in the beginning. When I felt pretty
+              comfortable with understanding documentation, I went trough
+              ExpressJs, Mongoose, ReactJs documentation.
             </p>
             <p>
-              As I built this site with GatsbyJs, I had to say that my CSS
-              skills are not at the maximum. I can write CSS, but I am not a
-              guru on it. I learned CSS because since I learned React I
-              discovered the hard way that the components need to be styled.
-              Before I used Bootstrap to style my Vanilla JS application but now
-              I write my own CSS.
-            </p>
-            <p>
-              I am now able to build any kind of full stack web application. Of
+              I am now able to build any kind of full-stack web application. Of
               course, more complicate this is, the more time I need to put it
               together.
             </p>
             <p>
               I can’t believe what a long way I came since 2017. And there is a
-              lot in front of me yet to come. I’d like to master GraphQl
-              andTypescript now.
+              lot in front of me yet to come.
             </p>
             <p>
-              You can reach out to me if you want at
-              bogdan4adrian4tech@gmail.com
+              I am open for any kind of employment you may propose to me. You
+              can reach out to me if you want at bogdan4adrian4tech@gmail.com
             </p>
             <p></p>
           </div>

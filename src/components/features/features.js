@@ -91,8 +91,8 @@ const Features = () => {
   return (
     <div className={featuresStyle.container}> 
     
-            <div className={featuresStyle.items}>
-            <a href="https://bogdan-weather.netlify.app">
+          <div className={featuresStyle.items}>
+          <a href="https://bogdan-weather.netlify.app">
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code3.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
@@ -182,7 +182,7 @@ const Features = () => {
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code5.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
-          <div className={featuresStyle.title}>Firebase CRUD App </div>
+          <div className={featuresStyle.title}>Firebase CRUD App</div>
           <ImageFirebase />
           </div>
           </BackgroundImage>
@@ -195,15 +195,13 @@ const Features = () => {
           <BackgroundImage className={featuresStyle.backImage} fluid={data.code6.childImageSharp.fluid}
           backgroundcolor={"#777"}>
           <div className={featuresStyle.item}>
-          <div className={featuresStyle.title}>Currency Exchenge </div>
+          <div className={featuresStyle.title}>Currency Exchenge</div>
           <ImageBabel />
           </div>
           </BackgroundImage>
           </a> 
          </div>
-         
-       
-         
+          
     </div>
     )
     }

@@ -6,14 +6,14 @@ html {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 body {
   margin: 0;
   box-sizing: inherit;
-  padding: 2rem;
-  font-size: 2.5rem;
+  padding: 0.2rem;
+  font-size: 1.2rem;
   margin-top: 5rem;
   height: 100%;
   width: auto;
@@ -21,15 +21,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   @media (max-width: 600) {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.2rem;
     margin-top: 20rem;
   }
 }
 
 h1 {
-  font-size: 3rem;
-  color: #9c355a;
+  font-size: 2rem;
+  color: #554d50;
+  padding: 1rem;
   font-weight: bold;
   margin-bottom: 2rem;
   text-align: center;
@@ -38,8 +39,8 @@ h1 {
 
 p {
   font-size: 2rem;
-  padding: 2rem;
-  margin: 1rem 2rem 1rem 2rem;
+  padding: 0.2rem;
+  margin: 1rem 0.2rem 1rem 0.2rem;
 }
 
 a {

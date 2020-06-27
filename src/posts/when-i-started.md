@@ -10,8 +10,6 @@ thumbnail: "../images/code.jpg"
 
 # document.write('Hello World')
 
-</br>
-
 From a new web developer! My name is Bogdan Adrian and, as many others out there, I am a self-taught developer.
 
 But I am not as many others out there. I am like a few of them, maybe nobody in the end!

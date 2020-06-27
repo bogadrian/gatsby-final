@@ -22,8 +22,11 @@ const About = () => {
           </h1>
           <h1>#Let me say who I am not:</h1>
           <p>I am not young</p>
-          <p>I am not a senior web developer.</p>
-          <p>I have no work experience in an high-tech enterprise!</p>
+          <p>I am not a senior web developer, yet.</p>
+          <p>
+            I have no work experience in an high-tech enterprise! All the code I
+            wrotte so far was on my own.
+          </p>
           <p>I used to work for a long time in another field.</p>
           <p>I am not a perfect developer. </p>
           <p>I don't have a university degree.</p>
@@ -52,7 +55,9 @@ const About = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Download CV Bogdan Adrian
+              <span style={{ fontWeight: "bold", color: "#9C355A" }}>
+                Download CV Bogdan Adrian
+              </span>
             </a>
           </p>
         </div>

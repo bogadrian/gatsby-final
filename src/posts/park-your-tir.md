@@ -4,17 +4,13 @@ date: "2020-02-02"
 thumbnail: "../images/park-your-tir.png"
 ---
 
-</br>
-
 ![Gatsby](../images/park-your-tir.png)
-
-</br>
 
 #I built and put online my first real app!
 
 I finished my first real app. I overcome the todo's world! 😀 It feels so good that I was able to build it.
 
-<center>The back-end is made with NodeJs and the front-end is made with ReactJs.</center>
+#<center>The back-end is made with NodeJs and the front-end is made with ReactJs.</center>
 
 The app is supposed to help truck drivers around Europe to find parking for their lorries.
 I used to drive a lorry in Europe and I know from my own experience that, when the night comes there is so hard to find parking for the lorry.
@@ -31,7 +27,7 @@ The places are displayed by Google Maps and there are markers for them.
 
 You can click that marker and a window will open. On that window, a button exists. Button that if it is clicked, will take you to a place page.
 
-<center>A place can be created with photos, title, description and rating.</center>
+#<center>A place can be created with photos, title, description and rating.</center>
 
 Other users can comment on that place. They can update or delete their comments. So can you, the owner of that place (if you created it), for the place itself or for your own comments.
 
@@ -55,7 +51,7 @@ Also, the app would be used mostly on mobile phones. A lorry driver will access 
 
 But I would like to take it to React Native. Probably I will do that in the future as I want to concentrate now on learning well React Native too.
 
-<center>The app is deployed on Heroku. Front-end and back-end.</center>
+#<center>The app is deployed on Heroku. Front-end and back-end.</center>
 
 For the demo purposes it works just fine. Less the photo upload feature. Better said: Heroku allowsphoto uploads sometimes (I didn't get when and how yet), but it wipes them out very soon.
 
