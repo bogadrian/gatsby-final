@@ -1,6 +1,6 @@
 ---
 title: “Recruitment is broken"
-date: "2020-02-02"
+date: "2020-06-28"
 thumbnail: "../love-at-office.png"
 ---
 
