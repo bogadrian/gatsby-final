@@ -44,11 +44,11 @@ I am an old guy.
 
 There are little to no chance for me to get employment in the field. I know it very well and I do not expect anything from anyone.
 
-I am here and I am learning web development because I love it and I am passioned about it! i do it for me.
+I am here and I am learning web development because I love it and I am passioned about it! I do it for me.
 
 I answered to a few recruiters lately who contacted me on LinkedIn and I was through the “recruitment process” for a couple of times.
 
-I even been through the technical part of that process and, if it was for me, there were no reasons to not be employed as I answered all their questions, surprisingly or me too.
+I even been through the technical part of that process and, if it was for me, there were no reasons to not be employed as I answered all their questions, surprisingly for me too.
 
 But still didn’t happen. In some cases I had no feedback whatsoever.
 
