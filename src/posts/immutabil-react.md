@@ -14,15 +14,17 @@ I am learning every day from everywhere I can, mostly from my own mistakes.
 
 One of the biggest issues I had with React - <a href="https://bogdan.digital/redux-updates" target=_blank>after the one I had with Redux and understanding how to work with data arrived from server</a> - was to understand when and how a component will re-render!?
 
-Of course, I know it will first render on first call, but then?
+Of course, I know it will first render on first call!
 
-Does it re-renders and when?
+But then?
+
+Does it re-renders again and when?
 
 Why would it re-render?
 
-What in the world can make it take such a radical decision?
+What in the world can determine the component to take such a radical decision?
 
-I wrote a pretty big application, <a href="https://bogdan.digital/park-your-tir/" target=_blank> Park Your Tir </a>, but I kind of wrote it blandly.
+I wrote a pretty big application, <a href="https://bogdan.digital/park-your-tir/" target=_blank> Park Your Tir </a>, but I kind of wrote it badly.
 
 It works, of course, because it was written by me, but I had no idea how to understand the render cycle and optimize it back then in prehistory.
 
@@ -84,11 +86,13 @@ Wait!
 
 Well, when you make them to change! Ask and you’ll be given!
 
-When working with React, the props may be primitive data, such as numbers, strings or Booleans. Those never changes even if you try to buy them a coffee.
+When working with React, the props may be primitive data, such as numbers, strings or booleans.
 
-But very often they are referenced data. I mean, objects!
+Those never changes even if you try to buy them a coffee.
 
-We all know object are passed by reference, do we? We are the best JavaScript developers in the world! I mean I and you reading my article!
+But very often props are referenced data. I mean, objects!
+
+We all know object are passed by reference, do we? We are the best JavaScript developers in the world! I mean me and you who reads my article!
 
 When we pass a prop as an object, React does a shallow compare between what the component receives as props and what it already has.
 
@@ -104,15 +108,21 @@ Let’s say the prop is a dumb with a hat.
 
 At the first render that component printed it to the UI. If he receives the same dumb with the same hat, it won’t print it again!
 
-But if it receives the same dumb with a different hat, well, then the component will get rid of the old dumb and will show the new one to the world.
+This is so logic, is it?
 
-Which lead us to a question: When the new dumb is different than the old one?
-You’ll say when you change its hat!
+But if it receives the same dumb with a different hat, well, teoretically then the component will get rid of the old dumb and will show the new one to the world.
 
-Yes of course, but now we are talking about JavaScript and dumbs passed by reference.
+Which leads us to a question:
+
+#When the new dumb is different than the old one?
+
+You’ll say: when you change its hat!
+
+Yes of course, but now we are talking about JavaScript and dumbs are passed by reference.
+
 Does not matter it has changed its hat, it is still the same dumb!
 
-If you mutate the old dumb, just take away its hat and give him a new hat.
+If you mutate the old dumb, you just take away its hat and give him a new hat.
 
 ![Dumb](../images/dumb-obj.png)
 
@@ -120,18 +130,20 @@ Then we have mutated the dumb.
 
 So, the const dumb is the same but only the hat has changed!
 
-The component will re-render only if it receives a new dumb! Giving it the old dumb, it will stay the same!
+The component will re-render only if it receives a new dumb!
+
+Giving it the old dumb, it will stay the same!
 
 This is bad man; I can tell you that!
 
-Not only because so you make your component to not re-render the dumb with the new hat, but because mutating the dumb you may cause some issue somewhere else, in some other part of United States, sorry, your application which uses the dumb and needs it as it is, with its original hat!
+Not only because so you make your component to not re-render the dumb you give it again with the new hat, but because mutating the dumb you may cause some issue somewhere else, in some other part of United States, sorry, your application, which uses the dumb and needs it as it is, with its original hat!
 
 So, the solution is to copy the old dumb to a new one and change the hat only for the new one, leaving intact the initial dumb with its original hat!
 
 ![new dumb](../images/new-dumb.png)
 
-And now you pass the props to the component the new dumb!
+And now you pass the props to the component with the new dumb!
 
 React makes its shallow compare and it sees there is totally new dumb. Then it does its job and prints the new dumb to the UI.
 
-Pretty easy, is it? Then go to vote, get read of the old dumb! I mean the old props!
+Pretty easy, is it? Then go to vote, get rid of the old dumb! I mean the old props!
