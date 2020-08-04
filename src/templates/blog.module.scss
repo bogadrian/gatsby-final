@@ -14,8 +14,8 @@
       color: red;
     }
   }
-  @media (max-width: 1000px) {
-    padding: 0;
+  @media (min-width: 700px) {
+    padding: 10rem;
   }
 }
 
