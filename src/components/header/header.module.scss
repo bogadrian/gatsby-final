@@ -1,6 +1,5 @@
 .header {
   position: fixed;
-
   top: 0;
   left: 0;
   width: 100%;
@@ -24,6 +23,7 @@
 }
 
 .links {
+  margin-bottom: 1rem;
   a:hover {
     color: #9c355a;
   }
@@ -48,6 +48,7 @@
 }
 .hhh {
   font-size: 2.5rem;
+  text-align: center;
   color: white;
   margin-left: 2rem;
   @media (max-width: 600px) {
