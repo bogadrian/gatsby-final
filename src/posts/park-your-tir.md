@@ -4,7 +4,7 @@ date: "2020-02-02"
 thumbnail: "../images/park-your-tir.png"
 ---
 
-![Gatsby](../images/park-your-tir.png)
+![Park Your Tir](../images/park-your-tir.png)
 
 #I built and put online my first real app!
 

@@ -4,7 +4,7 @@ date: "2020-04-28"
 thumbnail: "../images/react-native.png"
 ---
 
-![Gatsby](../images/react-native.png)
+![React Native](../images/react-native.png)
 
 #<center>I learned React Native in 1 month.</center>
 

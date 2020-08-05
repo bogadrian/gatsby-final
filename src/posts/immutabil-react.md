@@ -4,7 +4,7 @@ date: "2020-08-04"
 thumbnail: "../images/dumb.jpg"
 ---
 
-![Gatsby](../images/dumb.jpg)
+![Trump](../images/dumb.jpg)
 
 #Hello World, again!
 
@@ -24,7 +24,7 @@ Why would it re-render?
 
 What in the world can determine the component to take such a radical decision?
 
-I wrote a pretty big application, <a href="https://bogdan.digital/park-your-tir/" target=_blank> Park Your Tir </a>, but I kind of wrote it badly.
+I wrote a pretty big application, <a href="https://bogdan.digital/park-your-tir" target=_blank> Park Your Tir </a>, but I kind of wrote it badly.
 
 It works, of course, because it was written by me, but I had no idea how to understand the render cycle and optimize it back then in prehistory.
 
@@ -144,6 +144,6 @@ So, the solution is to copy the old dumb to a new one and change the hat only fo
 
 And now you pass the props to the component with the new dumb!
 
-React makes its shallow compare and it sees there is totally new dumb. Then it does its job and prints the new dumb to the UI.
+React makes its shallow compare and it sees there is a totally new dumb. Then it does its job and prints the new dumb to the UI.
 
 Pretty easy, is it? Then go to vote, get rid of the old dumb! I mean the old props!
