@@ -15,6 +15,7 @@ React is great, I can tell you that!
 I knew React for the last two years now and we are getting along very nicely together!
 
 It wasn’t like that, especially in the beginning, when it used to hide things from me!
+
 But then, you know, the confidence between us has grown constantly, as two adult persons normally do!
 
 By example, in the beginning, even though I learned about use Memo and use Callback hooks, I didn’t really grab the conceptual way in which they work and why they may be useful.
@@ -27,6 +28,8 @@ This last hook I learned it well just because I learned Redux and it is kind of 
 
 Now, is the right time to explain what those mysterious hooks are to my grandma!
 
+Sorry, to yours!
+
 She’s dying of curiosity to find out!
 
 We, React developers, know that every child component of a component which re-renders will re-render also in a tree cascade like sequence.
@@ -35,11 +38,11 @@ It is just the way React works.
 
 It is one of the reasons a component re-renders in React, as <a href="https://bogdan.digital/immutabil-react/" target="_blank">I was saying here!</a>
 
-But there are times when blocking the component is good for optimizing the app flow!
+But there are times when blocking the component rendering is good for optimizing the app flow!
 
-By example, when a big computation happens in the child component, allowing it to re-render means that we just ask the computer dynamic memory to re-calculate everything again!
+By example, when a big computation happens in the child component, allowing it to re-render means that we just ask the computer's dynamic memory to re-calculate everything again!
 
-And if the re-renders is happening very quickly, this may be a problem for the same UI strange behavior reason that I was talking about here up somewhere.
+And if the re-renders is happening very quick, this may be a problem for the same UI strange behavior reason that I was talking about here up somewhere.
 
 It is up to you if you want to block a children re-render cycle!
 
@@ -57,13 +60,13 @@ We know a prop may change identity even if it maintains the same values, do we?
 
 Use Memo instead is a hook which memoizes only the data inside of a component over a re-render.
 
-There are situations when we want the data passed by values (objects and arrays roughly), to maintain their identity over a re-render.
+There are situations when we want the data passed by values (objects, arrays and functions roughly), to maintain their identity over a re-render.
 
 Use Memo may supply the same functionality as React Memo wrapper as it keeps the data identity unchanged; but maybe we need that data to stay unchanged in the same component we declare it.
 
 Then React Memo can’t be of any help but use Memo does!
 
-#<center>const dataMemoized = useMemo(() => {a: 1, b:2}, [ // array of dependencies, when use Memo must allow the object to be changed!])</center>
+#<center>const dataMemoized = useMemo(() => ({a: 1, b:2}), [ // array of dependencies, when use Memo must allow the object to be changed!])</center>
 
 The function you see here is just a helper.
 
@@ -71,7 +74,7 @@ It runs only when the variables in dependency allow it and then the identity of 
 
 Use Callback memoizes a function instead.
 
-It looks the same, only that in place of the object will be a function:
+It looks the same, only that in place of the object there will be a function to be memoized:
 
 #<center>const dataMemoized = useMemo(() => functionMemoized(), [ // array of dependencies, when use Memo must allow the function to be re-created!])</center>
 
@@ -93,7 +96,7 @@ Or maybe “functionMemoized” is passed as a prop to a child component which u
 
 But its new identity will trigger a re-render anyway because React Memo sees it as a new prop!
 
-We all know that functions are objects in JavaScript and them are passed by reference, which means they change identity if them are new born - despite being the same function!
+We all know pretty well (don't we?), that functions are objects in JavaScript and them are passed by reference, which means they change identity if they are new born - despite being the same function!
 
 My grandma knew that!
 
