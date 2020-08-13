@@ -1,10 +1,10 @@
 ---
-title: “Memoaize That React Thing"
+title: “Memoize That React Thing"
 date: "2020-08-13"
 thumbnail: "../images/code4.jpg"
 ---
 
-![Memoaizetion](../images/code4.jpg)
+![Memoization](../images/code4.jpg)
 
 #What the heck are React Memo, use Memo and use Callback?
 
@@ -47,15 +47,15 @@ But if you decide to do so, here we have a React wrapper:
 
 #<center>React.memo (<MyComponent />)</center>
 
-React Memo memoaizes the props that the child component recives.
+React Memo memoizes the props that the child component recives.
 
-If the prop change when the parent component re-render, React Memo allows the child component to re-render because it does a shallow compare with the props it has memoaized and the new props received.
+If the prop change when the parent component re-render, React Memo allows the child component to re-render because it does a shallow compare with the props it has memoized and the new props received.
 
-If the props that it receives are the same as the ones it has memoaized, React Memo keeps the component as it is!
+If the props that it receives are the same as the ones it has memoized, React Memo keeps the component as it is!
 
 We know a prop may change identity even if it maintains the same values, do we?
 
-Use Memo instead is a hook which memoaizes only the data inside of a component over a re-render.
+Use Memo instead is a hook which memoizes only the data inside of a component over a re-render.
 
 There are situations when we want the data passed by values (objects and arrays roughly), to maintain their identity over a re-render.
 
@@ -69,27 +69,27 @@ The function you see here is just a helper.
 
 It runs only when the variables in dependency allow it and then the identity of the object changes!
 
-Use Callback memoaizes a function instead.
+Use Callback memoizes a function instead.
 
 It looks the same, only that in place of the object will be a function:
 
-#<center>const dataMemoaized = useMemo(() => functionMemoaized(), [ // array of dependencies, when use Memo must allow the function to be re-created!])</center>
+#<center>const dataMemoized = useMemo(() => functionMemoized(), [ // array of dependencies, when use Memo must allow the function to be re-created!])</center>
 
 This is a very useful hook!
 
 If a component re-renders, a function (and all the data) will be re-born brown new.
 
-The “functionMemoaized” would have a totally new brown identity if the component re-renders if it wasn’t inside a use Callback.
+The “functionMemoized” would have a totally new brown identity if the component re-renders if it wasn’t inside a use Callback.
 
 No matter that it is exactly the same function! (for us, and for our eyes but not for JavaScript).
 
 Then, imagine you have a use Effect hook where you run some asynchronous code to fetch some data, let’s say!
 
-If the “functionMemoaized” is in the use Effect array dependency and wasn’t inside a use Callback, its new identity will trigger use Effect to re-run and produce a tree cascade re-render!
+If the “functionMemoized” is in the use Effect array dependency and wasn’t inside a use Callback, its new identity will trigger use Effect to re-run and produce a tree cascade re-render!
 
 What for if we have already fetched the data? It is all about optimization!
 
-Or maybe “functionMemoaized” is passed as a prop to a child component which uses React Memo – so that component does not need to re-render!
+Or maybe “functionMemoized” is passed as a prop to a child component which uses React Memo – so that component does not need to re-render!
 
 But its new identity will trigger a re-render anyway because React Memo sees it as a new prop!
 
