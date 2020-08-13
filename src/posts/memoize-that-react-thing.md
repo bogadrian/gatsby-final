@@ -1,5 +1,5 @@
 ---
-title: “Memoize That React Thing"
+title: “Memoaize That React Thing"
 date: "2020-08-13"
 thumbnail: "../images/code4.jpg"
 ---
