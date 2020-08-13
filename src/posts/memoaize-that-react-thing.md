@@ -4,7 +4,7 @@ date: "2020-08-13"
 thumbnail: "../images/code4.jpg"
 ---
 
-![Memoizetion](../images/code4.jpg)
+![Memoaizetion](../images/code4.jpg)
 
 #What the heck are React Memo, use Memo and use Callback?
 
