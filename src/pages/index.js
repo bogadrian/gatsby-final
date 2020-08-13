@@ -45,7 +45,7 @@ const IndexPage = () => {
               programming language is JavaScript.
             </p>
             <p>
-              My stack is NodeJs, ExpressJs, MondoDb, ReactJs, React Native. The
+              My stack is NodeJs, ExpressJs, MongoDb, ReactJs, React Native. The
               MERN stack, as it is usually named. I am self-taught developer. I
               learned mostly from Udemy in the beginning. When I felt pretty
               comfortable with understanding documentation, I went trough
