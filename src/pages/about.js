@@ -50,7 +50,7 @@ const About = () => {
           <p>
             Here you can get my CV: &nbsp;
             <a
-              href="https://drive.google.com/file/d/1CHSdIBhrxu2HwcUcjXlgXgfcNpusSLCt/view?usp=sharing"
+              href="https://drive.google.com/file/d/1WEt029VDpbc5OlMaQN23pvF_e0LGpT33/view?usp=sharing"
               dowanload="true"
               target="_blank"
               rel="noreferrer"
