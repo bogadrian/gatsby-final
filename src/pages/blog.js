@@ -25,7 +25,7 @@ const Blog = ({ data }) => {
 
               <p>{node.frontmatter.date}</p>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-              <ButtonText to={node.fields.slug} className={blog.btn} />
+              <ButtonText link={node.fields.slug} className={blog.btn} />
             </div>
           )
         })}
