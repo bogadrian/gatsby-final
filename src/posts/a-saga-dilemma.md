@@ -18,7 +18,7 @@ So I decided to go with 2 models, one for every type of users.
 
 But as you may already be thinking, some small problem arises, especially with the authentication for both of them.
 
-You know, to keep a user logged in, you get its jwt token, save it to some secure storage in your app (in my case was the secure store provided by Expo), and send the token with a first request whenever the app first starts and wait for the response. And with every request that needs authentivcation.
+You know, to keep a user logged in, you get its jwt token, save it to some secure storage in your app (in my case was the secure store provided by Expo), and send the token with a first request whenever the app first starts and wait for the response. And with every request that needs authentication.
 
 The response will be the user object.
 
@@ -48,21 +48,27 @@ One with a route for one model another one with another route for the other mode
 
 Note: It would be probably a simpler approach to use Promise.all and wait for both API calls to resolve 8or reject). So this is just in case you use Saga!
 
-I initiate the Saga with a generic action: “setStartGet”.
+I initiate the Saga with a two generic action: “loginStartUser” or "loginStartProvider.
 
-<center><a href="https://github.com/bogadrian/social-coffee-native/blob/master/src/redux/getUser/users.saga.ts">Here is the code for Saga</a></center>
+Here is the code for Saga:
 
-Then, I make my first call to the first endpoint based on the first model from a new Saga function: "setSuccessGet".
+![Api-Call](../images/code/saga-dillema.png)
 
-Please note: I don't call any failure action at this point!
+Then, I dispatch an action when the user logs in, and another one when the user called "provider" logs in as well.
 
-If that does not resolve, I will call another Saga function from the catch block of the first Saga, where I make a second call to the second endpoint.
+I make my first call to the first endpoint from the saga "setSuccessLoginUser" or "setSuccessLoginProvider", depends which one of the two actions are dispatched.
 
-If that won’t resolve either, I call a “providerGetFailure” and a “userGetFailure” in the second function saga; that's where I make the second API call.
+I switch between the two users when I dispatch the action start.
+
+Any action dispatched take its own route and resolves or rejects respectivly.
 
 In this way I allow either to the first Saga function to come back with some result, and if there in any I go for the second saga function.
 
-<center><a href="https://github.com/bogadrian/social-coffee-native/blob/master/src/redux/apis/getUser.ts">Here are the two api calls functions</a></center>
+Here are the two api calls functions:!
+
+![Api-Call](../images/code/apicall-saga-dilema1.png)
+
+![Api-Call](../images/code/apicall-saga-dilemma2.png)
 
 It works like a charm, confirming me what I already knew very well: Redux Saga is amazing!
 
