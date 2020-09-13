@@ -73,3 +73,5 @@ Here are the two api calls functions:!
 It works like a charm, confirming me what I already knew very well: Redux Saga is amazing!
 
 No side effects, totally independent from React code, running on its own, asynchronously!
+
+PS: Please don't yell on me because I have the user set to any; I still have to figure out its type. There are 2 kind of users, very diffrent from each other. Probably an intersection would work in an interface. I still have to see that part!
