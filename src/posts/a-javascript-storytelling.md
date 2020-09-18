@@ -1,12 +1,12 @@
 ---
 title: "A JavaScript storytelling!"
 date: "2020-09-18"
-thumbnail: "../images/code/the-most-reactish-error.png"
+thumbnail: "../images/code6.jpg"
 ---
 
 </br>
 
-![Gatsby](../images/code/the-most-reactish-error.png)
+![Gatsby](../images/code6.jpg)
 
 #Get those JavaScript coders to sleep!
 
