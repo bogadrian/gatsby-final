@@ -6,7 +6,7 @@ thumbnail: "../images/app4.jpg"
 
 ![Deep Linking](../images/app3.jpg)
 
-#Deep Linking to an Expo React Native App
+#Deep Linking Expo
 
 I had to say it: It was not a walk in a park!
 
@@ -28,7 +28,9 @@ Simply because the app runs on Expo client and if you try to link the Expo serve
 
 I searched online and after many hours of reading and understanding, I just want to take you through the setup in a way that you don’t have to repeat my confusion.
 
-I started from this article I found: <a href=https://medium.com/javascript-in-plain-english/easy-deep-linking-with-react-native-and-expo-84e3c7b9d63e>Easy Deep Linking with React Native and Expo</a>
+I started from this article I found:
+
+<a href=https://medium.com/javascript-in-plain-english/easy-deep-linking-with-react-native-and-expo-84e3c7b9d63e>Easy Deep Linking with React Native and Expo</a>
 
 But there was a lot missing, which the author didn’t explain quite well.
 
