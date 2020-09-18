@@ -12,15 +12,15 @@ thumbnail: "../images/code6.jpg"
 
 When I start learning JavaScript and web development, I dived directly into code.
 
-I took some courses on Udemy and there from, my path was to become more and more professional in using the language.
+I took some courses on Udemy and there from, my path was to become more and more professional in using the web language.
 
 But if it was quite simple to understand the variables, if else checks and the syntax, when it came to core principles it wasn’t that easy anymore.
 
-As a matter of fact, I had to return many times on explanations about scope, closures, asynchronous JavaScript, inheritance etc; in order to understand what is all about.
+As a matter of fact, I had to return many times on explanations about scope, closures, asynchronous JavaScript, inheritance etc, in order to understand what is all about.
 
 But if I had someone telling me in plain English what those core principles are, I could probably spare some time.
 
-I try here to give a simpler, readable and not technical explanation on those core principles. But take it as it is, a story telling, not a tool to learn JavaScript.
+I try here to give a simpler, readable and not technical explanation on those core principles. But take it as it is, a storytelling, not a tool to learn JavaScript.
 
 After you see what a principle is from a narrative point of view, maybe you can better understand the technical part of it!
 
