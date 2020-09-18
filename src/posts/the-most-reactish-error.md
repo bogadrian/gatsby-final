@@ -33,9 +33,10 @@ To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup f
 It looked so strange to me back then!
 
 You have to know it: This is “the most reactish error” out there that may happen to you!
-All the React world lies under what this error theoretically says!
+All the React world lies under what this error theoretically saying!
 
 Now, I laugh at me when I see this error. But in the beginning, it wasn’t like that!
+
 Let’s see why!?
 
 Well, if you see this error and you don’t know what is is about, the first thing you do is search Google for it, is it?
@@ -50,14 +51,15 @@ But let me tell you something: It is too technical for a beginner!
 
 As a beginner, you probably will stare to those lines of codes and won’t understand too much of it, is it?
 
-Fact: if you are able to understand what is all about in this article, my bet is you won’t need to read this article!
+Fact: if you are able to understand what is all about in this article, my bet is you won’t need to read the article!
 
 So, let’s take a drive through this error and dissect it piece by piece!
+
 What means exactly this error?
 
 Well, it says this:
 
-“You can’t move away from a component to another component into your app and try to set the state in that component, if some operation is still going on and the component is still there (is un-mounted)”.
+“You can’t move away from a component to another component into your app and try to set the state in the component you just left, if some operation is still going on in it and the component is still there (is unmounted)”.
 
 Let’s be very clear: A operation that is still going on is an asynchronous operation, almost all the times!
 
@@ -70,7 +72,7 @@ In Facebook React docs you can read this:
 
 Let me be clear as a beginner needs me to be in order to understand this:
 
-If you move away from a component without triggering a refresh or without changing the props the component receives, the component will stay mounted even though you have moved away to another component!
+If you move away from a component without triggering a refresh or without changing the props that the component receives, the component will stay mounted even though you have moved away to another component!
 
 Do you get it?
 
@@ -87,12 +89,13 @@ The error tells us that we should “unsubscribe” from whatever we are doing i
 Usually, the async operations happens in an useEffect hook, but this does not matter!
 
 To clean whatever we are doing asynchronously in that component and let it die in peace, we “must” tell to that asynchronous operation to stop, no matter if it is still pending!
+
 How can we do this?
 
 Well, the article cited above explain it is a good way!
 
 Just to resume: Sometimes an unsubscribe function is available to us by the asynchronous code we run, as for example a Firebase auth operation!
 
-Some other time is up to us to create a Boolean, first declared as true when the async operation starts, then clean it up in an useEffect hook cleaning return function by setting it to false, so the async operation is stopped!
+Some other times is up to us to create a Boolean, first declared as true when the async operation starts, then clean it up in an useEffect hook cleaning return function by setting it to false, so the async operation is stopped!
 
 I hope this explanation helps someone as I wish something like this would have helped me in the beginning of my reactish journey!
