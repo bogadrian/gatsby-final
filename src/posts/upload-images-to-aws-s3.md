@@ -116,7 +116,7 @@ In my case I have a route which upload the photo/photos, but also updates some f
 
 Upload photo is a middleware here as you can see.
 
-Once the photo is uploaded to S3, the S3 returns the URL of that photo and put it in the request.file.location or request.files[i].location if there are more than 1 file.
+Once the photo is uploaded to S3, the S3 returns the URL of that photo and put it in the "request.file.location" or "request.files[i].location" if there are more than 1 file.
 
 Req.files is an array so you have to loop over it and grab the location of each file.
 

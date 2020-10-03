@@ -49,17 +49,25 @@ When we first start the app and we did our first fetch for the products, the flu
 But what when we need to update an item in that initial state products array?
 
 By example, we take the item product from the products array and add it to a cart array somewhere in another reducer in charge with the cart?
+
 Or just, as administrator of that e-commerce, we need to update the price of one of the products already fetched?
 
 Are we going to dispatch an action to fetch that change in back-end, wait for the answer to come back and then fetch again all that products array (which now contains the changes made to that particular item)?
 
-Well, we can do that! It works just fine! But it has something to do with optimization! A new general fetch of all the products array with all the tree components re-render down side?
+Well, we can do that! It works just fine!
+
+But it has something to do with optimization!
+
+A new general fetch of all the products array with all the tree components re-render down side?
 
 Beah, I would say not!
 
-It is a bad pattern! Beginners are doing this kind of things always! Just because it works! I did that!
+It is a bad pattern! Beginners are doing this kind of things always!
+
+Just because it works! I did that!
 
 But I kept on wondering if it is ok to do that?!
+
 In practice, all you have to do is to fetch every single time there is a change to that array product and just dispatch the action payload with the new array - just arrived from back-end - to the reducer!
 
 Simply that way, is it?
@@ -67,6 +75,7 @@ Simply that way, is it?
 So, let’s see now how we would update the store without fetching again all the products array.
 
 First of all, when we are updating an item in a product array, we are anyway dispatching an update action to the back-end.
+
 Consequently, there will be an answer.
 
 It can be a success fetch answer or a failure update answer.
@@ -75,17 +84,22 @@ In both cases, we want to update the store.
 
 Let’s first write a mocked-up data product array (let’s suppose it has been fetched form back-end).
 
-In this particular case I exemplify here, the mocked-up array is supposed to be an array of products added to a cart by the user. The products in the array were pushed there by the user selection action.
+In this particular case I exemplify here, the mocked-up array is supposed to be an array of products added to a cart by the user.
+
+The products in the array were pushed there by the user selection action.
 
 ![Gatsby](../images/init-state.png)
 
 Up here we have a mocked-up cart, an initial state array which contains 4 products already added.
 
 Now, the user wants to add a new product to the cart.
+
 We need to add the item to the state array if there is not a product with that id or increase the quantity, update the price and eventually modify the name if the product is in array already and new product with that id is added!
 
 Here we have 5 action mocked-up.
+
 3 of them are updating an item (product) which happens to have the same id.
+
 However, the item's id that the user adds to the cart exists already in the cart array.
 
 ![Gatsby](../images/action-redux.png)
@@ -95,6 +109,7 @@ However, the item's id that the user adds to the cart exists already in the cart
 ![Gatsby](../images/sim-reducer.png)
 
 The reducer as we can see, makes appeal to an utility function which is in charge to loop trough the cart array, find if there is already the item id and then update the item price, quantity and name.
+
 Or just to add the item to the cart array if there is not such an item id!
 
 ![Gatsby](../images/util-funct.png)

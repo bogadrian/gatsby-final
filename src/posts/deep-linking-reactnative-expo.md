@@ -10,9 +10,9 @@ thumbnail: "../images/app4.jpg"
 
 I had to say it: It was not a walk in a park!
 
-I mean, setting up deep linking for a React Native project buil with the Expo!
+I mean, setting up deep linking for a React Native project built with Expo!
 
-It may look like, but it is not!
+It may look like being easy, but it is not!
 
 Why?
 
@@ -34,9 +34,13 @@ I started from this article I found:
 
 But there was a lot missing, which the author didn’t explain quite well.
 
-It is something happens often to all of us: we give for granted that everyone knows what we already know because is just some initial setup, nothing complicated! But sometimes it is complicated!
+It is something happens often to all of us: we give for granted that everyone knows what we already know because is just some initial setup, nothing complicated!
 
-In Expo docs you find the Linking section, where they explain well how it works! But again, if is the first time for you, there is a chance you don’t get it!
+Sometimes it gets complicated!
+
+In Expo docs you find the Linking section, where they explain well how it works!
+
+But again, if is the first time for you, there is a chance you don’t get it!
 
 Here we are, let’s start accepting some deep linking in our Expo app!
 
@@ -54,6 +58,7 @@ That means that now, your app is able to take in incoming links from the web (or
 Here is what I’ve done, in a way to be able to accept more than 1 incoming link and which takes you to the right screen or component.
 
 I made more than 1 URL, practically one for every route I had to manage inside my app.
+
 I pass those prefixes in the array of prefixes.
 
 Then in the Home Screen, I am listening for the incoming URL’s.
@@ -76,7 +81,7 @@ In my case, the testing URL looked like this:
 
 Please note the '/+/' syntax after the Expo URL and your route and/or query params!
 
-Please make sure you read the Linking section in Expo docs and you set a "scheme" in your app.json for the time your app will be a stand alone app deployed to Google Play or Apple Play!
+Please make sure you read the Linking section in Expo docs and you set a "scheme" in your app.json for the time your app will be a stand alone app deployed to Google Play or Apple!
 
 As you may see, it is a piece of cake and there are roughly 20 lines of code.
 

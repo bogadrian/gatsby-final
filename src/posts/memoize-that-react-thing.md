@@ -82,7 +82,7 @@ This is a very useful hook!
 
 If a component re-renders, a function (and all the data) will be re-born brown new.
 
-The “functionMemoized” would have a totally new brown identity if the component re-renders if it wasn’t inside a use Callback.
+The “functionMemoized” would have a totally new brown identity if the component re-renders, if it wasn’t inside a use Callback.
 
 No matter that it is exactly the same function! (for us, and for our eyes but not for JavaScript).
 

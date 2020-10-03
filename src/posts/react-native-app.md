@@ -10,7 +10,9 @@ thumbnail: "../images/react-native.png"
 
 To be honest, I learned the basics. There is still a lot for me to learn.
 
-And I learned to build a mobile app with React Native over the Expo, without ejecting. Which would bring much more complexity to a React Native project.
+And I learned to build a mobile app with React Native over the Expo, without ejecting.
+
+Which would bring much more complexity to a React Native project as I was told.
 
 #<center>Nevertheless, I did it. I built my first React Native app!</center>
 

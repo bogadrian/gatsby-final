@@ -6,9 +6,11 @@ thumbnail: "../images/react-native.png"
 
 ![React Native](../images/qr-scanner/menu-pdf.png)
 
-#Task: Build a feature in a React Native app, which will allow restaurants or bars to upload a pdf menu file, which then can be accessed at a given URL by scanning the QR code or by typing that URL in any browser!
+#Task: Build a feature in a React Native app, which will allow restaurants or bars to upload a pdf menu file.
 
-##Stage: Accomplished!
+Which then can be accessed at a given URL by scanning the QR code or by typing that URL in any browser!
+
+##Status: "Accomplished"
 
 So, how would you tackle such a task in React Native?
 
@@ -42,7 +44,11 @@ The personalized link you see on the QR screen is generated on the fly.
 
 <br>
 
-It matches theS3 PDF link in the document representing the user restaurant.
+The link matches the S3 PDF link in the document representing the user restaurant.
+
+The domain, socialcoffeeapp. com, is a dedicated domain which makes a redirect to the domain where the Express app lives".
+
+(It is not live yet, but will be when ready. The app is much more than this feature!)
 
 So, when someone scans the QR Code (or types the link in browser), a request is sent to the Express app, which checks the database about that particular URL and returns the S3 link.
 
@@ -56,15 +62,15 @@ Disclaimer: I use Expo with React Native in this app, so I installed Expo specif
 
 But there is no difference from React Native CLI, except for the Camera QR Scanner package.
 
-It’s up to you which one you use!
+It’s up to you which one you use, just install a package that works!
 
 #Step 1:
 
-Install import QRCode from 'react-native-qrcode-svg'.
+Install QRCode from 'react-native-qrcode-svg'.
 
-This package gives you a QRCode component which takes some props.
+This package gives you a QR Code component which takes some props.
 
-You can have a logo on your QR Code if you wish! See the picture up!
+You can have a "logo" on your QR Code if you wish! See the picture up!
 
 Another prop is “value”.
 
@@ -78,7 +84,7 @@ You save a link to that value prop in QRCode component, and the QR Code will alw
 
 With a little difference between IOS and Android.
 
-The IOS when you open the camera photo and scan a QR code, will ask you if you want to open that link the QR represents.
+The IOS phone, when you open the camera photo and scan a QR code, will ask you if you want to open that link the QR represents.
 
 But in Android is not so automatic and you need a step further:
 
@@ -110,7 +116,7 @@ Here is the hook:
 
 <a href="https://github.com/bogadrian/social-coffee-native/blob/master/src/customHooks/createMenuUrl.ts" target="_blank">Here you have the custom hook in Github!</a>
 
-As you can see, the custom hook is in charge of creating a custom restaurant URL end part.
+As you can see, the custom hook is in charge of creating a custom restaurant URL, end part.
 
 I mean, the part that comes after https: //myapp. com / THIS PART HERE
 
@@ -120,9 +126,11 @@ Well, it uses the slug from the restaurant user document in back-end, created wi
 
 For example, if you are the 100’th restaurant to register to the app, your custom part of the URL will be something like this: https: //myapp. com/aswome-restaurant-100
 
-Where awesome-restaurant is the slug created from the restaurant name registration.
+The count part is just to avoid bugs if there are 2 or more bars with the same name.
 
-Then I call an end-point on server which writes that slug thing to a field called menuUrl.
+Where "awesome-restaurant" is the slug created from the restaurant name registration: Awesome Restaurant.
+
+Then I call an end-point on server which writes that slug thing to a field called "menuUrl".
 
 <br>
 
@@ -154,7 +162,7 @@ To generate the count, I call this simple end-point in Express app:
 
 Here we go!
 
-I just created a file picker component like this to browse the phone and select a pdf file.
+I just created a file picker component like this in image below to browse the phone and select a pdf file.
 
 <br>
 
@@ -164,7 +172,9 @@ I just created a file picker component like this to browse the phone and select 
 
 <a href="https://github.com/bogadrian/social-coffee-native/blob/master/src/screens/QRCode/components/UploadPdf.tsx" target="_blank">Here you have the entire component in Github!</a>
 
-Then I call a Redux action with that pdf file. Redux is sending the pdf to a Redux Saga function:
+Then I call a Redux action with that pdf file.
+
+Redux is sending the PDF to a Redux Saga function:
 
 <br>
 
@@ -172,7 +182,7 @@ Then I call a Redux action with that pdf file. Redux is sending the pdf to a Red
 
 <br>
 
-Then further an API call is made to the Express app with form data loaded with that pdf.
+Then further, an API call is made to the Express app with Form Data loaded with that PDF.
 
 <br>
 
@@ -182,17 +192,19 @@ Then further an API call is made to the Express app with form data loaded with t
 
 <a href="https://github.com/bogadrian/social-coffee-native/blob/master/src/redux/apis/updateMe.ts" target="_blank">Here you have the axios function in Github!</a>
 
-Please note the content type set to "application/pdf" here.
+Please note the content type is set to "application/pdf" here.
 
-This is so important as S3 will return that header, which allows the pdf to open in browser!
-If not set to application/pdf, a default "application/octet-stream" is set by S3 and that will only allow the PDF file to download.
+This is so important as S3 will returns that header, which allows the pdf to open in browser!
+
+If not set to "application/pdf", a default "application/octet-stream" is set by defualt in S3 and that will only allow the PDF file to download.
 
 I fought a bit with this thing!
 
 I was passing the “application/pdf” to S3, but because caching it didn’t set the header.
+
 I could not open the PDF in browser or React Native and I didn’t know what was broken at the moment!
 
-Then in back-end a middleware function is called with that file
+Next, in back-end, a middleware function is called with that file:
 
 <br>
 
@@ -205,6 +217,8 @@ Then in back-end a middleware function is called with that file
 As you can see, I filter out all the files except for pdfs.
 
 This is simple done with an “endsWith” JavaScript function.
+
+Note for images, I would use "startWith()", as an image will come in as "image/...".
 
 Then I use Multer S3 package to upload the PDF to Amazon Web Server S3.
 
@@ -258,13 +272,14 @@ The handler takes that dynamic slug and searches the database for it.
 
 Once it finds it, it will return the entire restaurant user document.
 
-In that document we have of course that s3MenuLink field which contains the link to the S3 pdf.
+In that document we have of course that s3MenuLink field which contains the link to the S3 PDF.
 
 Then we use “res.redirect” to that URL and that allows us to have the PDF file open from everywhere, in every browser!
 
-Or maybe we may want to give the user a chance to open it in our app so we created a second redirect to pdf end-point handler which returns a json response this time and the data sent to client is that S3 link.
+Or maybe we may want to give the user a chance to open it in our app so we create a second redirect to PDF end-point handler which returns a json response this time and the data is sent to client with that S3 link field.
 
 Then we use that response in our React Native app in a component called ViewMenuScreen.
+
 Here I use another package to render the PDF, called PDFReader . Imported from 'rn-pdf-reader-js'
 
 <br>

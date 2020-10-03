@@ -52,10 +52,12 @@ I even been through the technical part of that process and, if it was for me, th
 
 But still didn’t happen. In some cases I had no feedback whatsoever.
 
-Like someone told me: "They are asking me to go through the process because they have this kind of _we accept everyone_ policy and they most show that they tried out even an old guy like me.
+Like someone told me: "They are asking me to go through the process because they have this kind of _we accept everyone_ policy and they must show that they tried out even an old guy like me.
+
 A bit like it happens to women.
 
 No, I am not angry with the recruitment process and with recruiters.
+
 I am just disappointed.
 
 The last experience I had was with someone who contacted me (I didn’t apply which is a big difference).
@@ -71,6 +73,7 @@ There are simple to-dos apps on my GitHub as I was learning and I put everything
 Pretty complex full-stack apps.
 
 Well, that code may be improved a lot. By example, I certainly can write some test for it, which I didn’t.
+
 But I guarantee you it is not simplistic!
 
 At least, I have to admit it: I had feedback in this case, which means a lot compare to many other cases!

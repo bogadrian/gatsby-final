@@ -33,7 +33,8 @@ To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup f
 It looked so strange to me back then!
 
 You have to know it: This is “the most reactish error” out there that may happen to you!
-All the React world lies under what this error theoretically saying!
+
+All the React world lies under what this error is theoretically saying!
 
 Now, I laugh at me when I see this error. But in the beginning, it wasn’t like that!
 
@@ -66,6 +67,7 @@ Let’s be very clear: A operation that is still going on is an asynchronous ope
 An operation that is still pending waiting for an answer (resolve or reject) to come back from somewhere!
 
 Now the second part: when a component is mounted and when it is unmounted?
+
 In Facebook React docs you can read this:
 
 “When tearing down a tree, old DOM nodes are destroyed. Component instances receive componentWillUnmount(). When building up a new tree, new DOM nodes are inserted into the DOM. Component instances receive componentWillMount() and then componentDidMount(). Any state associated with the old tree is lost.”.

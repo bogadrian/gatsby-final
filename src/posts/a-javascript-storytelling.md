@@ -10,17 +10,19 @@ thumbnail: "../images/code6.jpg"
 
 #Get those JavaScript coders to sleep!
 
-When I start learning JavaScript and web development, I dived directly into code.
+When I start learning JavaScript and web development I dived directly into code.
 
 I took some courses on Udemy and there from, my path was to become more and more professional in using the web language.
 
-But if it was quite simple to understand the variables, if else checks and the syntax, when it came to core principles it wasn’t that easy anymore.
+But if it was quite simple to understand the variables, if else checks and Javascript syntax, when it came to core principles it wasn’t that easy anymore.
 
 As a matter of fact, I had to return many times on explanations about scope, closures, asynchronous JavaScript, inheritance etc, in order to understand what is all about.
 
 But if I had someone telling me in plain English what those core principles are, I could probably spare some time.
 
-I try here to give a simpler, readable and not technical explanation on those core principles. But take it as it is, a storytelling, not a tool to learn JavaScript.
+I try here to give a simpler, readable and not technical explanation on those core principles.
+
+But take it as it is, a storytelling, not a tool to learn JavaScript.
 
 After you see what a principle is from a narrative point of view, maybe you can better understand the technical part of it!
 
@@ -46,9 +48,9 @@ But;
 
 We were all to school sometime.
 
-Let’s say you were a function siting in the middle of the classroom and your classmate is passing you the answers every time you have a test.
+Let’s say you were a function siting in the middle of the classroom and your classmate was a variable which passes the answers to you every time you have a test.
 
-He is sitting behind you because so he can use his cell phone to text messages to you with the right answers without being noticed by the teacher.
+He is sitting behind you because so he can use his phone to text messages to you with the right answers without being noticed by the teacher.
 
 But one day the teacher notices him texting on the phone.
 
@@ -80,13 +82,13 @@ They give you a very expensive computer as well, as “work equipment”.
 
 The next day you are expected to start.
 
-But that evening they call you to say they are sorry, but they made a mistake.
+But that evening they call you to say taht they are sorry, they made a mistake.
 
-Someone else got the job, not you!
+Someone else got the job, not you! It was name swap mistake!
 
 As compensation you can keep the computer.
 
-If the computer was a variable initialized in the wrapper function, you, the inner function can still have access to it even though the wrapper function has closed its doors to you!
+If the computer was a variable initialized in the wrapper function - the company, you - the inner function, can still have access to it even though the wrapper function has closed its doors to you!
 
 #What are Promises in JavaScript?
 
@@ -98,7 +100,7 @@ You are the JavaScript execution runtime and the field is 1000 rows of console.l
 
 At the midday let’s say, because of the heat, you get really thirsty.
 
-So, you ask the landlord to give you a beer (because you don’t drink the water).
+So, you ask the landlord to give you a beer (because you don’t drink water).
 
 You are so decisive that you tell him you won’t finish the work without a beer.
 
@@ -123,6 +125,8 @@ Then is when the Promise is rejected.
 Or maybe it arrives and the Promise is fulfilled.
 
 But the important fact is that, you didn’t quit your job meanwhile expecting the beer.
+
+The Promise was pending!
 
 #What is the Event Loop in JavaScript?
 
@@ -159,6 +163,8 @@ Then the desert and then the coffee.
 One by one.
 
 We can say that the Event Loop (landlord), is taking care of providing all the requests made in the call stack (our field) by the worker.
+
+By taking them (the async functions), from the event queue and bring them to the call stack!
 
 Whenever a request is ready, he’s bringing it to the field (call stack), so the worker (JS runtime), can have it.
 
@@ -210,15 +216,15 @@ A very important part in JavaScript is done by code “calculations”.
 
 “Functions call” on other words.
 
-There may be simple computation functions and very expensive computation functions.
+There may be simple computation functions or very expensive computation functions.
 
-Memoization is “remembering” parts of those expensive functions next time are called.
+Memoization is “remembering” parts of those expensive functions next time they are called.
 
 Let’s imagine you work at MacDonald’s.
 
 Lots of people come in and ask for a Big Burger.
 
-For every single order you have to take the meat, machine it, season it and fry it as a burger.
+For every single order, you have to take the meat, machine it, season it and fry it as a burger.
 
 Then people become hungry and angry, because waiting too much for you to do all of that.
 
@@ -228,7 +234,7 @@ Then all you have to do is to fry it and pack as a burger.
 
 Will take much less work for you as people are waiting and will make all the customers happy.
 
-We can say that you “memoized” your work and now all of it is easier for you (as a function which has to do expensive computation).
+We can say that you “memoized” your work and now all of it is easier for you (as a function which has to do expensive computation but parts of it was already done previously and then cached).
 
 Make sense?
 
@@ -266,13 +272,13 @@ Do you know that neighbor of you?
 
 The one to whom, when you say “Good Morning” he always responds educate and nicely to you?
 
-Well, that neighbor of yours that seems so well educated, may be a bully home with his family!
+Well, that neighbor of yours that seems so well educated, may be a bully back home with his family!
 
 But you can’t see it, you can’t know it because he keeps his house things private!
 
 He just exposes a nice face to the world out there!
 
-Encapsulation is a class, or object, which do act on data that it contains not by directly interacting with that data but by calling a “method” it exposes to the outside (the scope) world!
+Encapsulation is a class, or object, which do act on data that it contains not by directly interacting with that data from outside, but by calling a “method” it exposes to the outside (the scope) world!
 
 <br>
 

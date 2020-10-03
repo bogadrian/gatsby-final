@@ -28,7 +28,7 @@ I wrote a pretty big application, <a href="https://bogdan.digital/park-your-tir"
 
 It works, of course, because it was written by me, but I had no idea how to understand the render cycle and optimize it back then in prehistory.
 
-A couple of months later, here I am to share with the entire world this life saving knowledge which will change the humanity!
+A couple of months later, here I am to share with the entire world, this life saving knowledge which will change the humanity!
 
 Because now I am Nemo form Matrix when it comes to React, now I am the chosen one, now I know!
 
@@ -52,11 +52,11 @@ Well, I’m joking, of course you can do something about that!
 
 You can pray a lot!
 
-No man, just wrap the component with use Memo hook.
+No man, just wrap the component with React.memo
 
 It will take care to not allow re-renders, but only if the props change.
 
-And if there is a function reference which might change also, wrap it in a use Callback!
+And if there is a function reference which might change also, wrap it in a useCallback!
 
 But this is a topic in itself and I will certainly write about it next, as I have to show off my React skills and challenge Dan Abramov himself!
 
@@ -92,7 +92,11 @@ Those never changes even if you try to buy them a coffee.
 
 But very often props are referenced data. I mean, objects!
 
-We all know object are passed by reference, do we? We are the best JavaScript developers in the world! I mean me and you who reads my article!
+We all know object are passed by reference, do we?
+
+We are the best JavaScript developers in the world!
+
+I mean me and you who reads my article!
 
 When we pass a prop as an object, React does a shallow compare between what the component receives as props and what it already has.
 
@@ -100,13 +104,17 @@ When we pass a prop as an object, React does a shallow compare between what the 
 
 If the prevProps, the props the component already has, are the same as the props the component receives, it will not re-render!
 
+We know that an object may be totaly diffrent from another similar object even though if has the same name or the same values, do we?
+
 Why would it do that? It is a shame to waste a render if nothing has change!
 
 Let’s say the prop is a dumb with a hat.
 
 ![Trump](../images/dumb-thumbonail.jpg)
 
-At the first render that component printed it to the UI. If he receives the same dumb with the same hat, it won’t print it again!
+At the first render that component printed it to the UI.
+
+If he receives the same dumb with the same hat, it won’t print it again!
 
 This is so logic, is it?
 
@@ -144,6 +152,12 @@ So, the solution is to copy the old dumb to a new one and change the hat only fo
 
 And now you pass the props to the component with the new dumb!
 
-React makes its shallow compare and it sees there is a totally new dumb. Then it does its job and prints the new dumb to the UI.
+React makes its shallow compare and it sees there is a totally new dumb.
 
-Pretty easy, is it? Then go to vote, get rid of the old dumb! I mean the old props!
+Then it does its job and prints the new dumb to the UI.
+
+Pretty easy, is it?
+
+Then go to vote, get rid of the old dumb!
+
+I mean the old props!

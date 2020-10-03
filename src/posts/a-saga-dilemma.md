@@ -38,7 +38,9 @@ I don't know which model the token owner belongs to!
 
 So I have to send the token to back-end and let it deal with the models to find out where to look for it in database.
 
-Here’s the solution I came up with, using Redux Saga. Disclaimer: I don’t know if it is a good solution, I am not a coder guru! Yet!!!☺️☺️☺️
+Here’s the solution I came up with, using Redux Saga.
+
+Disclaimer: I don’t know if it is a good solution, I am not a coder guru! Yet!!!☺️☺️☺️
 
 I only know it works for me and I want to share it with you! Maybe there is a better solution than this, I can admit it!
 
@@ -74,4 +76,8 @@ It works like a charm, confirming me what I already knew very well: Redux Saga i
 
 No side effects, totally independent from React code, running on its own, asynchronously!
 
-PS: Please don't yell on me because I have the user set to any; I still have to figure out its type. There are 2 kind of users, very diffrent from each other. Probably an intersection would work in an interface. I still have to see that part!
+PS: Please don't yell on me because I have the user set to any; I still have to figure out its type.
+
+There are 2 kind of users, very diffrent from each other.
+
+Probably an intersection would work in an interface. I still have to see that part!
