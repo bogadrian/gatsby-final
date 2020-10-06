@@ -82,7 +82,8 @@ type: mongoose.Schema.ObjectId,
 ref: ‘Product’
 }</center>
 
-In this way, if you call the populate(‘product’) function on the endpoint handler (or in a query middleware), the product will be available in all its fields in the order document!
+In this way, if you call the populate(‘product’) function on the endpoint handler (or in a query middleware), the product will be available in the order document!
+
 Now, if you do this contrary, I mean child referencing and put the Order filed in the product document, the size of the Product document can grow until overcoming that 16 megabits of size.
 
 But even though it doesn’t, the size of the product document being too large will cause performance issues on query.
