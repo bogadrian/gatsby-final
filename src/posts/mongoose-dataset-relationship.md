@@ -61,14 +61,18 @@ In this case your e-commerce app will break.
 You don’t want to keep any information about the orders in this case in the product document, as I said.
 
 You will keep a “reference” from the children – the orders – to their parent – the product.
+
 Then when you touch the product endpoint, you will populate virtually a filed in that product with all orders references.
 
-The virtual populate is a very strong Mongoose tool, which allows you to have all the children’s data but without saving it to the database. The data on product will only be available for query!
+The virtual populate is a very strong Mongoose tool, which allows you to have all the children’s data but without saving it to the database.
+
+The data on product will only be available for query!
 
 You can also allow only fields from the Order document that you are interested in to be virtual populated in the Product document, such as the name of the buyer or its address, but not the price, because the price is already in the product document.
 
 I know this staff is confusing, it was for me. I am doing my best to better explain it.
-And here it comes parent referencing!
+
+#And here it comes parent referencing!
 
 You will have the product reference in the order document. This is simply achieved by creating a field in Orders Schema, and assigning to it a “mongoose.Schema.ObjectId” type. Then you will have a ref propriety which will point to the product:
 
