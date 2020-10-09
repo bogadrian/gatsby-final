@@ -10,7 +10,7 @@ thumbnail: "../../images/landscape3.jpg"
 
 #Abstraction in React
 
-I feel like I has to write about this topic.
+I feel like I have to write about this topic.
 
 Abstraction is such an important thing to know for a JavaScript developer.
 
