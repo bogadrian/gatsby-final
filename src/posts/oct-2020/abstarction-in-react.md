@@ -19,11 +19,13 @@ First of all, let’s see what is abstraction, why is it important and how can i
 Abstraction is a designing software pattern which implements parts of some features in an app, hiding them away from the main code base.
 
 Abstraction is used in order to respect the DRY principle of programming.
+
 Why DRY (Don’t Repeat Yourself)?
 
 For maintainability and scalability of the code you write.
 
-It is much easier to write and maintain a piece of code once and use it in many places than writing it every time you need the same functionality in different places!
+It is much easier to write and maintain a piece of code once in one place and use it in many places, than writing it every time you need the same functionality in different places!
+
 As well as for avoiding bugs.
 
 You may fix a bug somewhere in your code, but the same code being written more than once, will produce the same bug somewhere else.
@@ -67,7 +69,7 @@ The idea behind this is that, we can wrap any function with another function jus
 
 We can call the “abstarctionFunction with any argument we want, any time we want from everywhere we want!
 
-If we call the “abstarctionFunction” from inside our code base with an argument, we say we have abstracted that function which needs the result from “abstarctionFunction”.
+If we call the “abstarctionFunction” from inside our code base with an argument, we say we have abstracted that function which needs the result from “abstractionFunction”.
 
 In React we do abstraction mainly with HOC’s.
 
@@ -82,6 +84,7 @@ So, from a component we can pass the URL and the verb to it and expect a result.
 At the same time we can pass another URL and another verb from another component, expecting a totally different result.
 
 const response1 = useFetch(‘url-1’, ‘POST’)
+<br>
 const response2 = useFetch(‘url-2’ ‘GET’)
 
 We can say that we have abstract the part which takes care of dealing with the asynchronous part of the app.
