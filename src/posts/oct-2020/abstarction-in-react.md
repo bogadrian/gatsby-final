@@ -32,7 +32,7 @@ You may fix a bug somewhere in your code, but the same code being written more t
 
 Abstraction is achieved, as far as I know, taking advantage of closures and higher order functions!
 
-You will find fancy definitions about abstraction searching the internet, sometimes event hard to be understood with lots of unclear examples especially for a beginner.
+You will find fancy definitions about abstraction searching the internet, sometimes even hard to be understood with lots of unclear examples especially for a beginner.
 
 But abstraction is nothing more than “delegating” parts of what the code does in some other parts of code written outside the main code base and using that part more than once.
 
