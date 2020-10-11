@@ -41,7 +41,7 @@ You have the link here up.
 
 #The topic I want to talk here is different.
 
-I want to talk to you about asking the user to confirm is email before allowing him to use your app.
+I want to talk to you about asking the user to confirm its email before allowing him to use your app.
 
 I built this in the app I am actually working on, which is made with React Native, Express and Mongo DB.
 
