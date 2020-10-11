@@ -8,7 +8,7 @@ thumbnail: "../../images/app3.jpg"
 
 ![Gatsby](../../images/app3.jpg)
 
-#How to check if the user that signs up to your app, has introduce a real email or a fake one.
+#How to check if the user that signs up to your app, has introduced a real email or a fake one.
 
 You may want to send a "check your email" out, to confirm the email address which the user introduced when it has signed up.
 
