@@ -41,7 +41,7 @@ You have the link here up.
 
 #The topic I want to talk here is different.
 
-I want to talk to you about seeking the user to confirm is email before allowing him to use your app.
+I want to talk to you about asking the user to confirm is email before allowing him to use your app.
 
 I built this in the app I am actually working on, which is made with React Native, Express and Mongo DB.
 
@@ -90,7 +90,7 @@ Further, the data is handed to the signup handler:
 
 Here is the complete file on <a href="https://github.com/bogadrian/sca-backend/blob/master/controllers/authFactory.ts" target="_blank">GitHub</a> if you want to learn more about how I've done it.
 
-On this handler, as you can see, after the user is signed up and the its data is saved to Mongo DB, a new Email is sent to the user email before the response is returned to the front-end.
+On this handler, as you can see, after the user is signed up and its data is saved to Mongo DB, a new Email (Email with uppercase because I use a Class instantiation in oreder to send any email I want), is sent to the user email before the response is returned to the front-end.
 
 The email contains a confirmation link.
 
@@ -128,7 +128,7 @@ Of course, the link in the email is protected by a token.
 
 The token is generated on user Schema; on the Model itself with a “pre” save hook.
 
-When the user clicks the link in the email, the route which handle the confirmation email in the Express app expects the same token as the one its temporary saved to the Mongo DB when the confirmation email leaves the server.
+When the user clicks the link in the email, the route which handle the confirmation email in the Express app expects the same token as the one was temporary saved to the Mongo DB when the confirmation email has leaved the server.
 
 If that is the same token, the user email is confirmed, otherwise not.
 
