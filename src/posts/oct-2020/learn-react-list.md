@@ -12,13 +12,13 @@ thumbnail: "../../images/learn-react.png"
 
 React is the most amazing library for building User Interfaces out there!
 
-It was conceived by Facebook and it is used by Facebook and some more huge tech companies.
+It was conceived by Facebook and it is used by Facebook and some more huge tech companies as Netflix, Uber, Airbnb even Amazon.
 
 I learned React!
 
 Well, I am not at the level Kent C Dodds or Dan Abramov are, but to be honest, React, day after day, has less and less secrets for me!
 
-I remember how it was hard to grasp the case use of life cycle methods compare to “useEffect” hook.
+I remember how it was hard to grasp the use case of life cycle methods compare to “useEffect” hook.
 
 I remember how it was hard to understand the rendering cycle in React.
 
