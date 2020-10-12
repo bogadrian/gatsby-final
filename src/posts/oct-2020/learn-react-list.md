@@ -44,7 +44,7 @@ At least this is how I learned and keep on learning React myself:
 
 React is made of components.
 
-Components are built one in another.
+Components are built one into another.
 
 Just like Lego blocks.
 
