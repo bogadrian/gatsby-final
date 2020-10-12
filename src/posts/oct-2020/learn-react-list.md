@@ -13,6 +13,7 @@ thumbnail: "../../images/learn-react.png"
 React is the most amazing framework for building User Interfaces out there!
 
 It was conceived by Facebook and it is used by Facebook and some more huge tech companies.
+
 I learned React!
 
 Well, I am not at the level Kent C Dodds or Dan Abramov are, but to be honest, React, day after day, has less and less secrets for me!
