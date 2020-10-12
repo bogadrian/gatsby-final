@@ -10,7 +10,7 @@ thumbnail: "../../images/learn-react.png"
 
 #Where to start from if you want to leran React?
 
-React is the most amazing framework for building User Interfaces out there!
+React is the most amazing library for building User Interfaces out there!
 
 It was conceived by Facebook and it is used by Facebook and some more huge tech companies.
 
