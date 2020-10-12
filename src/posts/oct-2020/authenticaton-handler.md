@@ -32,13 +32,17 @@ In the image below, all the routes are under the protect middleware and can be a
 
 We will see how we grant that right to the user in this article.
 
-// routes
+<br>
 
-Now the request which has come from the front-end, will go first trough “router.use(authController.protect)” as in the image here up.
+![Routes Express js](../../images/protect/routes.png)
+
+<br>
+
+Now the request which has come from the front-end, will go first trough “router.use(authController.protectUser)” as in the image here up.
 
 The Express is made with the request object in mind.
 
-The request object travels all the way down from where it enters the router, until a response is sent back.
+The request object travels all the way down from where it enters the route, until a response is sent back.
 
 All the functions it encounters between entering the route and the point where the response is sent back, are called middleware.
 
