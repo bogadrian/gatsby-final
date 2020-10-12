@@ -8,9 +8,7 @@ thumbnail: "../../images/protect/locked.jpg"
 
 ![Gatsby](../../images/protect/locked.jpg)
 
-The anatomy of an authentication handler in Express Js.
-
-Are you building a back-end with Express Js?
+#Are you building a back-end with Express Js?
 
 Then I am 100% sure you need an authentication handler function!
 
