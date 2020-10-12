@@ -12,7 +12,7 @@ thumbnail: "../../images/learn-react.png"
 
 React is the most amazing library for building User Interfaces out there!
 
-It was conceived by Facebook and it is used by Facebook and some more huge tech companies as Netflix, Uber, Airbnb even Amazon.
+It was conceived by Facebook and it is used by Facebook and some more huge tech companies as by example Netflix, Uber, Airbnb, even Amazon.
 
 I learned React!
 
@@ -26,17 +26,17 @@ I remember also how it was pretty hard to understand how optimization is applied
 
 Or what a design pattern really was when talking about React.
 
-Now those days are behind me and all of these things are looking like basic knowledge when talking about React to me!
+Now those days are behind me and all of these things are looking like basic knowledge, when talking about React to me!
 
-There are many people out there who struggle with learning React.
+There are many people out there who are struggling with learning React.
 
-That’s why I want to walk you through a list of topics you have to dive in one by one if you want to learn React.
+That’s why I want to walk you through a list of topics that you have to dive in one by one if you want to learn React.
 
 Maybe it can be useful to someone.
 
-Just to clear out a bit of initial confusion!
+Just to clear out a bit of initial confusion when starting with React!
 
-If you want to learn React, here’s the list.
+If you want to learn React, here’s the list!
 
 At least this is how I learned and keep on learning React myself:
 
@@ -50,19 +50,19 @@ Just like Lego blocks.
 
 That’s why React is so great.
 
-You do whatever UI you want with it just like a kid is doing whatever it wants building from a Lego box.
+You do whatever UI you want with it just like a kid is doing whatever toy it wants built from a Lego box.
 
 Components are just JavaScript function which are then composed one into another.
 
-Of course, I am talking here about functional components not about Class components.
+Of course, I am talking here about Functional components not about Class components.
 
 A function returns almost always something in JavaScript (except when that function interacts directly with the UI).
 
-In React functional components returns always JSX syntax.
+In React, a functional component returns always some JSX syntax.
 
-JSX is a specific to React syntax which interprets the HTML in JavaScript.
+JSX is a specific to React syntax, which interprets the HTML in JavaScript.
 
-The component returns JSX because ethe virtual DOM that React uses is composed form that JSX which the entire application compose and returns!
+The component returns JSX because the virtual DOM that React uses, is composed form that JSX which the entire application is composing and returning!
 
 You need a couple of hours to understand how JSX works!
 
@@ -70,15 +70,17 @@ Very easy topic!
 
 #Class Components.
 
-Not so much used anymore but fundamental in order to learn and understand what is going on under the hood.
+Not so much used anymore but fundamental in order to learn and understand what is going on under the hood in React.
 
-Class Components were the way React used to work until recently when functional components and hooks took over.
+Class Components were the way React used to work until recently when Functional components and Hooks took over.
 
 A class component is a regular JavaScript Class OOP syntactic sugar adapted to have some React specific methods.
 
-Them have the life cycle methods one them, kind of “Will Component Mount”, “Has Component Mounted”, “Will Component Receive Props” or “Has Component Unmounted”, etc.
+Them come with the life cycle methods on them.
 
-Then it has a render method which retunes JSX as well, just like the functional components.
+Kind of “Will Component Mount”, “Has Component Mounted”, “Will Component Receive Props” or “Has Component Unmounted”, etc.
+
+Then it has a render method which returnes JSX as well, just like the functional components.
 
 It is fundamental for you to understand Class components because you need to know what the life cycle methods are under the hood.
 
@@ -86,7 +88,10 @@ With just hooks, you won’t be able to grasp that in an easy way!
 
 #Functional Components
 
-The most used nowadays, them are JavaScript arrow functions which returns JSX.
+The most used nowadays. My
+
+Them are JavaScript arrow functions which returns JSX.
+
 They are built together with hooks.
 
 A React app is now built exclusively with functional components, mostly, nowadays.
@@ -107,13 +112,15 @@ More, we can pass functions upwards, from a child component to its parent, to be
 
 #State and state management, fundamental topic.
 
-State is a bit more complex than props; you need to understand that.
+State is a bit more complex than props, you need to understand that.
+
+State is a "picture of data" took at a given moment in time.
 
 React is a declarative UI updater.
 
 That means, you don’t tell React what to do.
 
-You just tell it what the data it uses is and let it act upon that data.
+You just tell it what the data it uses is at that moment in time, and let it act upon that data.
 
 More specific, let it act on the whenever the data changes.
 
@@ -146,11 +153,13 @@ It is an advanced topic and you will have to be familiar with hooks in general t
 #CSS, SASS, Styled Components etc., indispensable topic.
 
 Any front-end application needs to be styled in order to be shown online.
+
 It is just the way web works.
 
 There are many ways a React app can be styled.
 
 You will have to o learn about more than one way to style a react app.
+
 Then choose one way to stick with.
 
 Styled components are just CSS in JavaScript.
@@ -159,13 +168,13 @@ Some developers don’t prefer it.
 
 I don’t prefer it.
 
-I write my own Sass for every component in part.
+I write my own SASS for every component in part.
 
 I am not saying styled components are wrong.
 
 I just don’t use them.
 
-You will have to see how you go for styling in the apps you build and choose a way!
+You will have to see how you go for styling in the apps you build and choose a way that fits you!
 
 #React design patterns, a topic where you learn to architect a React app.
 
@@ -184,6 +193,7 @@ Performance it’s a huge topic on itself, so learning about performance is a mo
 The way you write React code, and here we come to the design patterns, is a direct factor which acts on performance.
 
 So, you will have to learn to write scalable and maintainable React code.
+
 #JavaScript.
 
 Important to know about template literals, variable injection, closures, destructuring, higher order functions, array methods, object mutation and many more.
@@ -200,7 +210,7 @@ You must know that, there is much more to be learned about React than I put here
 
 Every single topic I told you about in this article is then decomposable in many more subtopics you will discover when learning React.
 
-By example, when talking about structuring a React app, you will need to learn about routing, conditional rendering, different ways to manage state etc.
+By example, when talking about structuring a React app, you will need to learn about routing, passing params, conditional rendering, different ways to manage state etc.
 
 But as a beginner, if you stick to this list one day you will be a React developer, I promise you.
 
