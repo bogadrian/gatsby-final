@@ -6,7 +6,7 @@ thumbnail: "../../images/protect/locked.jpg"
 
 </br>
 
-![Gatsby](../../images/protect/locked.jpg)
+![Authentication Handler](../../images/protect/locked.jpg)
 
 #Are you building a back-end with Express Js?
 
@@ -154,9 +154,9 @@ But you don’t want to allow the potential thief that stole the token to still 
 
 So, you check on back-end if the password was changed.
 
-This happens with a query hook on Model itself.
+This happens with a static method on the Model itself.
 
-Here you have the hook:
+Here you have the method:
 
 <br>
 
