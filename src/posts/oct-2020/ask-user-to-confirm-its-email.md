@@ -6,7 +6,7 @@ thumbnail: "../../images/app3.jpg"
 
 </br>
 
-![Gatsby](../../images/app3.jpg)
+![User Confirm Email](../../images/app3.jpg)
 
 #How to check if the user that signs up to your app, has introduced a real email or a fake one.
 
@@ -36,7 +36,7 @@ I use Sendgrid because Google Mail flags you as spam very quick and I don’t li
 
 Google Mail puts it in a different folder than “arriving emails”.
 
-Anyway, I send you at Nodemailer site if you want to learn more about it.
+Anyway, I send you to Nodemailer site if you want to learn more about it.
 You have the link here up.
 
 #The topic I want to talk here is different.

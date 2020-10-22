@@ -88,7 +88,7 @@ With just hooks, you won’t be able to grasp that in an easy way!
 
 #Functional Components
 
-The most used nowadays. My
+The most used nowadays. 
 
 Them are JavaScript arrow functions which returns JSX.
 
