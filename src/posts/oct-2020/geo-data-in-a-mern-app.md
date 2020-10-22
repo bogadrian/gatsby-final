@@ -18,7 +18,7 @@ Take for example, Uber, Facebook, even Netflix.
 
 All of them need geo data in order to work properly.
 
-Sometimes an app needs to know where the user is located. Netflix or Facebook uses heavily this feature.
+Sometimes an app needs to know where the user is located. Netflix or Facebook use heavily this feature.
 
 Uber or some delivery food app etc., needs to know more than that.
 
