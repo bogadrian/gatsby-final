@@ -4,7 +4,7 @@ date: "2020-09-09"
 thumbnail: "../images/app4.jpg"
 ---
 
-![Trump](../images/app4.jpg)
+![JavaScript](../images/app4.jpg)
 
 #A Saga dilemma
 
