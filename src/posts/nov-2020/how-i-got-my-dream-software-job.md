@@ -60,7 +60,7 @@ But sometime I got frustrated because it uses JavaScript under the hood to grab 
 
 So, I found myself searching for how JavaScript is implemented in GTM.
 
-#All that what comes after, is just story.
+#All that comes after, is just story.
 
 I started to learn more and more JavaScript.
 
