@@ -166,11 +166,11 @@ I was instead contacted more times than that by recruiters on LinkedIn.
 
 #Then I understood LinkedIn was my tool, my stage!
 
-There and only there I can show me of!
+There and only there I can show me off!
 
 Where else?
 
-Where the show's managers hanging around can see me if not in LinkedIn?
+Where the show's managers hanging around can see me if not on LinkedIn?
 
 Of course, I didn’t conclude anything because the “planets must align themselves” as a LinkedIn friend of mine said.
 
@@ -186,7 +186,7 @@ Peter was praying God every day to give him a chance to win at the lottery.
 
 Every day Peter said that pray for years!
 
-Until God got tired of Peter, talk to him:
+Until God got tired of Peter and talk to him:
 
 "Peter for God sake, I will let you win, but play at the lottery at least once!”.
 
