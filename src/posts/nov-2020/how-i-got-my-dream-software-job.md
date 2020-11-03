@@ -146,6 +146,8 @@ Besides learning more in this way, I used LinkedIn like a personal agenda to kee
 
 But that was in public, under the eyes of everyone rather in some hidden file on my computer!
 
+#I felt no shame to learn in public, even though I knew I can be wrong many times and some may laugh at me!
+
 Because if you think you can replace Michel Jackson on the stage, that show manager must see you somewhere.
 
 It must be him asking about you, not the other way around!
