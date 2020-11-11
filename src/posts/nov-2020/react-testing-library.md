@@ -106,7 +106,7 @@ I made this list for my own use but then I thought to put it nice in an article 
 - toBePartiallyChecked
 - toHaveDescription
 
-.3 Fire Event to test user interaction (reference: <a href="https://testing-library.com/docs/guide-events, all supported events" target="_blank">testing-library.com/docs/guide-events</a>: <a href="https://github.com/testing-library/dom-testing-library/blob/master/src/event-map.js" target="_blank">testing-library/dom</a>)
+.3 Fire Event to test user interaction (reference: <a href="https://testing-library.com/docs/guide-events, all supported events" target="_blank">testing-library.com/docs/guide-events</a>, <a href="https://github.com/testing-library/dom-testing-library/blob/master/src/event-map.js" target="_blank">testing-library/dom</a>)
 
 - userEvent.type as a replacer for all the below
 
