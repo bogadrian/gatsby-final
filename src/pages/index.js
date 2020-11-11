@@ -60,11 +60,6 @@ const IndexPage = () => {
               I can’t believe what a long way I came since 2017. And there is a
               lot in front of me yet to come.
             </p>
-            <p>
-              I am open for any kind of employment you may propose to me. You
-              can reach out to me if you want at bogdan4adrian4tech@gmail.com
-            </p>
-            <p></p>
           </div>
 
           <div className={indexStyle.features}>
