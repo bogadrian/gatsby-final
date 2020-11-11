@@ -12,7 +12,7 @@ When it comes to testing React apps, if you google you’ll find so much info ab
 
 But all the articles, courses and any material that talks about the argument, are lacking one thing: explaining how to think about testing from a practical point of view!
 
-There are so much about unit test, integration test, end-to-end test etc.
+There is so much about unit test, integration test, end-to-end test etc.
 
 They explain quite well how to implement testing in your React app.
 
