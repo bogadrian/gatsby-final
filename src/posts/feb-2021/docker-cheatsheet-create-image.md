@@ -1,5 +1,5 @@
 ---
-title: “Docker cheatsheet"
+title: “Docker cheatsheet Image and Container"
 date: "2021-02-16"
 thumbnail: "../images/dream-job.jpg"
 ---
