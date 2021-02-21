@@ -1,10 +1,10 @@
 ---
-title: “Docker cheatsheet Volumes"
+title: “Docker cheatsheet 2. Volumes"
 date: "2021-02-17"
 thumbnail: "../images/dream-job.jpg"
 ---
 
-![Dream JOb](../images/2021/docker.png)
+![Docker](../images/2021/docker.png)
 <br>
 #Docker Volumes. Anonymous volumes, Named Volumes and Bind Mounts
 <br>

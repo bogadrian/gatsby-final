@@ -1,10 +1,10 @@
 ---
-title: “Docker cheatsheet Image and Container"
+title: “Docker cheatsheet 1. Image and Container"
 date: "2021-02-16"
 thumbnail: "../images/dream-job.jpg"
 ---
 
-![Dream JOb](../images/2021/docker.png)
+![Docker](../images/2021/docker.png)
 <br>
 Docker create image and run container. copy, remove, start and stop containers. all the comands in a logical order.
 <br>
