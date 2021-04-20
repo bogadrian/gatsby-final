@@ -206,9 +206,9 @@ The args will still be there, available!
 Note: I am not a content creator with lot of experience, so please forgive me for the quality of this video!
 
 </br>
-</br>
 
-<center>
-<iframe width="530" height="312" src="https://www.youtube.com/embed/3iTBKXkfUxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<a href="https://youtu.be/3iTBKXkfUxg"><img src="./Clousers.png" alt="clousers" ></img></a>
+
+</br>
 
 Github Repo ot this dummy app if you want to play around: https://github.com/bogadrian/clousers
