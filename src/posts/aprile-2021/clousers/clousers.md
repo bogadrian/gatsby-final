@@ -209,6 +209,6 @@ Note: I am not a content creator with lot of experience, so please forgive me fo
 </br>
 
 <center>
-<iframe width="800" height="500" src="https://www.youtube.com/embed/3iTBKXkfUxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<iframe width="530" height="312" src="https://www.youtube.com/embed/3iTBKXkfUxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 Github Repo ot this dummy app if you want to play around: https://github.com/bogadrian/clousers
