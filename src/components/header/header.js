@@ -7,6 +7,17 @@ import DrowerButtonToggle from "../drowerToggle/drower-toggle-button"
 import SiteDrower from "../siteDrower/SiteDrower"
 import BackDrop from "../backdrop/backdrop"
 
+var prevScrollpos = window.pageYOffset
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0"
+  } else {
+    document.getElementById("header").style.top = "-100px"
+  }
+  prevScrollpos = currentScrollPos
+}
+
 const Header = ({ siteTitle, description }) => {
   let [siteDrowerOpen, setSiteDrowerOpen] = useState(false)
 
@@ -32,16 +43,6 @@ const Header = ({ siteTitle, description }) => {
       }
     }
   `)
-  var prevScrollpos = window.pageYOffset
-  window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("header").style.top = "0"
-    } else {
-      document.getElementById("header").style.top = "-100px"
-    }
-    prevScrollpos = currentScrollPos
-  }
 
   let siteDrower
   let backDrower
