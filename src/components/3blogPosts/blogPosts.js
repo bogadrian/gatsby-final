@@ -26,7 +26,7 @@ const BlogPosts3 = () => {
 
   return (
     <div>
-      {data.allMarkdownRemark.edges.slice(0, 3).map(({ node }) => {
+      {data.allMarkdownRemark.edges.slice(0, 6).map(({ node }) => {
         return (
           <div key={node.id} className={blogPostsStyle.container}>
             <Link to={node.fields.slug}>

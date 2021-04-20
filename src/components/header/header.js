@@ -32,6 +32,16 @@ const Header = ({ siteTitle, description }) => {
       }
     }
   `)
+  var prevScrollpos = window.pageYOffset
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("header").style.top = "0"
+    } else {
+      document.getElementById("header").style.top = "-100px"
+    }
+    prevScrollpos = currentScrollPos
+  }
 
   let siteDrower
   let backDrower
@@ -41,7 +51,7 @@ const Header = ({ siteTitle, description }) => {
     backDrower = <BackDrop close={toggle} />
   }
   return (
-    <header className={headerStyle.header}>
+    <header className={headerStyle.header} id="header">
       <BackgroundImage
         fluid={data.header.childImageSharp.fluid}
         backgroundcolor={"#777"}
