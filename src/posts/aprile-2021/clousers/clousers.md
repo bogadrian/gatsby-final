@@ -4,8 +4,10 @@ date: "2021-04-20"
 thumbnail: "../../../images/code6.jpg"
 ---
 
-![Docker](../images/2021/code6.jpg)
+<img src="../../../images/code6.jpg" />
+
 <br>
+
 #What are Closures in JavaScript?
 </br>
 
