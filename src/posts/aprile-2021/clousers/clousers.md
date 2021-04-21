@@ -235,7 +235,7 @@ Note: I am not a content creator with lot of experience, so please forgive me fo
 
 </br>
 
-#`video: https://youtu.be/3iTBKXkfUxg`
+<a href="https://youtu.be/3iTBKXkfUxg"><img src="./Clousers.png" alt="clousers" /></a>
 
 </br>
 
