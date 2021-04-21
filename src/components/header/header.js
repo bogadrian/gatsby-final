@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
@@ -15,7 +16,21 @@ const Header = ({ siteTitle, description }) => {
       return !prevState
     })
   }
-
+  useEffect(() => {
+    if (!window) {
+      return
+    }
+    var prevScrollpos = window.pageYOffset
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("header").style.top = "0"
+      } else {
+        document.getElementById("header").style.top = "-100px"
+      }
+      prevScrollpos = currentScrollPos
+    }
+  }, [])
   const data = useStaticQuery(graphql`
     {
       header: file(relativePath: { eq: "landscape2.jpg" }) {
@@ -32,21 +47,6 @@ const Header = ({ siteTitle, description }) => {
       }
     }
   `)
-
-  if (typeof window === "undefined") {
-    return <div>loding...</div>
-  }
-  var prevScrollpos = window.pageYOffset
-
-  window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("header").style.top = "0"
-    } else {
-      document.getElementById("header").style.top = "-100px"
-    }
-    prevScrollpos = currentScrollPos
-  }
 
   let siteDrower
   let backDrower
