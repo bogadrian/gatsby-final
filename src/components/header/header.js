@@ -38,8 +38,8 @@ const Header = ({ siteTitle, description }) => {
   }
   var prevScrollpos = window.pageYOffset
 
-  document.onscroll = function() {
-    var currentScrollPos = document.pageYOffset
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("header").style.top = "0"
     } else {
