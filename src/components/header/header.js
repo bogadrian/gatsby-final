@@ -16,6 +16,7 @@ const Header = ({ siteTitle, description }) => {
       return !prevState
     })
   }
+
   useEffect(() => {
     if (!window) {
       return
@@ -26,11 +27,19 @@ const Header = ({ siteTitle, description }) => {
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("header").style.top = "0"
       } else {
-        document.getElementById("header").style.top = "-150px"
+        document.getElementById("header").style.top = "-100px"
       }
       prevScrollpos = currentScrollPos
     }
   }, [])
+
+  const handleClick = () => {
+    if (!window) {
+      return
+    }
+    document.getElementById("header").style.top = "0"
+  }
+
   const data = useStaticQuery(graphql`
     {
       header: file(relativePath: { eq: "landscape2.jpg" }) {
@@ -56,7 +65,7 @@ const Header = ({ siteTitle, description }) => {
     backDrower = <BackDrop close={toggle} />
   }
   return (
-    <header className={headerStyle.header} id="header">
+    <header className={headerStyle.header} id="header" onClick={handleClick}>
       <BackgroundImage
         fluid={data.header.childImageSharp.fluid}
         backgroundcolor={"#777"}

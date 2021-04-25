@@ -8,6 +8,10 @@ html {
   width: 100%;
   line-height: 2.5rem;
 }
+.carbon,
+.deckgo-highlight-code-container {
+  line-height: 1rem !important;
+}
 
 body {
   margin: 0;
@@ -60,6 +64,7 @@ main {
 ::-webkit-scrollbar {
   display: none;
 }
+
 // article,
 // aside,
 // details,
