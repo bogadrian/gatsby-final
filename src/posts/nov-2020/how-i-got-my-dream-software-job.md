@@ -6,11 +6,11 @@ thumbnail: "../images/dream-job.jpg"
 
 ![Dream JOb](../images/dream-job.jpg)
 
-#My story is kind of unbelievable to myself.
+# My story is kind of unbelievable to myself.
 
 Not because of my age, making it into the industry, but because the way I did it.
 
-#Let me tell you which is my background!
+# Let me tell you which is my background!
 
 I worked all my life in the transportation field.
 
@@ -36,7 +36,7 @@ But I have never dug into code until 3 years ago!
 
 I don’t know why I was thinking that: coding is not for me!
 
-#Too complicated!
+# Too complicated!
 
 But 3 years ago, I discovered JavaScript.
 
@@ -62,19 +62,19 @@ But sometime I got frustrated because it uses JavaScript under the hood in order
 
 So, I found myself searching for how JavaScript is implemented in GTM.
 
-#All that comes after, is just history.
+# All that comes after, is just history.
 
 I started to learn more and more JavaScript.
 
 Then I forgot about the digital marketing and I drowned myself into only learning to code.
 
-#Now, about 3 years later I got my dream job as a software developer.
+# Now, about 3 years later I got my dream job as a software developer.
 
 I am not saying software engineer, because I never finished an university.
 
 I can’t call myself an engineer, it just sounds unfair to me and to people who did finished university.
 
-#So, Adrian, what is so special about your journey towards your dream job?
+# So, Adrian, what is so special about your journey towards your dream job?
 
 Well, if telling you that coming from driving a camion to work as a software developer at 46-year-old age isn’t enough, let me continue!
 
@@ -86,7 +86,7 @@ A part from the economical point of view, I must tell you that, the working envi
 
 It is another world, like I went from the Earth to the Moon.
 
-#Here comes my answer to who asked me about how I did it!
+# Here comes my answer to who asked me about how I did it!
 
 Let me ask you something first:
 
@@ -116,7 +116,7 @@ And I don’t want to take any chances with you!
 
 You can’t blame me for that!
 
-#So, how can I make it into your show?
+# So, how can I make it into your show?
 
 First thing first: I must really want to make it into your show!
 
@@ -136,7 +136,7 @@ But the luck can’t repeat itself at the infinite, can it?
 
 Instead what I would do, is that, I will take any action possible to render possible that YOU MAY SEE ME in the mix!
 
-#Well, is what I exactly did!
+# Well, is what I exactly did!
 
 Since I start learning to code, I did something not too many do: I learned in public!
 
@@ -146,7 +146,7 @@ Yes man, LinkedIn made my luck!
 
 I used LinkedIn conscientiously to promote myself and my learning path!
 
-#I did marketing for myself, incessantly!
+# I did marketing for myself, incessantly!
 
 Many times I was wrong and the bits of code I was sharing or the solutions to some coding issue weren’t right!
 
@@ -156,13 +156,13 @@ Besides learning more in this way, I used LinkedIn like a personal agenda to kee
 
 But that was in public, under the eyes of everyone rather in some hidden file on my computer!
 
-#I felt no shame to learn in public, even though I knew I can be wrong many times and some may laugh at me!
+# I felt no shame to learn in public, even though I knew I can be wrong many times and some may laugh at me!
 
 Because if you think you can replace Michel Jackson on the stage, that show manager must see you somewhere in order to give you a chance!
 
 It must be HIM asking about you, not the other way around!
 
-#How can he possibly know that you exist if you stay hidden?
+# How can he possibly know that you exist if you stay hidden?
 
 You think that sending him that nicely packed box with what you know or can do is enough?
 
@@ -174,7 +174,7 @@ When I did it was for experimenting not because I believed it can happen - to be
 
 I was instead contacted more times than that by recruiters on LinkedIn.
 
-#Then I understood LinkedIn was my tool, my stage!
+# Then I understood LinkedIn was my tool, my stage!
 
 There and only there I can show me off!
 
@@ -186,7 +186,7 @@ Of course, I didn’t conclude anything because the “planets must align themse
 
 But if you have faith, that will happen sooner or later!
 
-#It happened to me!
+# It happened to me!
 
 And to close this let me tell you a joke:
 

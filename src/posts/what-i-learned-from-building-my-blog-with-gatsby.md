@@ -10,7 +10,7 @@ thumbnail: "../images/code.jpg"
 
 </br>
 
-#I built My blog with GatsbyJs
+# I built My blog with GatsbyJs
 
 I just finished building my blog with GatsbyJs. This blog!
 
@@ -35,11 +35,11 @@ The image loads lazy and there is not that annoying effect of the page bumping u
 
 We don’t need to do anything in order to render images responsive. GatsbyJs does all of that for us!
 
-#So, what I learned from building my blog with GatsbyJs?
+# So, what I learned from building my blog with GatsbyJs?
 
 Well, I polished my React skills first of all.
 
-You can take a look at the site code <a href="https://github.com/bogadrian/gatsby-final" target="_blank">#GIT</a> repository and see how many components I built! Some are querying the data directly withGraphQl, others are being passed the data by props.
+You can take a look at the site code <a href="https://github.com/bogadrian/gatsby-final" target="_blank"># GIT</a> repository and see how many components I built! Some are querying the data directly withGraphQl, others are being passed the data by props.
 
 I segmented the site in small components in order to make them as reusable as possible.
 Then I polished out my CSS skills. Skills that really need to be improved.

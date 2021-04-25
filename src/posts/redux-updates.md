@@ -104,7 +104,7 @@ However, the item's id that the user adds to the cart exists already in the cart
 
 ![Gatsby](../images/action-redux.png)
 
-##<center>Now we simulate the reducer:</center>
+## <center>Now we simulate the reducer:</center>
 
 ![Gatsby](../images/sim-reducer.png)
 
@@ -114,7 +114,7 @@ Or just to add the item to the cart array if there is not such an item id!
 
 ![Gatsby](../images/util-funct.png)
 
-##<center>And then we simulate the actions dispatch:</center>
+## <center>And then we simulate the actions dispatch:</center>
 
 ![Gatsby](../images/simulate-actions.png)
 

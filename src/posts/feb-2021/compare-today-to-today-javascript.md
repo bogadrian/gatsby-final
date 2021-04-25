@@ -6,7 +6,9 @@ thumbnail: "../images/dream-job.jpg"
 
 ![Docker](../images/2021/code8.jpg)
 <br>
-#Working with dates is not easy, we all know that.
+
+# Working with dates is not easy, we all know that.
+
 <br>
 
 <p style='margin:0in;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;">For example, do you know that you can&rsquo;t compare a new Date(Date.now()) to a new Date(Date.now)) ?</span></p><p style='margin:0in;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;">&nbsp;</span></p>

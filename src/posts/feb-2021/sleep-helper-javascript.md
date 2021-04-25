@@ -6,7 +6,9 @@ thumbnail: "../images/dream-job.jpg"
 
 ![Docker](../images/2021/code8.jpg)
 <br>
-#Sooner or later you’ll encounter a situation in your code when a race condition may happen.
+
+# Sooner or later you’ll encounter a situation in your code when a race condition may happen.
+
 <br>
 
 <p style='margin:0in;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;">We are JavaScript developers so we know how to deal with that, don&rsquo;t we?</span></p><p style='margin:0in;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;">&nbsp;</span></p>

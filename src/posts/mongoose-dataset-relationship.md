@@ -8,7 +8,7 @@ thumbnail: "../images/landscape6.jpg"
 
 ![Gatsby](../images/landscape6.jpg)
 
-#Data Modelling Mongoose
+#  Data Modelling Mongoose
 
 I am building an app with React Native, Express and Mongo DB.
 
@@ -26,7 +26,7 @@ And because is a tough topic, and many newcomers, as myself, have problems under
 
 I give you a case example, so you can see from a practical point of view how it works.
 
-#What is relationship when it comes to data in Mongo DB?
+# What is relationship when it comes to data in Mongo DB?
 
 Well, it is about how a set of data relates to another set of data.
 
@@ -72,7 +72,7 @@ You can also allow only fields from the Order document that you are interested i
 
 I know this staff is confusing, it was for me. I am doing my best to better explain it.
 
-#And here it comes parent referencing!
+# And here it comes parent referencing!
 
 You will have the product reference in the order document. This is simply achieved by creating a field in Orders Schema, and assigning to it a “mongoose.Schema.ObjectId” type. Then you will have a ref propriety which will point to the product:
 

@@ -46,9 +46,9 @@ The elements in the lists below allows us to select components or HTML elements 
 
 I made this list for my own use but then I thought to put it nice in an article and so make it easy for me to find it quick when I need it but also available to everyone else interested!
 
-#.1 Selections
+# .1 Selections
 
-##If the Text, Label, Role, Alt, Value, Placeholder ARE there – positive assertion
+## If the Text, Label, Role, Alt, Value, Placeholder ARE there – positive assertion
 
 - getByText
 - getByRole
@@ -57,7 +57,7 @@ I made this list for my own use but then I thought to put it nice in an article 
 - getByAltText
 - getByDisplayValue
 
-##If the Text, Label, Role, Alt, Value, Placeholder AREN’T there - negative assertion
+## If the Text, Label, Role, Alt, Value, Placeholder AREN’T there - negative assertion
 
 - queryByText
 - queryByRole
@@ -66,7 +66,7 @@ I made this list for my own use but then I thought to put it nice in an article 
 - queryByAltText
 - queryByDisplayValue
 
-##If the Text, Label Role, Alt, Value, Placeholder WILL BE there – asynchronous assertion. Usually use await in front of this assertions
+## If the Text, Label Role, Alt, Value, Placeholder WILL BE there – asynchronous assertion. Usually use await in front of this assertions
 
 - findByText
 - ByRole
@@ -75,13 +75,13 @@ I made this list for my own use but then I thought to put it nice in an article 
 - ByAltText
 - ByDisplayValue
 
-##If there are MORE THAN ONE Text, Label, Role, Value, Placeholder in the rendered DOM, use All
+## If there are MORE THAN ONE Text, Label, Role, Value, Placeholder in the rendered DOM, use All
 
 - getAllBy
 - queryAllBy
 - findAllBy
 
-#.2 Assertive Functions
+# .2 Assertive Functions
 
 - toBeDisabled
 - toBeEnabled

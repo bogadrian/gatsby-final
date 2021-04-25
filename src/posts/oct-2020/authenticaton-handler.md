@@ -8,7 +8,7 @@ thumbnail: "../../images/protect/locked.jpg"
 
 ![Authentication Handler](../../images/protect/locked.jpg)
 
-#Are you building a back-end with Express Js?
+# Are you building a back-end with Express Js?
 
 Then I am 100% sure you need an authentication handler function!
 
@@ -66,7 +66,7 @@ There are some.
 
 Here is something important to note!
 
-#In order to check if a user has the right to pass down over the protect middleware, it will have to provide the request object with a token.
+# In order to check if a user has the right to pass down over the protect middleware, it will have to provide the request object with a token.
 
 It is mostly a JWT token. JWT are mostly used and have become some kind of standard for doing authentication.
 
@@ -100,7 +100,7 @@ If the token is not there, a custom error is returned and so we force the reques
 
 <br>
 
-#The next step is where the magic happens.
+# The next step is where the magic happens.
 
 The JWT package, among other methods, gives us a method called “jwt verify”.
 This method does one simply thing:
@@ -109,7 +109,7 @@ It takes the token that arrives in the request object and check it against a tok
 
 The JWT token, as you were to JWT site and read everything there I suppose, is generated using a piece of data we give it (usually that is the user id); and a secret string we saved to our Express app. In process.env.JWT_SECRET (ex).
 
-#I know this is a hard to understand part!
+# I know this is a hard to understand part!
 
 So, let’s see deep into what really happens here!
 
@@ -138,7 +138,7 @@ If the user exists, the id is correct, we return the user.
 
 If the user does not exist, we return a custom error and the request object does not travel further. The app stops there!
 
-#Are you still with me?
+# Are you still with me?
 
 From here further, we may want to check if the user changed the password after it has issued the request.
 

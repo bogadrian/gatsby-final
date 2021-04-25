@@ -10,7 +10,7 @@ thumbnail: "../images/react-native.png"
 
 Which then can be accessed at a given URL by scanning the QR code or by typing that URL in any browser!
 
-##Status: "Accomplished"
+##  Status: "Accomplished"
 
 So, how would you tackle such a task in React Native?
 
@@ -156,9 +156,9 @@ To generate the count, I call this simple end-point in Express app:
 
 <br>
 
-#Step 2
+# Step 2
 
-##Allow the restaurant to upload a pdf.
+## Allow the restaurant to upload a pdf.
 
 Here we go!
 
@@ -244,7 +244,7 @@ I use that location from req object to save the link to Mongo Db in the end-poin
 
 This will save the link to a field in restaurant user document called S3MenuLink. (See the model image here up).
 
-#Step 3
+# Step 3
 
 Are you still with me?
 

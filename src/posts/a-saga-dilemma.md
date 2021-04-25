@@ -6,7 +6,7 @@ thumbnail: "../images/app4.jpg"
 
 ![JavaScript](../images/app4.jpg)
 
-#A Saga dilemma
+# A Saga dilemma
 
 I have encountered a little problem when building an app with React Native and my own back-end made with Express and MongoDb.
 

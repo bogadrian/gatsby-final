@@ -8,7 +8,7 @@ thumbnail: "../../images/geo-location/MongoDB.jpg"
 
 ![User Confirm Email](../../images/geo-location/MongoDB.jpg)
 
-#Querying MongoDB for geo points, pratical guide.
+# Querying MongoDB for geo points, pratical guide.
 
 Geo data is a very important part of creating web or mobile application nowadays.
 
@@ -47,7 +47,7 @@ The user can see on the map the geo points where those activities are located.
 
 I want to take you through the steps needed in order to achieve this in a MERN app using MongoDB.
 
-#MongoDB is great when it comes to geo data.
+# MongoDB is great when it comes to geo data.
 
 It has inbuilt capabilities for storing geo data and querying geo data, which is optimized already.
 
@@ -128,7 +128,7 @@ You find all the code in my <a href="https://github.com/bogadrian/social-coffee-
 
 It is free and if you need to do something similar you can copy it.
 
-#Now you will have some restaurants users registered into your app.
+# Now you will have some restaurants users registered into your app.
 
 Among other data them registered with, like the name, type, menu etc., there will be a geo point also saved to MongoDB restaurant document created on its registration.
 
@@ -152,7 +152,7 @@ As you can see in the image here up, I am also debouncing the request and I am w
 
 This is because if the user moves the map randomly and release the fingers to often, too many requests are sent to the back-end.
 
-#So debouncing sounds like a good idea to me.
+# So debouncing sounds like a good idea to me.
 
 I do this with a custom hook which only job is to delay the request with 500 milliseconds.
 
@@ -170,7 +170,7 @@ Then in back-end, a specific end-point handler deals with this request!
 
 <br>
 
-#This handler uses the MongoDB “\$geoWithin” operator.
+# This handler uses the MongoDB “\$geoWithin” operator.
 
 You can read about it here: <a href="https://docs.mongodb.com/manual/reference/operator/query/geoWithin" target=_blank>GeoWithin MongoDB.</a>
 

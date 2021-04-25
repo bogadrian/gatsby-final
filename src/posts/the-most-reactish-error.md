@@ -44,7 +44,7 @@ Well, if you see this error and you don’t know what is is about, the first thi
 
 In the first results this article comes up:
 
-##<center><a href="https://www.debuggr.io/react-update-unmounted-component/" target="_blank">React state update on an unmounted component</a></center>
+##  <center><a href="https://www.debuggr.io/react-update-unmounted-component/" target="_blank">React state update on an unmounted component</a></center>
 
 Yes, it is a complete article and it resolves your problem, no doubt about it!
 

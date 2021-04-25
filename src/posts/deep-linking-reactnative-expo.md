@@ -6,7 +6,7 @@ thumbnail: "../images/app4.jpg"
 
 ![Deep Linking](../images/app3.jpg)
 
-#Deep Linking Expo
+# Deep Linking Expo
 
 I had to say it: It was not a walk in a park!
 
@@ -77,7 +77,7 @@ You may want to change to channel and copy the URL Expo gives you there. Then yo
 
 In my case, the testing URL looked like this:
 
-##<center>exp://pe-nf6.bogdan-dev.social-coffee.exp.direct:80/+/reset/token=’some-token-here’</center>
+## <center>exp://pe-nf6.bogdan-dev.social-coffee.exp.direct:80/+/reset/token=’some-token-here’</center>
 
 Please note the '/+/' syntax after the Expo URL and your route and/or query params!
 

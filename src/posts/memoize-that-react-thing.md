@@ -6,7 +6,7 @@ thumbnail: "../images/code4.jpg"
 
 ![Memoization](../images/code4.jpg)
 
-#What the heck are React Memo, use Memo and use Callback?
+# What the heck are React Memo, use Memo and use Callback?
 
 Please, as you explain them to your grandma!
 
@@ -48,7 +48,7 @@ It is up to you if you want to block a children re-render cycle!
 
 But if you decide to do so, here we have a React wrapper:
 
-#<center>React.memo (<MyComponent />)</center>
+# <center>React.memo (<MyComponent />)</center>
 
 React Memo memoizes the props that the child component recives.
 
@@ -66,7 +66,7 @@ Use Memo may supply the same functionality as React Memo wrapper as it keeps the
 
 Then React Memo can’t be of any help but use Memo does!
 
-#<center>const dataMemoized = useMemo(() => ({a: 1, b:2}), [ // array of dependencies, when use Memo must allow the object to be changed!])</center>
+# <center>const dataMemoized = useMemo(() => ({a: 1, b:2}), [ // array of dependencies, when use Memo must allow the object to be changed!])</center>
 
 The function you see here is just a helper.
 
@@ -76,7 +76,7 @@ Use Callback memoizes a function instead.
 
 It looks the same, only that in place of the object there will be a function to be memoized:
 
-#<center>const dataMemoized = useMemo(() => functionMemoized(), [ // array of dependencies, when use Memo must allow the function to be re-created!])</center>
+# <center>const dataMemoized = useMemo(() => functionMemoized(), [ // array of dependencies, when use Memo must allow the function to be re-created!])</center>
 
 This is a very useful hook!
 

@@ -6,7 +6,7 @@ thumbnail: "../images/dumb.jpg"
 
 ![Trump](../images/dumb.jpg)
 
-#Hello World, again!
+#  Hello World, again!
 
 I am doing pretty well on my path of becoming a senior Node and React developer, thank you for asking.
 
@@ -32,7 +32,7 @@ A couple of months later, here I am to share with the entire world, this life sa
 
 Because now I am Nemo form Matrix when it comes to React, now I am the chosen one, now I know!
 
-#A component will re-render in React in these 3 situations:
+# A component will re-render in React in these 3 situations:
 
   <center> <b>1. When a parent of it renders</b></center>
   <center> <b>2. When its props changes</b></center>
@@ -40,7 +40,7 @@ Because now I am Nemo form Matrix when it comes to React, now I am the chosen on
 
 </br>
 
-#Let’s see:
+# Let’s see:
 
 The first situation, I think, is self-explanatory and does not need any other preach to be accepted.
 
@@ -82,7 +82,7 @@ Ok, you got it, au revoir!
 
 Wait!
 
-#Ok man, but when the props change?
+# Ok man, but when the props change?
 
 Well, when you make them to change! Ask and you’ll be given!
 
@@ -100,7 +100,7 @@ I mean me and you who reads my article!
 
 When we pass a prop as an object, React does a shallow compare between what the component receives as props and what it already has.
 
-#<center><b>prevProps === currentProps</b></center>
+# <center><b>prevProps === currentProps</b></center>
 
 If the prevProps, the props the component already has, are the same as the props the component receives, it will not re-render!
 
@@ -122,7 +122,7 @@ But if it receives the same dumb with a different hat, well, teoretically then t
 
 Which leads us to a question:
 
-#When the new dumb is different than the old one?
+# When the new dumb is different than the old one?
 
 You’ll say: when you change its hat!
 

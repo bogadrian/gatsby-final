@@ -8,7 +8,7 @@ thumbnail: "../images/code6.jpg"
 
 ![Gatsby](../images/code6.jpg)
 
-#Get those JavaScript coders to sleep!
+# Get those JavaScript coders to sleep!
 
 When I start learning JavaScript and web development I dived directly into code.
 
@@ -128,7 +128,7 @@ But the important fact is that, you didn’t quit your job meanwhile expecting t
 
 The Promise was pending!
 
-#What is the Event Loop in JavaScript?
+# What is the Event Loop in JavaScript?
 
 What the heck is the JavaScript Event Loop?
 
@@ -170,7 +170,7 @@ Whenever a request is ready, he’s bringing it to the field (call stack), so th
 
 He can be happy and keep doing its job!
 
-#What is the Prototypal Inheritance in JavaScript?
+# What is the Prototypal Inheritance in JavaScript?
 
 If possible, explain to someone who does not know JS.
 
@@ -208,7 +208,7 @@ An empty array is part of Array, and so on.
 
 It inherits all the Object (or Array) methods.
 
-#What is Memoization in Javascript?
+# What is Memoization in Javascript?
 
 What is “memoization” in JavaScript, as explained to someone who does not know JavaScript?
 
@@ -238,7 +238,7 @@ We can say that you “memoized” your work and now all of it is easier for you
 
 Make sense?
 
-#What is Polymorphism in JavaScript?
+# What is Polymorphism in JavaScript?
 
 As explained to someone who does not know JavaScript?
 
@@ -262,7 +262,7 @@ In other words, a method can assume many forms.
 
 Can be overwritten by example, can be modified and can be used for different scopes than it was first declared.
 
-#What is Encapsulation in JavaScript?
+# What is Encapsulation in JavaScript?
 
 As explained to someone who doe not know anything about JavaScript’?
 
@@ -282,4 +282,4 @@ Encapsulation is a class, or object, which do act on data that it contains not b
 
 <br>
 
-##I don’t know if this article will ever be of any use to someone, but I know it would have been to me when I first learned JavaScript!
+## I don’t know if this article will ever be of any use to someone, but I know it would have been to me when I first learned JavaScript!

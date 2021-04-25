@@ -8,10 +8,10 @@ thumbnail: "../../../images/code6.jpg"
 
 <br>
 
-#What are Closures in JavaScript?
+# What are Closures in JavaScript?
 </br>
 
-##I know what you think:
+## I know what you think:
 
 “This is another random article about closures from someone I don’t know and I am 100% sure I won’t know what closures are if I read it!
 
@@ -23,7 +23,7 @@ But here is a deal between me, the author of this article, and you, the unknown 
 
 If, after you read this article, you still don’t know what closures are, you send me a post written for LinkedIn where you say everything you want about me a to bogdan4adrian4tech@gmail.com and I promise I will post it on my LinkedIn wall! (No hard offences however!)
 
-##Do you agree?
+## Do you agree?
 
 I was there!
 
@@ -33,7 +33,7 @@ Well, to be precise, I understood them theoretically but it was hard for me to r
 
 When I first learned about closures, the online instructure told me that it will take some time to understand them well.
 
-##Turns out that he was right!
+## Turns out that he was right!
 
 It took me a lot of time, to be honest, and a lot of inconclusive articles to read until I was able to figure it out, by myself, what closures really are!
 
@@ -49,11 +49,11 @@ But not all have that knowledge which can allow us to follow the reasoning of th
 
 Even the terminology is hard to grasp somehow!
 
-##Yes, closures are a very important JavaScript topic!
+## Yes, closures are a very important JavaScript topic!
 
 We all use them as a matter of fact!
 
-##More, we use them long before we can understand them!
+## More, we use them long before we can understand them!
 
 But understanding closures set us free as JavaScript developers!
 
@@ -62,7 +62,7 @@ Closures, like the keyword “this” or the understating of how JIT - just in t
 But enough talk, let’s see how and if I can explain closures to you!
 I don’t want a random post insulting me on my LinkedIn wall LOL!
 
-#First thing first!
+# First thing first!
 
 Before throwing any bit of code on the screen, first we must understand what are closures good at?
 
@@ -76,7 +76,7 @@ We just can’t sometime figure out in the piece of code we see on the screen, w
 
 Because maybe we do not have enough experience, because we miss some fundamental understanding of other JavaScript concepts like scope, or execution context, etc.
 
-##Here we go:
+## Here we go:
 
 Closures serve the fundamental scope of storing some data in a native way (inside the code).
 
@@ -86,7 +86,7 @@ Is a minimal data storage capability we have inside our code to save some data t
 
 How can we achieve that with closures?
 
-##Let see some code now!
+## Let see some code now!
 
 Here we have a closure!
 
@@ -94,7 +94,7 @@ Here we have a closure!
 
 </br>
 
-##Basically, it is just a function wrapping another function!
+## Basically, it is just a function wrapping another function!
 
 Side Note: This is the simplest example. However, in practice the 2 nested functions can be more complex than that. Each can receive more arguments and more logic going on inside each of them or just there are more than 2 functions nested inside each other!
 
@@ -108,13 +108,13 @@ The inner Function is not executed at the same time!
 
 The inner Function is just what the outer Function returns, and it is still a function until it will be called later!
 
-##This is so important to understand!
+## This is so important to understand!
 
 The inner Function will be executed when it will be called separately, later!
 
 This may happen right next line or 100 lines further down when we call the outer Function!
 
-##But not at the same time!
+## But not at the same time!
 
 So, if JavaScript is a single thread execution programming language, that means it executes the outer Function only at the one single given time when it is called somewhere!
 
@@ -134,13 +134,13 @@ But wait gain, it needs the arg from the outer Function!
 
 Where does the inner Function gets the arg from if the outer Function is gone and it does not exist anymore?
 
-##The arg is still there!
+## The arg is still there!
 
 Even though the outer Function is gone, the arg is there available for the inner Function!
 
 The arg has been saved for us by the JavaScript engine when the outer Function executed – in the past!
 
-##Here the notion of time is important, even if we speak in microseconds!
+## Here the notion of time is important, even if we speak in microseconds!
 
 There is something more interesting going on here!
 
@@ -148,7 +148,7 @@ If the inner Function will be called later, maybe more than once, the arg will s
 
 Until the last call, when the arg gets garbage collected!
 
-##Now you can see how we “store data” inside the code, I hope!
+## Now you can see how we “store data” inside the code, I hope!
 
 If arg is the data, the outer Function is our storage capability!
 
@@ -158,7 +158,7 @@ However, things are more complex than I was storytelling you here!
 
 There are other things which we have to consider!
 
-##Let me try to explain a bit more!
+## Let me try to explain a bit more!
 
 In JavaScript, whenever we call a function a new execution context is created around that call.
 
@@ -168,19 +168,19 @@ That execution context might have its own variables available.
 
 So, the inner Function can be executed in a different execution context and implicit in another lexical scope than the one where is declared and where the lexical scope is different!
 
-##That is a closure!
+## That is a closure!
 
 So, when we call the inner Function somewhere else, the execution context of the inner Function might be different than the one the outer Function was called in.
 
 That means the keyword “this” will be different and calling the inner Function still works giving it access to all its own lexical scope!
 
-##That means we can pass those variables to the inner Function.
+## That means we can pass those variables to the inner Function.
 
 If the execution context of the outer Function is different than the execution context of the inner Function, we can say that we have 2 worlds here!
 
 In that execution context where the inner Function is called, we can have now available whatever the inner Function returns!
 
-##Can we see the power of that?
+## Can we see the power of that?
 
 Let see some code:
 
@@ -204,7 +204,7 @@ We should call the outer Function again in that execution context with a new out
 
 So, if the variable declaration points to a primitive data, the arg does not change exactly because of the closure!
 
-##This may lead us to face sometimes a problem, which is called “stale closure!”.
+## This may lead us to face sometimes a problem, which is called “stale closure!”.
 
 What if we need the closure to change the outerArg when in every execution context we call the inner Function without calling the outer Function again with a new outerArg?
 
@@ -222,14 +222,14 @@ And this is strict related to the topic of immutability that we have in JavaScri
 
 </br>
 
-##Again, this the power of closures!
+## Again, this the power of closures!
 
 We call a wrapper function just once passing it some arguments, and then we will have an inner returning function accessing those args how many times we want, wherever we call that inner Function!
 
 And no matter the outer Function executes and is gone away by the time the inner Function is called!
 The args will still be there, available to be consumed by the inner Function!
 
-##Let us see a practical example and how closures work with a real scenario!
+## Let us see a practical example and how closures work with a real scenario!
 
 Note: I am not a content creator with lot of experience, so please forgive me for the quality of this video!
 

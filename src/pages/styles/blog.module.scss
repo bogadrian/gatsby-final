@@ -1,12 +1,8 @@
 .container {
   background-color: rgba(#98335b, 0.05);
-  //padding: 1rem;
-  margin-top: 5rem;
+  padding: 1rem;
+  margin: 5rem 4rem 0 4rem;
   border: none;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   &:last-child {
     margin-bottom: 7rem;

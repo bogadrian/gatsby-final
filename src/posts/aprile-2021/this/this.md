@@ -111,7 +111,7 @@ It took me years indeed and the desire to know!
 
 <span style="color: #ff6600"><em>Warning: When you are a beginner don’t try too hard to understand the keyword “this” as it will be very hard for you. Because you might not have a full picture of everything what is going one inside the code when the JavaScript parser goes trough it. I promise you’ll understand it in time!</em></span>
 
-More, there are JavaScript developers ot there with many years of experience behind, working as such, who will never know 100% how the keyword “this” really works behind the scene!
+More, there are JavaScript developers out there with many years of experience behind, working as such, who will never know 100% how the keyword “this” really works behind the scene!
 
 I made an experiment which you can repeat right now: Go to YouTube and search for “JavaScript keyword this”.
 

@@ -6,13 +6,13 @@ thumbnail: "../love-at-office.png"
 
 ![Love at Office](../images/love-at-office.png)
 
-#Recruitment in the tech field is broken!
+# Recruitment in the tech field is broken!
 
 On one side, there are companies and recruiters looking always for the perfect developer.
 
 On the other side, there are developers who may be far from perfect and just doing everything to breakthrough.
 
-##<center>Why is the recruitment process broken?</center>
+## <center>Why is the recruitment process broken?</center>
 
 Well, from my point of view the recruitment is broken because there is no way for the demand and the offer to ever meet each other. And when they do, is just karma.
 
@@ -24,7 +24,7 @@ From the other point of view, the developer who is looking for employment is wai
 
 Many, if not all of them, will never pretend to be perfect!
 
-##<center>What would I do if I was a job giver?</center>
+## <center>What would I do if I was a job giver?</center>
 
 I would propose a trial period. To see if the developer can do what I need.
 
@@ -82,7 +82,7 @@ In know I should be trough hundreds of this kind of recruitment processes in ord
 
 </br>
 
-##<center>It is a nerves game.</center>
+## <center>It is a nerves game.</center>
 
 I have also this big “handicap” of being too old for the tech industry! I am not supposed to be here anyway!
 

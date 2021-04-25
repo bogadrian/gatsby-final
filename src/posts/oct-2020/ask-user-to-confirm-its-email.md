@@ -8,7 +8,7 @@ thumbnail: "../../images/app3.jpg"
 
 ![User Confirm Email](../../images/app3.jpg)
 
-#How to check if the user that signs up to your app, has introduced a real email or a fake one.
+# How to check if the user that signs up to your app, has introduced a real email or a fake one.
 
 You may want to send a "check your email" out, to confirm the email address which the user introduced when it has signed up.
 
@@ -39,13 +39,13 @@ Google Mail puts it in a different folder than “arriving emails”.
 Anyway, I send you to Nodemailer site if you want to learn more about it.
 You have the link here up.
 
-#The topic I want to talk here is different.
+# The topic I want to talk here is different.
 
 I want to talk to you about asking the user to confirm its email before allowing him to use your app.
 
 I built this in the app I am actually working on, which is made with React Native, Express and Mongo DB.
 
-#On signup user.
+# On signup user.
 
 When a user signs up on your app, the user data is sent to the Express app to be saved in Mongo DB.
 

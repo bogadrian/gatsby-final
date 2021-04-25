@@ -6,11 +6,11 @@ thumbnail: "../images/park-your-tir.png"
 
 ![Park Your Tir](../images/park-your-tir.png)
 
-#I built and put online my first real app!
+# I built and put online my first real app!
 
 I finished my first real app. I overcome the todo's world! 😀 It feels so good that I was able to build it.
 
-#<center>The back-end is made with NodeJs and the front-end is made with ReactJs.</center>
+# <center>The back-end is made with NodeJs and the front-end is made with ReactJs.</center>
 
 The app is supposed to help truck drivers around Europe to find parking for their lorries.
 
@@ -28,7 +28,7 @@ The places are displayed by Google Maps and there are markers for them.
 
 You can click that marker and a window will open. On that window, a button exists. Button that if it is clicked, will take you to a place page.
 
-#<center>A place can be created with photos, title, description and rating.</center>
+# <center>A place can be created with photos, title, description and rating.</center>
 
 Other users can comment on that place. They can update or delete their comments.
 
@@ -74,7 +74,7 @@ But I would like to take it to React Native.
 
 Probably I will do that in the future as I want to concentrate now on learning well React Native too.
 
-#<center>The app is deployed on Heroku. Front-end and back-end.</center>
+# <center>The app is deployed on Heroku. Front-end and back-end.</center>
 
 For the demo purposes it works just fine.
 

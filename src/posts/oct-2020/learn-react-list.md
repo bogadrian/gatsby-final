@@ -8,7 +8,7 @@ thumbnail: "../../images/learn-react.png"
 
 ![Gatsby](../../images/learn-react.png)
 
-#Where to start from if you want to leran React?
+#  Where to start from if you want to leran React?
 
 React is the most amazing library for building User Interfaces out there!
 
@@ -40,7 +40,7 @@ If you want to learn React, here’s the list!
 
 At least this is how I learned and keep on learning React myself:
 
-#JSX, easy topic,
+# JSX, easy topic,
 
 React is made of components.
 
@@ -68,7 +68,7 @@ You need a couple of hours to understand how JSX works!
 
 Very easy topic!
 
-#Class Components.
+# Class Components.
 
 Not so much used anymore but fundamental in order to learn and understand what is going on under the hood in React.
 
@@ -86,7 +86,7 @@ It is fundamental for you to understand Class components because you need to kno
 
 With just hooks, you won’t be able to grasp that in an easy way!
 
-#Functional Components
+# Functional Components
 
 The most used nowadays. 
 
@@ -98,7 +98,7 @@ A React app is now built exclusively with functional components, mostly, nowaday
 
 You need to master them if you want to be a React developer!
 
-#Props, what and how to pass props.
+# Props, what and how to pass props.
 
 Props are a fundamental part of a React app.
 
@@ -110,7 +110,7 @@ Not only variables, objects or array but functions as well.
 
 More, we can pass functions upwards, from a child component to its parent, to be executed on parent even though it is called on child!
 
-#State and state management, fundamental topic.
+# State and state management, fundamental topic.
 
 State is a bit more complex than props, you need to understand that.
 
@@ -128,7 +128,7 @@ So, state management is only that data management.
 
 You manage how data is changing in React and React itself updates the UI accordingly.
 
-#Hooks, absolutely fundamental topic.
+# Hooks, absolutely fundamental topic.
 
 Hooks are like inner functions to the functional components.
 
@@ -140,7 +140,7 @@ We can declare when and how that data change so the component will render accord
 
 We can use hooks to do anything we want inside a component and twist the code as we wish.
 
-#Advanced hooks. Important.
+# Advanced hooks. Important.
 
 Advanced hooks are pretty a theoretical aspect of using hooks.
 
@@ -150,7 +150,7 @@ Not only for that specific component.
 
 It is an advanced topic and you will have to be familiar with hooks in general to dive into it.
 
-#CSS, SASS, Styled Components etc., indispensable topic.
+# CSS, SASS, Styled Components etc., indispensable topic.
 
 Any front-end application needs to be styled in order to be shown online.
 
@@ -176,7 +176,7 @@ I just don’t use them.
 
 You will have to see how you go for styling in the apps you build and choose a way that fits you!
 
-#React design patterns, a topic where you learn to architect a React app.
+# React design patterns, a topic where you learn to architect a React app.
 
 A React app needs to be architected.
 
@@ -184,7 +184,7 @@ You will need to draw a sketch of it and build it in an ordered fashion.
 
 A design pattern refers to some best-known practice that allows a React app to better be conceived.
 
-#Performance, advanced topic.
+# Performance, advanced topic.
 
 A React app needs to be performant.
 
@@ -194,13 +194,13 @@ The way you write React code, and here we come to the design patterns, is a dire
 
 So, you will have to learn to write scalable and maintainable React code.
 
-#JavaScript.
+# JavaScript.
 
 Important to know about template literals, variable injection, closures, destructuring, higher order functions, array methods, object mutation and many more.
 
 I drop this here to the end even though, if you are serious about learning React, I bet you already know that without knowing well JavaScript will be almost imposibile to master React.
 
-#Good to have: understanding about functional programming.
+# Good to have: understanding about functional programming.
 
 This is something you will understand when writing React functional components.
 

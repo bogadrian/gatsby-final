@@ -8,7 +8,7 @@ thumbnail: "../../images/landscape3.jpg"
 
 ![Gatsby](../../images/landscape3.jpg)
 
-#Abstraction in React
+# Abstraction in React
 
 I feel like I have to write about this topic.
 
