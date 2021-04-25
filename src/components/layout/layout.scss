@@ -24,6 +24,8 @@ div.deckgo-highlight-code-container code .token.inserted {
 }
 .padded-multiline {
   display: inline-block;
+  overflow: hidden;
+  white-space: pre;
 }
 
 body {

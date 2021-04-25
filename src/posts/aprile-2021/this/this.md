@@ -62,6 +62,8 @@ Confusing? I know!
 
 <p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>It was put inside it by a compressor somewhere else.</em></p>
 
+</br>
+
 <p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>Think at the keyword “this” like it was the air inside the ball!</em></p>
 
 <p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>Theoretically, analyzing the air we can say a lot about the compressor which put that air in the ball! (The execution context of the air).</em></p>
