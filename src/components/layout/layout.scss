@@ -8,9 +8,13 @@ html {
   width: 100%;
   line-height: 2.5rem;
 }
-.carbon,
-.deckgo-highlight-code-container {
-  line-height: 1rem !important;
+div.deckgo-highlight-code-container code .token.selector,
+div.deckgo-highlight-code-container code .token.attr-name,
+div.deckgo-highlight-code-container code .token.string,
+div.deckgo-highlight-code-container code .token.char,
+div.deckgo-highlight-code-container code .token.builtin,
+div.deckgo-highlight-code-container code .token.inserted {
+  line-height: 0.5rem !important;
 }
 
 body {

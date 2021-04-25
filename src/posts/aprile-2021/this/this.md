@@ -479,6 +479,7 @@ If it was to call myFunction in the obj directly, the owner of myFunction won’
     function myFunction() {
         console.log(this); // window
     }
+
     const obj = {
         a: 'bar',
         myFunction: myFunction()
