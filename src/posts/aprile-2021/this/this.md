@@ -153,6 +153,8 @@ The keyword “this” can be determined in 4 ways!
 
     myFunction()
 
+</br>
+
 2: Implicit binding – when a function is called like a propriety of an object other than the window object. If there is an implicit biding, this will apply instead of the default binding!
 
     const obj = {
@@ -160,6 +162,8 @@ The keyword “this” can be determined in 4 ways!
     }
 
     obj.myFunction()
+
+</br>
 
 3: Explicit binding – when you call the function with “call”, “apply” or “bind” functions native methods and so you set the “this” keyword to whatever object you want it to be set. myFunction.call(anObject) // this in myFunction will be anObject in this case.
 
@@ -178,6 +182,8 @@ The keyword “this” can be determined in 4 ways!
 
     laterCallOfMyFunction();
 
+</br>
+
 4: Hard binding – this happens when you bind the keyword “this” to an object you want the function to be bound and you use that function from there down with that particular hard binding! For this use case I invite you to take a look at Kyle Simpson's book who explained it much better and in depth.
 
     function myFunction() {
@@ -193,6 +199,8 @@ The keyword “this” can be determined in 4 ways!
     };
 
     bindFunction(); // bindFunction will have “this” keyword hardly bind to "obj" from this line down!
+
+</br>
 
 <h1>We will be mostly talking about the default binding and the implicit binding here.</h1>
 
@@ -220,6 +228,8 @@ Let me explain!
     }
 
     myFunction();
+
+</br>
 
 If we have a scope created by some curly braces, as in the code example below the function getting called inside that scope does not take the keyword this from that scope!
 
@@ -257,6 +267,8 @@ I try my best to demystify all of this!
     };
 
     obj.someFunction();
+
+</br>
 
 <h1>To understand the mechanism of the keyword “this”, we have to understand first how JavaScript “passed by reference” mechanism works!</h1>
 
@@ -308,6 +320,8 @@ Or
 
     console.log(returnFromIIIFE);
 
+</br>
+
 JavaScript syntax allow us to call functions without attaching the window object before.
 
 But if you call window.myFunction() or this.myFunction() it will work the same.
@@ -320,6 +334,8 @@ But if you call window.myFunction() or this.myFunction() it will work the same.
 
     this.myFunction(); // it works, this is the window
     window.myFunction(); // it works here too
+
+</br>
 
 So, when we have someFunction calling myFunction in its inner scope, the owner of myFunction is still the window!
 
@@ -350,6 +366,8 @@ Think at an owner of a function as something that gets the definition “this”
     obj.myFunction(); // the "this" keyword in the function arguments is the obj
     myFunction(); // the "this" keyword in the function arguments is the window
 
+</br>
+
 If we want to draw a conclusion from this, I would say we need to look not WHERE a function is called, but HOW a function is called.
 
 Well, we need to look at where a function is called because otherwise, we can’t see who is calling it. But not the WHERE sets the “this” keyword. The WHO!
@@ -373,6 +391,8 @@ In the code below the owner of myFunction is “obj” and not someFunction:
     const owner = someFunction();
     owner.myFunction();
 
+</br>
+
 With all what we know so far, let me ask you a question: <em>When looking at the code below we see myFunction is called inside a method of obj. What is the keyword “this” of myFunction?</em>
 
 Do you think is obj because myFunction is called inside of one its methods or is it the window because myFunction does not look like being owned by obj even though it is called inside of one its methods?
@@ -389,6 +409,8 @@ console.log(this);
     };
 
     obj.someFunction();
+
+</br>
 
 If you answer the window, you are right!
 
@@ -417,6 +439,8 @@ The owner of someFunction is obj, so the scope where myFunction is called and it
 
     obj.someFunction();
 
+</br>
+
 Here it is how you need to think: <em>the “this” keyword inside of a function is not given by its scope but by its execution context, which happens to contains the owner of that function as well, along with all the variables declared inside that owner, or the execution context if we want to stay official in our definitions.</em>
 
 Think at the owner as a container delimited by curly braces where the function executes! Attention, the function executes not is called!
@@ -441,6 +465,8 @@ Simply as propriety of an object!
     };
 
     obj.myFunction();
+
+</br>
 
 Please note myFunction is a propriety of the obj.
 
@@ -495,6 +521,8 @@ No matter how the code is twisted and how the reference is propagated through it
 
     obj3.myFunction();
 
+</br>
+
 What if we have another function which myFunction passes the “this” keyword and returns it? Does the “this” context get lost?
 
 No, it doesn’t!
@@ -526,6 +554,8 @@ Which let us know that the context can be passed in a function argument or where
     };
 
     obj3.myFunction();
+
+</br>
 
 The only way to change the keyword “this” to something else is to re-call myFunction with a different owner!
 
@@ -569,6 +599,8 @@ This resets the “this” keyword to whoever calls it, the window in this case!
 
     obj3.myFunction();
 
+</br>
+
 Even if we put some anotherFunction in its way, the context of myFunction is still preserved!
 
 Take a look at the code below.
@@ -610,6 +642,8 @@ No, as long as myFunction isn’t called again!
     };
 
     obj3.myFunction();
+
+</br>
 
 Conclusion: No matter how we twist out code the keyword “this” of a function is set by its owner at the moment it calls the function!
 
