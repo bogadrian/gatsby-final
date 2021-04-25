@@ -20,6 +20,7 @@ div.deckgo-highlight-code-container code .token.builtin,
 div.deckgo-highlight-code-container code .token.inserted {
   line-height: 0.5rem !important;
   text-size-adjust: none !important;
+  overflow-x: auto !important;
 }
 
 body {

@@ -397,8 +397,9 @@ With all what we know so far, let me ask you a question: <em>When looking at the
 
 Do you think is obj because myFunction is called inside of one its methods or is it the window because myFunction does not look like being owned by obj even though it is called inside of one its methods?
 
-function myFunction() {
-console.log(this);
+    function myFunction() {
+    console.log(this);
+
 }
 
     const obj = {
