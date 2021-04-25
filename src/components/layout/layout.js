@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 /**
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
@@ -25,6 +26,17 @@ const Layout = ({ children }) => {
       }
     }
   `)
+  useEffect(() => {
+    const f = async () => {
+      try {
+        const deckdeckgoHighlightCodeLoader = require("@deckdeckgo/highlight-code/dist/loader")
+        await deckdeckgoHighlightCodeLoader.defineCustomElements(window)
+      } catch (err) {
+        console.error(err)
+      }
+    }
+    f()
+  }, [])
 
   return (
     <div>

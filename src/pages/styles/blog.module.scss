@@ -4,6 +4,10 @@
   margin-top: 5rem;
   border: none;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   &:last-child {
     margin-bottom: 7rem;
   }
