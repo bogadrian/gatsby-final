@@ -8,8 +8,8 @@ html {
   width: 100%;
   line-height: 2.5rem;
   text-size-adjust: none !important;
-  @media screen and (max-width: ) {
-    line-height: 1rem;
+  @media screen and (max-width: 1000px) {
+    // line-height: 1rem;
   }
 }
 div.deckgo-highlight-code-container code .token.selector,
@@ -23,7 +23,7 @@ div.deckgo-highlight-code-container code .token.inserted {
   overflow-x: auto !important;
 }
 .padded-multiline {
-  margin: 1rem auto;
+  display: inline-block;
 }
 
 body {
