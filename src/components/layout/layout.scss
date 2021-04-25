@@ -15,6 +15,7 @@ div.deckgo-highlight-code-container code .token.char,
 div.deckgo-highlight-code-container code .token.builtin,
 div.deckgo-highlight-code-container code .token.inserted {
   line-height: 0.5rem !important;
+  text-size-adjust: none !important;
 }
 
 body {
@@ -25,7 +26,6 @@ body {
   margin-top: 11rem;
   height: 100%;
   width: auto;
-
   -moz-osx-font-smoothing: grayscale;
 }
 
