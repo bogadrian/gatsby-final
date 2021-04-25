@@ -56,19 +56,19 @@ Confusing? I know!
 
 <strong>Think about it in this way:</strong>
 
-<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone"><em>If a function were a soccer ball, it is like you are throwing that soccer ball in the water!</em></span>
+<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>If a function were a soccer ball, it is like you are throwing that soccer ball in the water!</em></span>
 
-<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone"><em>The surrounding environment of the ball will be the water, but inside the ball, there will still be air!</em></span>
+<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>The surrounding environment of the ball will be the water, but inside the ball, there will still be air!</em></span>
 
-<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone"><em>It was put inside it by a compressor somewhere else.</em></span>
+<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>It was put inside it by a compressor somewhere else.</em></span>
 
-<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone"><em>Think at the keyword “this” like it was the air inside the ball!</em></span>
+<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>Think at the keyword “this” like it was the air inside the ball!</em></span>
 
-<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padding-multiline"><em>Theoretically, analyzing the air we can say a lot about the compressor which put that air in the ball! (The execution context of the air).</em></span>
+<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>Theoretically, analyzing the air we can say a lot about the compressor which put that air in the ball! (The execution context of the air).</em></span>
 
-<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone"><em>When we call “this.tube” - sudo code here - we will have access to the tube that the compressor used to inflate out ball!</em></span>
+<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>When we call “this.tube” - sudo code here - we will have access to the tube that the compressor used to inflate out ball!</em></span>
 
-<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone"><em>There is no way to pass the water inside the ball when the ball is in the water, only if you prick the ball!</em></span>
+<span style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>There is no way to pass the water inside the ball when the ball is in the water, only if you prick the ball!</em></span>
 
 That means explicit binding but that is something different!
 
