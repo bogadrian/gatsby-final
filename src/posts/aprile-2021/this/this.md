@@ -119,11 +119,11 @@ Watch all the videos you find on the first page. Those are the most relevant any
 
 After you watched them, you will know this:
 
-1. The mechanism of the keyword “this” when a function is used inside an object or a class as a method!
+- The mechanism of the keyword “this” when a function is used inside an object or a class as a method!
 
-2. You will know the difference between the arrow function and regular function when it comes to the keyword “this”!
+- You will know the difference between the arrow function and regular function when it comes to the keyword “this”!
 
-3. You will learn how to know what the keyword “this” of a function will be by looking where the function is called or who is calling the function!
+- You will learn how to know what the keyword “this” of a function will be by looking where the function is called or who is calling the function!
 
 That’s all you’ll learn from those first YouTube page about the keyword “this”!
 
