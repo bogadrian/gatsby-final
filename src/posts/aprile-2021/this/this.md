@@ -314,11 +314,11 @@ It can be assigned to a variable but that will be its returns, not the function 
 
 Or
 
-    const returnFromIIIFE = (function () {
+    const returnFromIIFE = (function () {
      return 10;
     })();
 
-    console.log(returnFromIIIFE);
+    console.log(returnFromIIFE);
 
 </br>
 
