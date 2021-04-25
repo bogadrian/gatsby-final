@@ -27,7 +27,7 @@ const Header = ({ siteTitle, description }) => {
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("header").style.top = "0"
       } else {
-        document.getElementById("header").style.top = "-100px"
+        document.getElementById("header").style.top = "-120px"
       }
       prevScrollpos = currentScrollPos
     }
