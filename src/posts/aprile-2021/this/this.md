@@ -56,11 +56,11 @@ Confusing? I know!
 
 <strong>Think about it in this way:</strong>
 
-<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>If a function were a soccer ball, it is like you are throwing that soccer ball in the water!</em></p>
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>If a function were a soccer ball, it is like you (the JS engine) are throwing that soccer ball in the water whne you execute it!</em></p>
 
 <p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>The surrounding environment of the ball will be the water, but inside the ball, there will still be air!</em></p>
 
-<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>It was put inside it by a compressor somewhere else.</em></p>
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>It was put inside it by a compressor somewhere else before you (the JS engine) execute that function.</em></p>
 
 </br>
 
