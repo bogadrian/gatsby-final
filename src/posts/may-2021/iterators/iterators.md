@@ -1,5 +1,5 @@
 ---
-title: “Generators and iterators in JavaScript, what are they good at?"
+title: “Generators and Iterators in JavaScript, what are they good at?"
 date: "2021-05-01"
 thumbnail: "./iterators.png"
 ---
@@ -36,7 +36,7 @@ The iterators are also used in the spread operator.
 
 The iterators can be used with the rest operator, just because they “iterate” over a value and pull a part each value of it.
 
-    […items]
+    […items] // item1, item2, ...
 
 Just as a note:
 
