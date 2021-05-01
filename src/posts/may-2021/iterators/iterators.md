@@ -10,7 +10,7 @@ thumbnail: "./iterators.png"
 
 # First we generate then we iterate over the generated values!
 
-The first thought which comes to my mind when thinking about generator in JavaScript is the possibility I have to “pause” a function execution at some point until I decide to let it go further!
+The first thought which comes to my mind when thinking about generator in JavaScript is the possibility that I have to “pause” a function execution at some point, until I decide to let it go further!
 
 And if I think also where I can use that, the first thing that comes to my mind is with some code which does some hard computation or is asynchronous.
 
