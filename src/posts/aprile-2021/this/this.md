@@ -30,7 +30,7 @@ But if you are a beginner who hardly understand things like Lexical Scope, Scope
 
 In order to be able to grasp his in-depth explanation, you’ll have to know already quite a few of JavaScript!
 
-So, let me try please to enlight you a bit more!
+So, please let me try to enlight you a bit more!
 
 In the worse scenario you will learn nothing!
 
@@ -54,19 +54,21 @@ If the owner of a function is dynamically changed, the keyword “this” allow 
 
 Confusing? I know!
 
+The first thing you have to keep in mnd, is the separation between where the function is declared (Lexical Scope), and where the function is called (Execution Context).
+
 <strong>Think about it in this way:</strong>
 
-<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>If a function were a soccer ball, it is like you (the JS engine) are throwing that soccer ball in the water whne you execute it!</em></p>
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>If a function were a soccer ball, it would be like you (the JS engine) are throwing that soccer ball in the water (the lexical Scope of the function), when you execute it!</em></p>
 
-<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>The surrounding environment of the ball will be the water, but inside the ball, there will still be air!</em></p>
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>The surrounding environment of the ball will be the water (Lexical Scope), but inside the ball, there will still be air (Execution Context)!</em></p>
 
-<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>It was put inside it by a compressor somewhere else before you (the JS engine) execute that function.</em></p>
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>It was put inside it by a compressor (the object owner of the funtion), somewhere else before you (the JS engine) execute that function.</em></p>
 
 </br>
 
 <p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>Think at the keyword “this” like it was the air inside the ball!</em></p>
 
-<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>Theoretically, analyzing the air we can say a lot about the compressor which put that air in the ball! (The execution context of the air).</em></p>
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>Theoretically, analyzing the air we can say a lot about the compressor which put that air in the ball! (The Execution Context of the air).</em></p>
 
 <p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>When we call “this.tube” - sudo code here - we will have access to the tube that the compressor used to inflate out ball!</em></p>
 
@@ -95,19 +97,23 @@ Take a look at this code:
 
     const bar = 'bar0';
 
-    firstOwner.myFunction(); // this keyword will be the firstOwner object
-    secondOwner.myFunction(); // this keyword will be the secondOwner object
-    myFunction(); // this keyord is the window object
+    firstOwner.myFunction(); // this keyword "this" will be the firstOwner object
+    secondOwner.myFunction(); // this keyword "this" will be the secondOwner object
+    myFunction(); // this keyord "this" is the Window object
 
 </br>
 
 If you really want to understand how the keyword “this” works in JavaScript, first you’ll have to grasp other concepts and definitions beside the keyword "this"!
 
-<h2>The most important ones are the Execution Context, the Scope and the Scope Chain.</h2>
+**The most important ones are the Execution Context, the Lexical Scope and the Scope Chain.**
 
 There are JavaScript developers out there who will need years before grasping the mechanism behind the keyword “this”.
 
 It took me years indeed and the desire to know!
+
+I only tought I knew it by looking at who calls it.
+
+But I looked only to simple examples like the one when the function is called inside an object, and I didn't ever counted more complex scenarios!
 
 <span style="color: #ff6600"><em>Warning: When you are a beginner don’t try too hard to understand the keyword “this” as it will be very hard for you. Because you might not have a full picture of everything what is going one inside the code when the JavaScript parser goes trough it. I promise you’ll understand it in time!</em></span>
 
@@ -125,7 +131,7 @@ After you watched them, you will know this:
 
 - You will learn how to know what the keyword “this” of a function will be by looking where the function is called or who is calling the function!
 
-That’s all you’ll learn from the first YouTube page about the keyword “this”!
+**That’s all you’ll learn from the first YouTube page about the keyword “this”!**
 
 Well, to be honest that’s all you need to know about the keyword “this” if you are not interested on how its mechanism really works!
 
@@ -147,9 +153,9 @@ It comes from somewhere down in the code base and it suffers many transformation
 
 <h1>The principles of the keyword “this”.</h1>
 
-The keyword “this” can be determined in 4 ways!
+_The keyword “this” can be determined in 4 ways!_
 
-1: Default binding - applies when the function looks like being called by nobody.
+1: **Default binding** - applies when the function looks like being called by nobody.
 
 Then the default caller will be the window/global.
 
@@ -161,7 +167,7 @@ Then the default caller will be the window/global.
 
 </br>
 
-2: Implicit binding – when a function is called like a propriety of an object other than the window object.
+2: **Implicit binding** – when a function is called like a propriety of an object other than the window object.
 
 If there is an implicit biding, this will apply instead of the default binding!
 
@@ -177,7 +183,7 @@ If there is an implicit biding, this will apply instead of the default binding!
 
 </br>
 
-3: Explicit binding – when you call the function with “call”, “apply” or “bind” functions native methods and so you set the “this” keyword to whatever object you want it to be set.
+3: **Explicit binding** – when you call the function with “call”, “apply” or “bind” functions native methods and so you set the “this” keyword to whatever object you want it to be set.
 
     myFunction.call(anObject) // this in myFunction will be anObject in this case.
 
@@ -193,12 +199,11 @@ If there is an implicit biding, this will apply instead of the default binding!
     myFunction.apply([obj]); // apply - used for passing arrays as argument
 
     const laterCallOfMyFunction = myFunction.bind(obj); // bind
-
     laterCallOfMyFunction();
 
 </br>
 
-4: Hard binding – this happens when you bind the keyword “this” to an object you want the function to be bound and you use that function from that line down with that particular hard binding!
+4: **Hard binding** – this happens when you bind the keyword “this” to an object which you want the function to be bound to and you use that function from that line down with that particular hard binding!
 
 For this use case I invite you to take a look at Kyle Simpson's book who explained it much better and in depth.
 
@@ -212,9 +217,9 @@ For this use case I invite you to take a look at Kyle Simpson's book who explain
 
     const bindFunction = function () {
      myFunction.call(obj);
-    };
+    };  // bindFunction will have “this” keyword hardly bind to "obj" from this line down!
 
-    bindFunction(); // bindFunction will have “this” keyword hardly bind to "obj" from this line down!
+    bindFunction(); // obj
 
 </br>
 
@@ -232,9 +237,9 @@ More, the keyword “this” is NEVER intersecting the scope of the function bei
 
 Let me explain!
 
-    // this.alert(
-    // 'I am in the scope of myFunction because I belong to the window object. If you comment me in here or call me inside myFunction I will work the same! So, I can be used inside myFunction with the window object as the owner as I am used here in the global scope!'
-    // );
+     this.alert(
+     'I am in the scope of myFunction because I belong to the window object. If you comment me in here or call me inside myFunction I will work the same! So, I can be used inside myFunction with the window object as the owner as I am used here in the global scope!'
+     );
 
     function myFunction() {
         console.log(this.alert === window.alert);
@@ -247,7 +252,7 @@ Let me explain!
 
 </br>
 
-If we have a scope created by some curly braces, as in the code example below the function getting called inside that scope does not take the keyword "this" from that scope!
+If we have a scope created by some curly braces, as in the code example here below, the function getting called inside that scope does not take the keyword "this" from that scope!
 
 In the example below myFunction is called from someFunction.
 
@@ -259,11 +264,11 @@ But “this” of myFunction is the window anyway.
 
 Why?
 
-Because where I call myFunction inside someFunction, the “this” keyword does not get passed through frpm obj to myFunction!
+Because where I call myFunction inside someFunction, the “this” keyword does not get passed through from obj to myFunction!
 
 The “this” keyword of someFunction is in the scope where myFunction gets called, as I was saying before.
 
-The scope is not the same with the execution context of myFunction and with the mechanism that sets the keyword “this” for myFunction!
+The scope is not the same with the Execution Context of myFunction and with the mechanism that sets the keyword “this” for myFunction!
 
 Well, I know you are already confused.
 
@@ -275,7 +280,7 @@ I try my best to demystify all of this!
 
     function someFunction() {
         console.log(this); // obj
-        myFunction();
+        myFunction(); // here I call myFunction and the "this" keyword of it will be the window because the "owner" is the window and the obj!
     }
 
     const obj = {
@@ -358,7 +363,7 @@ So, when we have someFunction calling myFunction in its inner scope, the owner o
 
 This because myFunction is referenced by the window no matter it is called inside the scope of someFunction.
 
-If we want myFunction to be referenced by something different than the window, we will have to twist our syntax to allow us to call myFunction with something else, example: obj.myFunction().
+If we want myFunction to be referenced by something different than the window, we will have to twist our syntax to allow us to call myFunction with something else as the owner, example: obj.myFunction().
 
 In such a case, the obj will be the owner of myFunction, or better, myFunction is referenced by obj!
 
@@ -369,6 +374,8 @@ The main take away from what I wrote so far is this:
 <strong><em>Who owns the function is a reference to that function.</em></strong>
 
 <strong><em>The owner of the function sets the “this” keyword for the function.</em></strong>
+
+<strong><em>The keyword "this" is a reference to the owner of the function and is not the same with the Lexical Scope (the surroundings where the function is declared or called).</em></strong>
 
 Think at an owner of a function as something that gets the definition “this” and it is passed in the arguments of the function, to be available inside the function!
 
@@ -386,6 +393,8 @@ Think at an owner of a function as something that gets the definition “this”
 </br>
 
 If we want to draw a conclusion from this, I would say we need to look not WHERE a function is called, but HOW a function is called.
+
+**But the most important: We do not have to look for the keyword "this" at the surroundings of where the function is decalred or called!**
 
 Well, we need to look at where a function is called because otherwise we can’t see who is calling it.
 
@@ -425,7 +434,7 @@ Do you think is obj because myFunction is called inside of one its methods or is
     const obj = {
         a: 'bar',
         someFunction() {
-        myFunction();
+        myFunction(); // this is the call-site of myFunction. It is called here! Now that we know the call-site, we have to answer at the question: who owns myFunction?
         }
     };
 
@@ -441,7 +450,17 @@ There is no reference to myFunction inside the obj!
 
 No matter myFunction is called in a method of obj called someFunction, its owner is still the window!
 
-The owner of someFunction is obj, so the scope where myFunction is called and its execution context gets the “this” keyword of obj! But not myFunction itself!
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>And here we go with the most confusing part of the keyword "this".</em></p>
+
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>The most of the developers have the tendency to look at the surrandings of where the function is called, especially if it is called inside some fancy nested scope!</em></p>
+
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>Is simple to get confused!</em></p>
+
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>You may think that, if the function is called inside some fancy nested scope, the "this" keyword arrives from those surrandings!</em></p>
+
+<p style="color: #fff; background-color: #240048; padding: 0.5rem 1rem 0.5rem 1rem; -webkit-box-decoration-clone: clone; box-decoration-clone: clone" class="padded-multiline"><em>Absolutely false!</em></p>
+
+In our exemple, the owner of someFunction is obj, so the scope where myFunction is called and its execution context gets the “this” keyword of obj! But not myFunction itself!
 
     function myFunction() {
         console.log(this); // window
@@ -451,8 +470,7 @@ The owner of someFunction is obj, so the scope where myFunction is called and it
         a: 'bar',
         someFunction() {
         console.log(this); // obj
-            // myFunction owner is not the obj! It is not one of its proprieties here! The owner of myFunction is the window object!
-            myFunction();
+            myFunction(); // myFunction owner is not the obj! It is not one of its proprieties here! The owner of myFunction is the window object!
         }
     };
 
@@ -467,6 +485,7 @@ Here it is how you need to think:
 Think at the owner as a container delimited by curly braces where the function executes!
 
 Attention, the function executes not is called!
+It may be called somewhere else and execute in a diffrent context!
 
 Where the function is called is a different thing and that has to do with the scope not the execution context!
 
@@ -507,6 +526,8 @@ If it was to call myFunction in the obj directly, the owner of myFunction won’
         a: 'bar',
         myFunction: myFunction()
     };
+
+</br>
 
 Now let’s imagine myFunction is a property of obj and then is set to be another propriety of an obj2 and obj3 and so on. (The code below).
 
