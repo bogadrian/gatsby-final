@@ -1,6 +1,6 @@
 import React from "react"
 import buttonStyle from "./button.module.scss"
-import {Link }from 'gatsby'
+import { Link }from 'gatsby'
 
 const Button = props => {
     const classes = [

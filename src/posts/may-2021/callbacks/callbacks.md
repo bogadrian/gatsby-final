@@ -288,4 +288,4 @@ I hope you do understand them too!
 <a href="https://youtu.be/uY5Ut4iZXIs" target="_blank"><img src="youtube-callbacks.png" alt=""/></a>
 </br>
 
-The <a href="https://github.com/bogadrian/callbacks" alt="bogdan-adrian-github" target="_blank"><img src="Github repository</a> for the code in the video!
+The <a href="https://github.com/bogadrian/callbacks" alt="bogdan-adrian-github" target="_blank">Github repository</a> for the code in the video!
