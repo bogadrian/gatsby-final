@@ -35,6 +35,12 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-plugin-google-adsense`,
+            options: {
+              publisherId: `ca-pub-2013935419295035`,
+            },
+          },
+          {
             resolve: `gatsby-remark-highlight-code`,
             options: {
               terminal: "carbon",
