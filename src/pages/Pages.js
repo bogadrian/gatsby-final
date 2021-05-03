@@ -8,12 +8,12 @@ import indexStyle from "./styles/index.module.scss"
 import Button from "../components/button/button"
 import Tags from "../templates/Tags"
 
-const ReactPage = ({ location }) => {
+const Pages = ({ location }) => {
   return (
     <Layout>
       <SEO title="Home" />
 
-      <Tags data={location.state.data} />
+      <Tags data={location?.state?.data} />
       <div>
         <div>
           <h1 className={indexStyle.haca1}>BLOG</h1>
@@ -29,4 +29,4 @@ const ReactPage = ({ location }) => {
   )
 }
 
-export default ReactPage
+export default Pages
