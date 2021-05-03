@@ -2,6 +2,7 @@
 title: “Demystifying the keyword “this” in JavaScript!"
 date: "2021-04-25"
 thumbnail: "./this.png"
+tags: "JavaScript"
 ---
 
 ![The Keyword "this"](./this.png)

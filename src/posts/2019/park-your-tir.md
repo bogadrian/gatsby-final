@@ -2,6 +2,7 @@
 title: “My first real app"
 date: "2020-02-02"
 thumbnail: "../images/park-your-tir.png"
+tags: "My Path"
 ---
 
 ![Park Your Tir](../images/park-your-tir.png)

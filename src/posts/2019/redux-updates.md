@@ -2,6 +2,7 @@
 title: Redux Update State
 date: "2020-05-11"
 thumbnail: "../images/redux-updates.png"
+tags: "React"
 ---
 
 </br>

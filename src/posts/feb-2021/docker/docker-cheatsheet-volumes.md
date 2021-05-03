@@ -2,6 +2,7 @@
 title: “Docker cheatsheet 2. Volumes"
 date: "2021-02-17"
 thumbnail: "../images/dream-job.jpg"
+tags: "Docker"
 ---
 
 ![Docker](../images/2021/docker.png)

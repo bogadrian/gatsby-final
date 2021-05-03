@@ -2,6 +2,7 @@
 title: "Ask the user to check its email in a MERN app"
 date: "2020-10-11"
 thumbnail: "../../images/app3.jpg"
+tags: "Node"
 ---
 
 </br>

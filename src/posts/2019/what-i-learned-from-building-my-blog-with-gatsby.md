@@ -2,6 +2,7 @@
 title: "What I learned from building my blog with Gatsbyjs"
 date: "2019-12-31"
 thumbnail: "../images/code.jpg"
+tags: "My Path"
 ---
 
 </br>

@@ -2,6 +2,7 @@
 title: “Upload images to AWS S3 from React Native with Node Js and saving the URLs to MongoDb. "
 date: "2020-09-26"
 thumbnail: "../images/robo1.jpg"
+tags: "Node"
 ---
 
 ![Code](../images/robo1.jpg)

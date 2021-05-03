@@ -2,6 +2,7 @@
 title: "A JavaScript storytelling!"
 date: "2020-09-18"
 thumbnail: "../images/code6.jpg"
+tags: "JavaScript"
 ---
 
 </br>

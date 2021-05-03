@@ -2,6 +2,7 @@
 title: “I am a 46-year-old guy and I just got my first dream job as a software developer"
 date: "2020-11-03"
 thumbnail: "../images/dream-job.jpg"
+tags: "My Path"
 ---
 
 ![Dream JOb](../images/dream-job.jpg)

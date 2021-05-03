@@ -2,6 +2,7 @@
 title: “Understanding Clousers in JavaScript"
 date: "2021-04-20"
 thumbnail: "../../../images/code6.jpg"
+tags: "JavaScript"
 ---
 
 <img src="../../../images/code6.jpg" />
@@ -9,6 +10,7 @@ thumbnail: "../../../images/code6.jpg"
 <br>
 
 # What are Closures in JavaScript?
+
 </br>
 
 ## I know what you think:

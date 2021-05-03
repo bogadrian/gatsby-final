@@ -2,6 +2,7 @@
 title: “Recruitment is broken"
 date: "2020-06-28"
 thumbnail: "../love-at-office.png"
+tags: "Miscelanous"
 ---
 
 ![Love at Office](../images/love-at-office.png)

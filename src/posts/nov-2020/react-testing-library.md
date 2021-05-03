@@ -2,6 +2,7 @@
 title: “React Testing Library Practical Cheat sheet"
 date: "2020-11-11"
 thumbnail: "../images/landscape4.jpg"
+tags: "React"
 ---
 
 ![React Testing Library](../images/code9.jpg)

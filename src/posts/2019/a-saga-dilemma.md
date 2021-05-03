@@ -2,6 +2,7 @@
 title: “A Saga Dilemma"
 date: "2020-09-09"
 thumbnail: "../images/app4.jpg"
+tags: "React"
 ---
 
 ![JavaScript](../images/app4.jpg)

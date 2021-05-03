@@ -2,6 +2,7 @@
 title: "When I first started"
 date: "2019-06-25"
 thumbnail: "../images/code.jpg"
+tags: "My Path"
 ---
 
 </br>

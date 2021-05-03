@@ -2,6 +2,7 @@
 title: “Compare today to today in JavaScript!"
 date: "2021-02-24"
 thumbnail: "../images/dream-job.jpg"
+tags: "JavaScript"
 ---
 
 ![Docker](../images/2021/code8.jpg)

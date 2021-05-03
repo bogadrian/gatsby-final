@@ -2,6 +2,7 @@
 title: “Deep Linking to an Expo React Native App"
 date: "2020-09-15"
 thumbnail: "../images/app4.jpg"
+tags: "React Native"
 ---
 
 ![Deep Linking](../images/app3.jpg)

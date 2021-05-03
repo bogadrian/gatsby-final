@@ -2,6 +2,7 @@
 title: "Working with geo data in a MERN app"
 date: "2020-10-22"
 thumbnail: "../../images/geo-location/MongoDB.jpg"
+tags: "Node"
 ---
 
 </br>

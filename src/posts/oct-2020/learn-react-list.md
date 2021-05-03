@@ -2,13 +2,14 @@
 title: "A list of topics to follow if you want to learn React."
 date: "2020-10-12"
 thumbnail: "../../images/learn-react.png"
+tags: "React"
 ---
 
 </br>
 
 ![Gatsby](../../images/learn-react.png)
 
-#  Where to start from if you want to leran React?
+# Where to start from if you want to leran React?
 
 React is the most amazing library for building User Interfaces out there!
 
@@ -88,7 +89,7 @@ With just hooks, you won’t be able to grasp that in an easy way!
 
 # Functional Components
 
-The most used nowadays. 
+The most used nowadays.
 
 Them are JavaScript arrow functions which returns JSX.
 

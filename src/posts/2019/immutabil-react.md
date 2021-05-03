@@ -2,11 +2,12 @@
 title: “Immutable React"
 date: "2020-08-04"
 thumbnail: "../images/dumb.jpg"
+tags: "React"
 ---
 
 ![Trump](../images/dumb.jpg)
 
-#  Hello World, again!
+# Hello World, again!
 
 I am doing pretty well on my path of becoming a senior Node and React developer, thank you for asking.
 

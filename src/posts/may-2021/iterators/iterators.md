@@ -2,6 +2,7 @@
 title: “Generators and Iterators in JavaScript, what are they good at?"
 date: "2021-05-01"
 thumbnail: "./iterators.png"
+tags: "JavaScript"
 ---
 
 ![Iterators And Generators JavaScript](../iterators.png)

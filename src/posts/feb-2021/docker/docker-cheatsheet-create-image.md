@@ -2,6 +2,7 @@
 title: “Docker cheatsheet 1. Image and Container"
 date: "2021-02-16"
 thumbnail: "../images/dream-job.jpg"
+tags: "Docker"
 ---
 
 ![Docker](../images/2021/docker.png)

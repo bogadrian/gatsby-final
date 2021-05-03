@@ -2,6 +2,7 @@
 title: "The anatomy of an authentication handler in Express Js"
 date: "2020-10-13"
 thumbnail: "../../images/protect/locked.jpg"
+tags: "Node"
 ---
 
 </br>

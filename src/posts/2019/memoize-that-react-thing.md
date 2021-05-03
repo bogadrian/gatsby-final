@@ -2,6 +2,7 @@
 title: “Memoize That React Thing"
 date: "2020-08-13"
 thumbnail: "../images/code4.jpg"
+tags: "React"
 ---
 
 ![Memoization](../images/code4.jpg)

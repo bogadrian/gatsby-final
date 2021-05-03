@@ -2,6 +2,7 @@
 title: “Docker cheatsheet 3. Compose"
 date: "2021-02-21"
 thumbnail: "../images/dream-job.jpg"
+tags: "Docker"
 ---
 
 ![Docker](../images/2021/docker.png)

@@ -2,6 +2,7 @@
 title: “How to parse (read) JavaScript code into your mind in order to understand what is going on!"
 date: "2021-05-02"
 thumbnail: "./callbacks.png"
+tags: "JavaScript"
 ---
 
 ![Callbacks JavaScript](./callbacks.png)

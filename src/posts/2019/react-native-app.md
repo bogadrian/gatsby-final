@@ -2,6 +2,7 @@
 title: “React Native app"
 date: "2020-04-28"
 thumbnail: "../images/react-native.png"
+tags: "React Native"
 ---
 
 ![React Native](../images/react-native.png)

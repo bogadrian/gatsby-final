@@ -2,6 +2,7 @@
 title: “Scan QR Code Restaurant Menu in React Native App!"
 date: "2020-10-02"
 thumbnail: "../images/react-native.png"
+tags: "React Native"
 ---
 
 ![React Native](../images/qr-scanner/menu-pdf.png)
@@ -10,7 +11,7 @@ thumbnail: "../images/react-native.png"
 
 Which then can be accessed at a given URL by scanning the QR code or by typing that URL in any browser!
 
-##  Status: "Accomplished"
+## Status: "Accomplished"
 
 So, how would you tackle such a task in React Native?
 

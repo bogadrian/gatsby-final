@@ -2,6 +2,7 @@
 title: "Functional React and the abstraction pattern"
 date: "2020-10-09"
 thumbnail: "../../images/landscape3.jpg"
+tags: "React"
 ---
 
 </br>

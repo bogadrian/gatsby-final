@@ -2,13 +2,14 @@
 title: "Dataset relationship in Mongoose"
 date: "2020-10-06"
 thumbnail: "../images/landscape6.jpg"
+tags: "MongoDb"
 ---
 
 </br>
 
 ![Gatsby](../images/landscape6.jpg)
 
-#  Data Modelling Mongoose
+# Data Modelling Mongoose
 
 I am building an app with React Native, Express and Mongo DB.
 
