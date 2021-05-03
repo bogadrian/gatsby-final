@@ -18,7 +18,7 @@ const Pages = ({ location }) => {
         <div>
           <h1 className={indexStyle.haca1}>BLOG</h1>
           <div className={indexStyle.features}>
-            <TagsList tag={location.state.t} />
+            <TagsList tag={location?.state?.t} />
             <div className={indexStyle.divdif} />
             <Button link={"/blog"} text={"More from blog"} />
             <div className={indexStyle.divdif} />
