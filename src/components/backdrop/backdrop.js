@@ -6,7 +6,9 @@ const BackDrop = props => {
       className={backDropStyle.layer}
       onClick={props.close}
       onKeyPress={props.close}
-    />
+    >
+      x
+    </button>
   )
 }
 export default BackDrop

@@ -65,7 +65,14 @@ const Header = ({ siteTitle, description }) => {
     backDrower = <BackDrop close={toggle} />
   }
   return (
-    <header className={headerStyle.header} id="header" onClick={handleClick}>
+    <header
+      className={headerStyle.header}
+      id="header"
+      onClick={handleClick}
+      onKeyDown={handleClick}
+      role="button"
+      tabIndex={-42}
+    >
       <BackgroundImage
         fluid={data.header.childImageSharp.fluid}
         backgroundcolor={"#777"}
