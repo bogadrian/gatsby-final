@@ -1,7 +1,7 @@
-import React, { Fragment } from "react"
+import React, { Fragment, useEffect } from "react"
 
 import blog from "./blog.module.scss"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
+//import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 import { navigate } from "gatsby"
 
@@ -16,14 +16,18 @@ const colors = {
 }
 
 const tagsArray = []
-
+// const breakpoints = useBreakpoint()
 const Tags = ({ data }) => {
-  const breakpoints = useBreakpoint()
-  data?.forEach(({ node }) => {
-    if (node?.frontmatter?.tags) {
-      tagsArray.push(node?.frontmatter?.tags)
+  useEffect(() => {
+    if (data) {
+      data.forEach(({ node }) => {
+        if (node?.frontmatter?.tags) {
+          tagsArray.push(node?.frontmatter?.tags)
+        }
+      })
     }
-  })
+  }, [data])
+
   return (
     <Fragment>
       <div className={blog.tagsContainer}>
