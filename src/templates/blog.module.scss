@@ -38,11 +38,8 @@
   align-items: center;
   @media (max-width: 900px) {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    //z-index: 20000;
     margin-top: -25rem;
+    position: absolute;
   }
 }
 
@@ -80,13 +77,21 @@
   width: 20rem;
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
   align-items: center;
   border: 3px solid rgb(26, 10, 10);
   border-radius: 10px;
   background-color: rgb(180, 12, 12);
   color: #fff;
   cursor: pointer;
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
+    font-size: 1.5rem;
+    width: 15rem;
+    padding: 0;
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+  @media (max-width: 900px) {
     font-size: 1.5rem;
     width: 15rem;
     padding: 0;

@@ -13,8 +13,8 @@ const Pages = ({ location }) => {
     <Layout>
       <SEO title="Home" />
 
-      <Tags data={location?.state?.data} />
       <div>
+        <Tags data={location?.state?.data} />
         <div>
           <h1 className={indexStyle.haca1}>BLOG</h1>
           <div className={indexStyle.features}>
