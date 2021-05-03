@@ -19,9 +19,9 @@ const tagsArray = []
 
 const Tags = ({ data }) => {
   const breakpoints = useBreakpoint()
-  data.forEach(({ node }) => {
-    if (node.frontmatter.tags) {
-      tagsArray.push(node.frontmatter.tags)
+  data?.forEach(({ node }) => {
+    if (node?.frontmatter?.tags) {
+      tagsArray.push(node?.frontmatter?.tags)
     }
   })
   return (
