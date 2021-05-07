@@ -5,7 +5,7 @@ thumbnail: "./iterators.png"
 tags: "JavaScript"
 ---
 
-![Iterators And Generators JavaScript](../iterators.png)
+![Iterators And Generators JavaScript](./iterators.png)
 
 </br>
 
