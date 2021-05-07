@@ -12,8 +12,9 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <ImageIndex />
-
+      <div className={indexStyle.image}>
+        <ImageIndex />
+      </div>
       <div>
         <div>
           <h1 className={indexStyle.haca1}>BLOG</h1>

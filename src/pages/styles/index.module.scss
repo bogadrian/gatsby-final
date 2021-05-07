@@ -18,3 +18,9 @@
 .divdif {
   height: 3rem;
 }
+
+.image {
+  @media (max-width: 700px) {
+    margin-top: 5rem;
+  }
+}

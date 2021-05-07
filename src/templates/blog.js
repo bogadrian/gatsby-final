@@ -4,11 +4,8 @@ import Layout from "../components/layout/layout"
 import blogStyle from "./blog.module.scss"
 import SEO from "../components/seo"
 
-const tagsArray = []
 export default ({ data }) => {
   const post = data.markdownRemark
-  const tag = data.markdownRemark.frontmatter.tags
-  if (tag) tagsArray.push(tag)
 
   return (
     <Layout>
@@ -16,15 +13,6 @@ export default ({ data }) => {
       <div className={blogStyle.container}>
         <div className={blogStyle.tagsContainerPost}>
           <Link to="/">Back Home</Link>
-          {tagsArray
-            .filter((tag, i) => tagsArray.indexOf(tag) === i)
-            .map(t => {
-              return (
-                <p key={t} className={blogStyle.tags}>
-                  {t}
-                </p>
-              )
-            })}
         </div>
         <p>{post.frontmatter.date}</p>
         <h1>{post.frontmatter.title}</h1>
