@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout/layout"
@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import blog from "./styles/blog.module.scss"
 import ImageBlog from "../components/ImageComponents/image-blog"
 import ButtonText from "../components/button-text/button-text"
-import Tags from "../templates/Tags"
+
 import { graphql } from "gatsby"
 
 const Blog = ({ data }) => {
@@ -16,7 +16,7 @@ const Blog = ({ data }) => {
       <Link to="/">Back Home</Link>
 
       <ImageBlog />
-      <Tags data={data.allMarkdownRemark.edges} />
+
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => {
           return (
@@ -50,7 +50,6 @@ export const query = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
-            tags
           }
         }
       }

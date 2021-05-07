@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout/layout"
 import blogStyle from "./blog.module.scss"
 import SEO from "../components/seo"
-import blog from "../pages/styles/blog.module.scss"
 
 const tagsArray = []
 export default ({ data }) => {
