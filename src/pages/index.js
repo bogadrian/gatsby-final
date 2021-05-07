@@ -15,15 +15,14 @@ const IndexPage = () => {
       <div className={indexStyle.image}>
         <ImageIndex />
       </div>
+
       <div>
-        <div>
-          <h1 className={indexStyle.haca1}>BLOG</h1>
-          <div className={indexStyle.features}>
-            <BlogPosts3 />
-            <div className={indexStyle.divdif} />
-            <Button link={"/blog"} text={"More from blog"} />
-            <div className={indexStyle.divdif} />
-          </div>
+        <h1 className={indexStyle.haca1}>BLOG</h1>
+        <div className={indexStyle.features}>
+          <BlogPosts3 />
+          <div className={indexStyle.divdif} />
+          <Button link={"/blog"} text={"More from blog"} />
+          <div className={indexStyle.divdif} />
         </div>
       </div>
     </Layout>

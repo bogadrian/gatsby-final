@@ -46,7 +46,7 @@ module.exports = {
             options: {
               terminal: "carbon",
               theme: "blackboard",
-              lineNumbers: true,
+              lineNumbers: false,
             },
           },
         ],

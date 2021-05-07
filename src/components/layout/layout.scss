@@ -29,7 +29,7 @@ body {
   font-size: 1.5rem;
   margin-top: 11rem;
   height: 100%;
-  width: auto;
+  width: 100vw;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   justify-content: center;
@@ -72,6 +72,7 @@ a {
 
 main {
   margin-top: 0;
+  width: 100%;
   @media (max-width: 600px) {
     margin-top: 4rem;
   }

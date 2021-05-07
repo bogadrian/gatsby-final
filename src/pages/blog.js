@@ -13,7 +13,7 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <Link to="/">Back Home</Link>
+      {/* <Link to="/">Back Home</Link> */}
 
       <ImageBlog />
 

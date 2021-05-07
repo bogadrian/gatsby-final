@@ -214,10 +214,10 @@ Please take a look at the code below:
 
     const url = 'http://someurl';
 
-    const ourPartofTheProgram = anotherProgramPart(url);
+    /*line 17*/ const ourPartofTheProgram = anotherProgramPart(url);
 
     ourPartofTheProgram(val => {
-         callSomeUtility(val);
+        /*line 19*/  callSomeUtility(val);
     });
 
 </br>
